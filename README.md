@@ -1,10 +1,17 @@
-# r/PathOfExile2 Information まとめ(日本語化)
+# r/PathOfExile(2) Information まとめ(日本語化)
 
-r/PathOfExile2 の **Information フレア** かつ **upvote 10 以上** の投稿を取得し、
-日本語化して **Notion データベースに1投稿1ページ**で保存するツール。
+**r/PathOfExile2(PoE2)** と **r/PathOfExile(PoE1)** の **Information フレア** かつ
+**upvote 10 以上** の投稿を取得し、日本語化して **Notion データベースに1投稿1ページ**で保存するツール。
 
-保存先 Notion DB: **r/PathOfExile2 Information まとめ**
-(data source: `bc65a10a-e5bf-45ae-b3d2-aaa9fe768643`)
+対象サブレディットは引数で切替(既定 `PathOfExile2`)。データは `data/<sub>/` に分離:
+```
+python3 fetch.py PathOfExile     # PoE1
+python3 fetch.py PathOfExile2    # PoE2
+```
+
+保存先 Notion DB(ゲームごと):
+- PoE2: **r/PathOfExile2 Information まとめ** (data source `bc65a10a-e5bf-45ae-b3d2-aaa9fe768643`)
+- PoE1: **r/PathOfExile Information まとめ** (data source `4da0435e-828a-42ce-b53a-2318a614d9d5`)
 
 ## なぜこの構成か(取得方法)
 
