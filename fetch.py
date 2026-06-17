@@ -1,23 +1,30 @@
 #!/usr/bin/env python3
-"""r/PathOfExile2 の Information フレア・upvote>=N 投稿を取得する。
+"""指定サブレディットの Information フレア・upvote>=N 投稿を取得する。
 
-Reddit の公開 .json は現在ブロックされるため、以下の2経路を使う:
-  1) フレア検索 RSS  -> 本文(selftext HTML)・タイトル・id・URL・投稿日時
+対象サブレディットは引数または環境変数で切替（既定 PathOfExile2）:
+    python3 fetch.py PathOfExile        # 引数で指定
+    SUBREDDIT=PathOfExile python3 fetch.py
+
+Reddit の公開 .json は現在ブロックされるため、以下の経路を使う:
+  1) フレア検索 RSS  -> 本文(selftext HTML)・タイトル・id・URL・投稿日時・画像・動画
   2) old.reddit 検索 HTML -> 各投稿のスコア(N points)
+  3) old.reddit コメントページ -> 上位コメント
 
-両者を id で突き合わせ、score>=MIN_SCORE のものを抽出。
-処理済み id は data/processed.json に記録し、未処理分のみ data/pending.json に出力する。
-低負荷のため1実行あたりのリクエストは2本、間に待機を入れる。
+RSSとスコアを id で突き合わせ、score>=MIN_SCORE のものを抽出。
+処理済み id はサブレディット別 data/<sub>/processed.json に記録し、
+未処理分のみ data/<sub>/pending.json に出力する。低負荷のため待機を入れる。
 """
 import json
+import os
 import re
+import sys
 import time
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-SUBREDDIT = "PathOfExile2"
+SUBREDDIT = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("SUBREDDIT", "PathOfExile2")
 FLAIR = "Information"
 MIN_SCORE = 10
 LIMIT = 25  # 直近件数(1ページ分)
@@ -25,8 +32,8 @@ COMMENT_LIMIT = 10  # 1投稿あたり要約に使う上位コメント数
 COMMENT_DELAY = 4   # コメント取得リクエスト間の待機秒(低負荷)
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
-DATA.mkdir(exist_ok=True)
+DATA = ROOT / "data" / SUBREDDIT
+DATA.mkdir(parents=True, exist_ok=True)
 PROCESSED_FILE = DATA / "processed.json"
 PENDING_FILE = DATA / "pending.json"
 
@@ -185,7 +192,7 @@ def main():
 
     PENDING_FILE.write_text(json.dumps(pending, ensure_ascii=False, indent=2))
 
-    print(f"RSS取得: {len(rss)}件 / スコア取得: {len(scores)}件")
+    print(f"[r/{SUBREDDIT}] RSS取得: {len(rss)}件 / スコア取得: {len(scores)}件")
     print(f"条件合致(score>={MIN_SCORE})かつ未処理: {len(pending)}件 -> {PENDING_FILE}")
     for p in pending:
         print(f"  [{p['score']:>4}] {p['id']}  コメント{len(p['comments'])}件  {p['title'][:50]}")

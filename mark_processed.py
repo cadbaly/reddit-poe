@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-"""translated.json の各idを data/processed.json に処理済みとして記録する。
+"""translated.json の各idを data/<sub>/processed.json に処理済みとして記録する。
 
-Notion 保存フロー用。HTMLを生成する render.py の代わりに、Notionへページを
-作成した後にこれを実行して台帳を更新し、次回 fetch.py が同じ投稿を再取得しない
-ようにする。
+Notion へページを作成した後に実行して台帳を更新し、次回 fetch.py が同じ投稿を
+再取得しないようにする。対象サブレディットは fetch.py と同じく引数/環境変数で指定:
+    python3 mark_processed.py PathOfExile
+    SUBREDDIT=PathOfExile python3 mark_processed.py
 """
 import json
+import os
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
+SUBREDDIT = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("SUBREDDIT", "PathOfExile2")
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+DATA = ROOT / "data" / SUBREDDIT
 PENDING_FILE = DATA / "pending.json"
 TRANSLATED_FILE = DATA / "translated.json"
 PROCESSED_FILE = DATA / "processed.json"
