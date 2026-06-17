@@ -1,7 +1,13 @@
 # r/PathOfExile2 Information まとめ(日本語化)
 
 r/PathOfExile2 の **Information フレア** かつ **upvote 10 以上** の投稿を取得し、
-日本語化して **1投稿1枚のHTML** に出力するツール。
+日本語化して **Notion データベースに1投稿1ページ**で保存するツール。
+
+保存先 Notion DB: **r/PathOfExile2 Information まとめ**
+(data source: `bc65a10a-e5bf-45ae-b3d2-aaa9fe768643`)
+
+> ローカルHTML出力(`render.py` → `output/`)もレガシーとして残してあるが、
+> 現行の運用先は Notion。
 
 ## なぜこの構成か(取得方法)
 
@@ -29,31 +35,26 @@ output/
   index.html        一覧(スコア順)
 ```
 
-## 使い方(手動・1回)
+## 運用フロー(Notion・1サイクル)
 
-```bash
-python3 fetch.py        # 1) 該当投稿を取得 → data/pending.json
-#   2) data/pending.json を翻訳し data/translated.json を作成
-#      形式: [{"id": "...", "title_ja": "...", "body_ja_html": "<p>...</p>"}, ...]
-python3 render.py       # 3) HTML生成 + processed.json 更新
-```
-
-閲覧は `output/index.html` をブラウザで開く。
-
-## 翻訳について
-
-翻訳は **Claude が実施**する(本リポジトリの運用では機械翻訳APIは使わない)。
-`fetch.py` 実行後、`data/pending.json` の各投稿を Claude が日本語化して
-`data/translated.json` を書き出し、`render.py` でHTML化する。
-
-## 定期実行
+1. `python3 fetch.py` — 該当投稿を取得 → `data/pending.json`
+2. 各投稿を **Claude が日本語化** → `data/translated.json`
+   形式: `[{"id": "...", "title_ja": "...", "body_ja_html": "<p>...</p>"}, ...]`
+3. Notion DB(data source `bc65a10a-...`)に1投稿1ページで作成
+   - プロパティ: タイトル / スコア / 投稿者 / 投稿日 / 元URL / Reddit ID
+   - 本文は翻訳テキスト(Notion Markdown)
+4. `python3 mark_processed.py` — `data/processed.json` を更新(重複防止)
+5. `data/` の変更を git commit & push
 
 `processed.json` で処理済みを記録するため、繰り返し実行しても**新規投稿だけ**が
-追加される。低負荷の観点から **1日1回程度**を推奨(Information+10upvoteの母数は少ない)。
+Notion に追加される。低負荷の観点から **1日1回**を推奨。
 
-定期実行の流れ(1サイクル):
-1. `python3 fetch.py`
-2. Claude が `data/pending.json` → `data/translated.json` を作成
-3. `python3 render.py`
+## 定期実行(クラウドルーティン)
 
-Claude のルーティン(スケジュール実行)に上記サイクルを登録すれば自動化できる。
+毎日 09:00 JST に上記サイクルをクラウドで自動実行する Claude ルーティンを登録済み。
+クラウド側で fetch → 翻訳(Opus) → Notion作成 → `mark_processed.py` → commit/push する。
+
+## レガシー: ローカルHTML出力
+
+`python3 render.py` で `output/<id>.html` と `output/index.html` を生成できる
+(Notion移行前の機能。`pending.json` + `translated.json` から生成)。
