@@ -37,9 +37,11 @@ output/
 
 ## 運用フロー(Notion・1サイクル)
 
-1. `python3 fetch.py` — 該当投稿を取得 → `data/pending.json`
-2. 各投稿を **Claude が日本語化** → `data/translated.json`
-   形式: `[{"id": "...", "title_ja": "...", "body_ja_html": "<p>...</p>"}, ...]`
+1. `python3 fetch.py` — 該当投稿＋**上位コメント(最大10件)**を取得 → `data/pending.json`
+   （各投稿は `comments: [{author, score, body}, ...]` を持つ。old.reddit のコメント
+   ページを1投稿1リクエストで取得、間に待機を入れて低負荷）
+2. 各投稿を **Claude が日本語化**、さらに**コメントの反応を日本語で要約** → `data/translated.json`
+   形式: `[{"id": "...", "title_ja": "...", "body_ja_html": "<p>...</p>", "comments_summary_ja": "..."}, ...]`
 3. Notion DB(data source `bc65a10a-...`)に1投稿1ページで作成
    - プロパティ: タイトル / スコア / 投稿者 / 投稿日 / 元URL / Reddit ID
    - 本文は翻訳テキスト(Notion Markdown)
@@ -48,6 +50,8 @@ output/
      Reddit側の安定URL(i.redd.it・署名なし)を指す外部埋め込みで表示する。
    - **動画**: `pending.json` の `video` は**ダウンロード/埋め込みせず**、先頭に
      callout でリンクのみ置く(重いため。サムネがあれば併記)。
+   - **コメントの反応**: 本文の後に「## 💬 コメントの反応」見出しを付け、
+     `comments`(上位コメント)の論調を日本語で2〜4文に要約して載せる。
 4. `python3 mark_processed.py` — `data/processed.json` を更新(重複防止)
 5. `data/` の変更を git commit & push
 

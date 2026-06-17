@@ -21,6 +21,8 @@ SUBREDDIT = "PathOfExile2"
 FLAIR = "Information"
 MIN_SCORE = 10
 LIMIT = 25  # 直近件数(1ページ分)
+COMMENT_LIMIT = 10  # 1投稿あたり要約に使う上位コメント数
+COMMENT_DELAY = 4   # コメント取得リクエスト間の待機秒(低負荷)
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -101,6 +103,42 @@ def fetch_rss() -> dict:
     return out
 
 
+def parse_comments(page: str, limit: int) -> list:
+    """old.reddit コメントページHTMLから上位コメントを抽出する。"""
+    import html as _html
+    out = []
+    things = list(re.finditer(
+        r'<div class="[^"]*\bthing\b[^"]*\bcomment\b[^"]*"[^>]*data-type="comment"[^>]*>', page))
+    for i, m in enumerate(things):
+        am = re.search(r'data-author="([^"]*)"', m.group(0))
+        author = am.group(1) if am else ""
+        end = things[i + 1].start() if i + 1 < len(things) else m.end() + 4000
+        seg = page[m.end():end]
+        sm = re.search(r'class="score unvoted"[^>]*title="(-?\d+)"', seg)
+        score = int(sm.group(1)) if sm else None
+        bm = re.search(r'<div class="md">(.*?)</div>', seg, re.S)
+        if not bm:
+            continue
+        text = _html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', bm.group(1)))).strip()
+        if author in ("[deleted]", "") or not text:
+            continue
+        out.append({"author": author, "score": score, "body": text[:600]})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def fetch_comments(post_id: str, limit: int = COMMENT_LIMIT) -> list:
+    """投稿の上位コメントを old.reddit から取得(取得失敗時は空リスト)。"""
+    url = f"https://old.reddit.com/comments/{post_id}/?sort=top&limit=15"
+    try:
+        page = get(url).decode("utf-8", "replace")
+    except Exception as e:
+        print(f"  ! コメント取得失敗 {post_id}: {e}")
+        return []
+    return parse_comments(page, limit)
+
+
 def fetch_scores() -> dict:
     """id -> score (old.reddit 検索HTMLから)"""
     q = urllib.parse.quote('flair_name:"%s"' % FLAIR)
@@ -138,12 +176,19 @@ def main():
         pending.append(post)
 
     pending.sort(key=lambda p: p["published"])
+
+    # 各pending投稿の上位コメントを取得(1投稿1リクエスト、間に待機して低負荷)
+    for idx, p in enumerate(pending):
+        if idx:
+            time.sleep(COMMENT_DELAY)
+        p["comments"] = fetch_comments(p["id"])
+
     PENDING_FILE.write_text(json.dumps(pending, ensure_ascii=False, indent=2))
 
     print(f"RSS取得: {len(rss)}件 / スコア取得: {len(scores)}件")
     print(f"条件合致(score>={MIN_SCORE})かつ未処理: {len(pending)}件 -> {PENDING_FILE}")
     for p in pending:
-        print(f"  [{p['score']:>4}] {p['id']}  {p['title'][:60]}")
+        print(f"  [{p['score']:>4}] {p['id']}  コメント{len(p['comments'])}件  {p['title'][:50]}")
 
 
 if __name__ == "__main__":
