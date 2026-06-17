@@ -43,6 +43,11 @@ output/
 3. Notion DB(data source `bc65a10a-...`)に1投稿1ページで作成
    - プロパティ: タイトル / スコア / 投稿者 / 投稿日 / 元URL / Reddit ID
    - 本文は翻訳テキスト(Notion Markdown)
+   - **画像**: `pending.json` の `images`(i.redd.it の元画像URL)をページ先頭に
+     `![caption](url)` で埋め込む。Notion連携にバイナリアップロードが無いため、
+     Reddit側の安定URL(i.redd.it・署名なし)を指す外部埋め込みで表示する。
+   - **動画**: `pending.json` の `video` は**ダウンロード/埋め込みせず**、先頭に
+     callout でリンクのみ置く(重いため。サムネがあれば併記)。
 4. `python3 mark_processed.py` — `data/processed.json` を更新(重複防止)
 5. `data/` の変更を git commit & push
 

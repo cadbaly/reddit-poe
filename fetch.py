@@ -48,8 +48,33 @@ def get(url: str) -> bytes:
     return raw
 
 
+def parse_media(body_html: str) -> dict:
+    """body_html から画像URL・動画URLを抽出する。
+
+    - 画像: i.redd.it / preview.redd.it のURLを元画像 i.redd.it/<file> に正規化。
+            (preview はサムネ・署名付きで hotlink できないため i.redd.it に変換)
+            external-preview(外部リンクのOGP画像)は壊れやすいので除外。
+    - 動画: reddit.com/link/<id>/video/... または v.redd.it のURL(最初の1件)。
+    """
+    images = []
+    seen = set()
+    # i.redd.it と preview.redd.it のファイル名を拾う
+    for m in re.finditer(r'https?://(?:i|preview)\.redd\.it/([\w.-]+\.(?:png|jpe?g|gif|webp))', body_html, re.I):
+        fname = m.group(1)
+        # preview の webp 変換などは元拡張子のまま i.redd.it へ
+        url = f"https://i.redd.it/{fname}"
+        if url not in seen:
+            seen.add(url)
+            images.append(url)
+    video = None
+    vm = re.search(r'https?://(?:reddit\.com/link/[\w]+/video/[\w]+|v\.redd\.it/[\w]+)[^\s"<)]*', body_html, re.I)
+    if vm:
+        video = vm.group(0)
+    return {"images": images, "video": video}
+
+
 def fetch_rss() -> dict:
-    """id -> {title, link, body_html, published} (Information フレア絞り込み済み)"""
+    """id -> {title, link, body_html, published, images, video} (Information フレア絞り込み済み)"""
     q = urllib.parse.quote('flair_name:"%s"' % FLAIR)
     url = (f"https://www.reddit.com/r/{SUBREDDIT}/search.rss?"
            f"q={q}&restrict_sr=1&sort=new&limit={LIMIT}")
@@ -60,14 +85,18 @@ def fetch_rss() -> dict:
         if not pid:
             continue
         link_el = e.find(f"{ATOM}link")
+        body_html = (e.findtext(f"{ATOM}content", "") or "").strip()
+        media = parse_media(body_html)
         out[pid] = {
             "id": pid,
             "title": e.findtext(f"{ATOM}title", "").strip(),
             "link": link_el.get("href") if link_el is not None else "",
-            "body_html": (e.findtext(f"{ATOM}content", "") or "").strip(),
+            "body_html": body_html,
             "published": e.findtext(f"{ATOM}published", "").strip(),
             "author": (e.find(f"{ATOM}author/{ATOM}name").text
                        if e.find(f"{ATOM}author/{ATOM}name") is not None else ""),
+            "images": media["images"],
+            "video": media["video"],
         }
     return out
 
