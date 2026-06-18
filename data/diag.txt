@@ -1,0 +1,8 @@
+# diag at 2026-06-18T00:16:08.904227+00:00
+# python 3.11.15
+egress-ip: HTTPError 403 Forbidden  74ms  https://api.ipify.org?format=json
+egress-ip-value: ERROR HTTP Error 403: Forbidden
+flair-RSS: HTTPError 403 Forbidden  46ms  https://www.reddit.com/r/PathOfExile2/search.rss?q=flair_name%3A%22Information%22&restrict_sr=1&sort=new&limit=5
+old.reddit-search: HTTPError 403 Forbidden  47ms  https://old.reddit.com/r/PathOfExile2/search?q=flair_name%3A%22Information%22&restrict_sr=1&sort=new&include_over_18=on&limit=5
+old.reddit-comments: HTTPError 403 Forbidden  47ms  https://old.reddit.com/comments/1u84u81/?sort=top&limit=5
+control-example: HTTPError 403 Forbidden  49ms  https://example.com
