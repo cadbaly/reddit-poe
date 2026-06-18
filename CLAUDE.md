@@ -58,15 +58,23 @@ Notionページ本文の構成: (a)動画callout → (b)画像 `![](url)` → (c
 - PoE2 DB「r/PathOfExile2 Information まとめ」 data_source_id: `bc65a10a-e5bf-45ae-b3d2-aaa9fe768643`
 - PoE1 DB「r/PathOfExile Information まとめ」 data_source_id: `4da0435e-828a-42ce-b53a-2318a614d9d5`
 
-## 定期実行（クラウドルーティン・2本）
+## 運用方式: ローカル半自動（重要）
 
-- PoE2: routine_id `trig_01Wx5sup3AaYLD3hzhUa1AFm` / cron `0 0 * * *`（毎日 09:00 JST）
-- PoE1: routine_id `trig_01QHAvC7PR5uzPHxWSidMht3` / cron `30 0 * * *`（毎日 09:30 JST、Reddit同時アクセス回避でずらし）
-- どちらも model: `claude-opus-4-8`、Notion MCPコネクタ接続済み、source: このGitHubリポ(master)
-- ルーティンのプロンプトを変える場合は `RemoteTrigger`(action=update) を使う。
-  **クラウド環境はローカルマシンにアクセスできない**（出力はNotion＋GitHubのみ）。
-- ⚠ クラウド実行には**GitHubの再認証が必要**（未対応だと `github_repo_access_denied` で失敗）。
-  https://claude.ai/code/routines から再認証する。
+**クラウドルーティンは廃止**。理由: クラウドのサンドボックスは**外部インターネットに出られない**
+（GitHub/Notion/Anthropic 等の許可先のみ。`example.com` ですら 403。`diag.py` で確認済み）。
+そのため fetch.py が Reddit に到達できず毎回失敗する。旧ルーティン3本は **disabled** にしてある
+（`trig_01Wx5sup3AaYLD3hzhUa1AFm` PoE2 / `trig_01QHAvC7PR5uzPHxWSidMht3` PoE1 / `trig_01Ts9e2HSbuNLW6wsLX8jRBm` diag）。
+削除は https://claude.ai/code/routines から。
+
+現行は以下の半自動運用:
+- **取得**: ローカル cron が `refresh.sh` を毎日 **08:50 JST** に実行 → 両サブの `pending.json` を更新し、
+  差分があれば best-effort で commit & push（ログ: `data/cron.log`）。crontab: `50 8 * * * /home/koezuka/reddit-poe/refresh.sh`。
+- **翻訳＋Notion投稿**: ユーザーが Claude セッションで「更新して」と頼んだとき、Claude が
+  `pending.json` を読み翻訳＋コメント要約し、claude.ai の **Notion MCP** でページ作成、
+  `mark_processed.py <sub>` で台帳更新、commit & push する（＝バックログ投入と同じ手順）。
+
+> Reddit はローカル（このマシン）からは 200 で取得できる。クラウドからは不可。
+> `diag.py` はクラウドのネットワーク到達性を調べる診断スクリプト（通常運用では使わない）。
 
 ## 留意
 

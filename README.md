@@ -59,7 +59,15 @@ data/
 `processed.json` で処理済みを記録するため、繰り返し実行しても**新規投稿だけ**が
 Notion に追加される。低負荷の観点から **1日1回**を推奨。
 
-## 定期実行(クラウドルーティン)
+## 定期実行(ローカル半自動)
 
-毎日 09:00 JST に上記サイクルをクラウドで自動実行する Claude ルーティンを登録済み。
-クラウド側で fetch → 翻訳(Opus) → Notion作成 → `mark_processed.py` → commit/push する。
+クラウドルーティンは外部通信不可のため廃止。現行はローカル cron + Claude セッションの半自動:
+
+- **取得**: ローカル cron が毎日 08:50 JST に `refresh.sh` を実行 → 両サブの `pending.json` を更新・push。
+  ```
+  50 8 * * * /home/koezuka/reddit-poe/refresh.sh
+  ```
+- **翻訳＋Notion投稿**: Claude セッションで「更新して」と頼むと、Claude が pending を翻訳し
+  Notion にページ作成 → `mark_processed.py <sub>` → commit/push。
+
+> `diag.py` はクラウド等のネットワーク到達性を調べる診断用(通常運用では不要)。
