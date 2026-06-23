@@ -12,8 +12,8 @@ echo "[$(ts)] refresh start" >> "$LOG"
 
 for sub in PathOfExile2 PathOfExile; do
   out=$(python3 fetch.py "$sub" 2>&1)
-  echo "[$(ts)] $sub: $(echo "$out" | grep -E '条件合致|ERR|Error|Forbidden' | head -1)" >> "$LOG"
-  sleep 15   # サブレディット間でレート制限回避のため待機
+  echo "[$(ts)] $sub: $(echo "$out" | grep -E '条件合致|ERR|Error|Forbidden|429' | head -1)" >> "$LOG"
+  sleep 60   # サブレディット間でレート制限回避のため待機(1サブ目のコメント取得で累積するため長めに)
 done
 
 # pending.json に差分があれば commit → pull --rebase → push（best-effort、失敗しても継続）
