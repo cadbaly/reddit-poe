@@ -1,772 +1,598 @@
 [
   {
-    "id": "1uif5pn",
-    "title": "0.5.4 Hotfix 4",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uif5pn/054_hotfix_4/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uif5pn/054_hotfix_4/\"> <img src=\"https://external-preview.redd.it/ArTk8y34SYIDi_1NjB4jdM4YaHEvgbnRycvHse5Aqy8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=281aef6966b4c68ecd44fb78579307c3c1a919f8\" alt=\"0.5.4 Hotfix 4\" title=\"0.5.4 Hotfix 4\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><ul> <li>Fixed a bug where the quest Mirror of Delirium would fail to place the initial Delirium Fogbank if you had previously completed a Simulacrum in party play.</li> </ul> <p>This patch was deployed without restarting the servers, you&#39;ll need to restart your client to patch the client changes.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Andromanner\"> /u/Andromanner </a> <br/> <span><a href=\"https://www.pathofexile.com/forum/view-thread/3978401/page/1#p26770553\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uif5pn/054_hotfix_4/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-29T01:50:51+00:00",
-    "author": "/u/Andromanner",
+    "id": "1ulvaqw",
+    "title": "0.5.4b Patch Notes",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ulvaqw/054b_patch_notes/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.pathofexile.com/forum/view-thread/3980516\">https://www.pathofexile.com/forum/view-thread/3980516</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Skoopy_590\"> /u/Skoopy_590 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulvaqw/054b_patch_notes/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulvaqw/054b_patch_notes/\">[comments]</a></span>",
+    "published": "2026-07-02T21:34:13+00:00",
+    "author": "/u/Skoopy_590",
     "images": [],
     "video": null,
-    "score": 108,
+    "score": 332,
     "comments": [
       {
-        "author": "SmoothVelvetSlav",
-        "score": 178,
-        "body": "me every time it doesn't include the shaders fix"
+        "author": "Trindoral",
+        "score": 463,
+        "body": "Fixed a bug where some monsters in Expeditions could become invisible and invincible. Hell yeah."
       },
       {
-        "author": "DispatchMinion",
-        "score": 11,
-        "body": "Same and also the weapon set switch bug"
+        "author": "EnderBaggins",
+        "score": 57,
+        "body": "Unfortunately, the invincible mobs not spawning their adds to kill them is still a thing."
       },
       {
-        "author": "foxgtr",
-        "score": 9,
-        "body": "I dont know if you have tried this yet, but if you are on steam turn off pre downloading shaders setting. It worked for me now it only compiles shaders one time when i log in."
+        "author": "krkakakaka",
+        "score": 255,
+        "body": "Removed a majority of the stun and freeze immunity windows from all versions of the Tor Gul, the Defiler boss fight. Permafrost Bolts builds rejoice."
       },
       {
-        "author": "convolutionsimp",
-        "score": 101,
-        "body": "Nice, but please fix the untargetable enemies"
+        "author": "Chron_Deez",
+        "score": 48,
+        "body": "And stun based Titans. This boss was awful if you needed hammer of the gods for single target (requires heavy stunning). Thought it was a bug the stun bar filled up without a heavy stun."
       },
       {
-        "author": "redlow0992",
-        "score": 67,
-        "body": "Nice, but please fix shader issues."
+        "author": "inkiltie",
+        "score": 162,
+        "body": "FINALLY!!! After over a month of 3/4 doryani. Fixed an issue with the spawning condition of the Immured Fury. It is now able to spawn any time after you have completed 3 Corruption Nexuses, so you can complete additional Corruption Nexuses to find the boss if you failed to kill them the first time."
       },
       {
-        "author": "pittyh",
-        "score": 16,
-        "body": "Nice, but please fix Aldur companions doing nothing"
+        "author": "Skoopy_590",
+        "score": 99,
+        "body": "Logbooks that add a Boss Expedition now prioritise replacing regular Maps over Grand Expeditions. Log the hell in!!! MORE BUFFS!!!"
       },
       {
-        "author": "PitcherTrap",
-        "score": 23,
-        "body": "Nice, but please fix Deadlock detected"
+        "author": "Chrrs",
+        "score": 68,
+        "body": "CTRL-F shader sad trombone"
       },
       {
-        "author": "Naive_Ambition1306",
-        "score": 10,
-        "body": "Nice, but please fix Expeditions randomly not starting"
-      },
-      {
-        "author": "stir224",
-        "score": 63,
-        "body": "Please for the love of god fix the immortal scorpion"
-      },
-      {
-        "author": "toshiino",
-        "score": 23,
-        "body": "Fix the map layout pls, stop spawning enemies in inaccessible area"
-      }
-    ]
-  },
-  {
-    "id": "1uiioru",
-    "title": "So after yesterday's post I decided to look through my accumulated tablets",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uiioru/so_after_yesterdays_post_i_decided_to_look/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiioru/so_after_yesterdays_post_i_decided_to_look/\"> <img src=\"https://preview.redd.it/l0v1eujsi5ah1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=d7e4762e73a29a9f2c1000e4a8942ee5f9d45a10\" alt=\"So after yesterday's post I decided to look through my accumulated tablets\" title=\"So after yesterday's post I decided to look through my accumulated tablets\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Looked at maybe 60 tablets. The usual trans/aug, alch if fail, regal + ex. Price checked all of them. Listed ca 20-25. Went to bed and work, came home to ca 50 div.</p> <p>Don&#39;t sleep on your treasures.</p> <p>Relevant post for reference (regex etc is in there): <a href=\"https://old.reddit.com/r/PathOfExile2/comments/1uhfawl/check_and_sell_your_tablets/\">https://old.reddit.com/r/PathOfExile2/comments/1uhfawl/check_and_sell_your_tablets/</a></p> <p>Edit: muahaha, just sold another 46d <a href=\"https://imgur.com/a/rpms64m\">https://imgur.com/a/rpms64m</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/moodywoody\"> /u/moodywoody </a> <br/> <span><a href=\"https://i.redd.it/l0v1eujsi5ah1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiioru/so_after_yesterdays_post_i_decided_to_look/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-29T04:47:54+00:00",
-    "author": "/u/moodywoody",
-    "images": [
-      "https://i.redd.it/l0v1eujsi5ah1.png"
-    ],
-    "video": null,
-    "score": 111,
-    "comments": [
-      {
-        "author": "BL00D_ZA",
-        "score": 24,
-        "body": "This is what I’ve been doing all league 😅"
-      },
-      {
-        "author": "moodywoody",
-        "score": 7,
-        "body": "It's my first league and I've done alright before that. That the referenced post contained a regex gave me the final push."
-      },
-      {
-        "author": "tjfarr18",
-        "score": 3,
-        "body": "Mind linking the regex?"
-      },
-      {
-        "author": "moodywoody",
-        "score": 4,
-        "body": "https://old.reddit.com/r/PathOfExile2/comments/1uhfawl/check_and_sell_your_tablets/ou7fr9t/"
-      },
-      {
-        "author": "averbeg",
-        "score": 13,
-        "body": "You can also sell them bulk as normal/ magic uid for a large sum without the effort, to people trying to gamble for the 20div+ mods. It is what a lot of people do as low investment alch & go strat, 3x irridiate, sell tablets. It makes similar solo as the juiced strats do in party. You just don't really have the chance to get lucky, because you are essentially selling your lottery tickets. Both in a sense that if you sell them bulk, you can't hit the big mods, and if you sell the big mods and never run the strats, you can never make the big profit from the strats themselves."
-      },
-      {
-        "author": "wado729",
-        "score": 3,
-        "body": "Irridates give you more chance at tablets? Is that why they run 3x?"
-      },
-      {
-        "author": "moodywoody",
-        "score": 5,
-        "body": "So when you use a mechanic tablet (ritual/deli/...) the chance for a tablet actually decreases. So the usual advice is to run 3-4x irrad w >30% waystone chance on a waystone with >80% waystone chance. Depending on your build reduce to 2x if it starts taking too long"
-      },
-      {
-        "author": "Jarmanuel",
-        "score": 8,
-        "body": "Each irradiated tablet also adds a random league mechanic, which is where most of the tablet drops are coming from."
-      },
-      {
-        "author": "moodywoody",
-        "score": 2,
-        "body": "Yup, I personally noticed though that I wanted to start with 2x tabs. 3 and it started to become too much of a slog particularly with deli."
-      },
-      {
-        "author": "lolic_addict",
-        "score": 2,
-        "body": "Not gonna lie I always ID my tablets, I should probably stop doing that but muscle memory to ctrl click doryani is too strong."
-      }
-    ]
-  },
-  {
-    "id": "1uint28",
-    "title": "I ran 100 The Bodach. Here is what i got!",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uint28/i_ran_100_the_bodach_here_is_what_i_got/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uint28/i_ran_100_the_bodach_here_is_what_i_got/\"> <img src=\"https://preview.redd.it/op8qim0ty6ah1.png?width=140&amp;height=139&amp;auto=webp&amp;s=4687e0d903c0891e0d97445de1785b25d5b8e24d\" alt=\"I ran 100 The Bodach. Here is what i got!\" title=\"I ran 100 The Bodach. Here is what i got!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>This is the best farm so far. The boss has some quirks, but overall, the ROI is excellent, and the Call of the Shadows are very cheap right now. If you want to farm a boss and relax, this might be the perfect spot for you.</strong></p> <p><a href=\"https://youtu.be/1GDe6wzWe9s\">VideoProof</a></p> <p><a href=\"https://docs.google.com/spreadsheets/d/1fW8iFr1DcGa8c9hrEK783UZOAnxXpRFbT-R2OCzWVjE/edit?usp=sharing\">Spreadsheet</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Br4veDreamer\"> /u/Br4veDreamer </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1uint28\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uint28/i_ran_100_the_bodach_here_is_what_i_got/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-29T09:39:33+00:00",
-    "author": "/u/Br4veDreamer",
-    "images": [
-      "https://i.redd.it/op8qim0ty6ah1.png"
-    ],
-    "video": null,
-    "score": 68,
-    "comments": [
-      {
-        "author": "Upbeat-Matter6048",
-        "score": 36,
-        "body": "Yeah, bodach definitely is a good farm. Just extremely boring, with a 45 sec phase of running and waiting."
-      },
-      {
-        "author": "unexpectedreboots",
-        "score": 8,
-        "body": "The Sirus of PoE2."
-      },
-      {
-        "author": "idlefritz",
-        "score": 30,
-        "body": "oh boy running bodach seems like a cry for help"
-      },
-      {
-        "author": "Shaltilyena",
-        "score": 13,
-        "body": "Boss farming in poe/poe2 in general tbh"
-      },
-      {
-        "author": "shortMEISTERthe3rd",
-        "score": 9,
-        "body": "Better than mapping for me because I don't have new shaders loading in every time and don't have to see weird performance quirks lol."
-      },
-      {
-        "author": "pashtetova",
-        "score": 28,
-        "body": "how did You calculate worth of items, some rare rolls? corruptions? uniques in spreadsheet seems to be overpriced"
-      },
-      {
-        "author": "Sufficient-Bid3180",
-        "score": 20,
-        "body": "With these numbers he likely hit multiple level 20 skill Sylvan's Effigies, which is very lucky. I did 100 runs a week ago and only got a single one."
-      },
-      {
-        "author": "pashtetova",
-        "score": 8,
-        "body": "strange but 20 lvl liminals cost the same as lower lvl + perf flux"
-      },
-      {
-        "author": "Effin-nerd",
-        "score": 5,
-        "body": "Of course lmao"
-      },
-      {
-        "author": "RequiemWasTaken",
-        "score": 8,
-        "body": "Liminal coil is much rarer than I thought it was"
-      }
-    ]
-  },
-  {
-    "id": "1uiwdqe",
-    "title": "PSA: You can get heavily discounted tablets by searching for <10 uses",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uiwdqe/psa_you_can_get_heavily_discounted_tablets_by/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiwdqe/psa_you_can_get_heavily_discounted_tablets_by/\"> <img src=\"https://preview.redd.it/pytsvl49u8ah1.jpg?width=140&amp;height=92&amp;auto=webp&amp;s=fdcb8d2cf86d818520c71211c6e993dabd02108f\" alt=\"PSA: You can get heavily discounted tablets by searching for &lt;10 uses\" title=\"PSA: You can get heavily discounted tablets by searching for &lt;10 uses\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Top tier players will never waste their time with partially used tablets and they cannot be flipped by hideout warriors, so these 6-9 use tablets can sometimes be steeply discounted and are perfect for casual players looking to juice on a budget. This is an extreme example but here I snagged a 7-use extra rares Breach tablet for 1c which usually goes for 2d on a 10-use.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NateTheGreat26\"> /u/NateTheGreat26 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1uiwdqe\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiwdqe/psa_you_can_get_heavily_discounted_tablets_by/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-29T15:53:10+00:00",
-    "author": "/u/NateTheGreat26",
-    "images": [
-      "https://i.redd.it/pytsvl49u8ah1.jpg"
-    ],
-    "video": null,
-    "score": 16,
-    "comments": [
-      {
-        "author": "ur-average-geek",
-        "score": 106,
-        "body": "Wake up babe, thrift shopping just dropped in poe 2."
-      },
-      {
-        "author": "rohtvak",
-        "score": 36,
-        "body": "I prefer to spam the search button and fight with 13 other people for the tablet at 2 div instead of 3."
-      },
-      {
-        "author": "Legitimate-Rope7667",
-        "score": 2,
-        "body": "Why not use the live search? Just need to open up the trade in your web browser"
-      },
-      {
-        "author": "Sigmar_Knutz",
-        "score": 10,
-        "body": "You just answered your own question"
-      },
-      {
-        "author": "rohtvak",
-        "score": 1,
-        "body": "I prefer to do everything in game if I can. The only exceptions I’m making right now would be PoE2DB and PoENinja when I need to check possible rolls or currency prices."
-      },
-      {
-        "author": "AraxxorKiller",
-        "score": 1,
-        "body": "This is what I do. I'm still fighting 13 people for the tablet"
-      },
-      {
-        "author": "ReXar0401",
-        "score": 1,
-        "body": "11 out of the 13 people aren’t looking for a cheap tablet to use, they are there to buy at 2 and sell at 3"
-      },
-      {
-        "author": "Surveyor85",
-        "score": 13,
-        "body": "The Macklemore Method"
-      },
-      {
-        "author": "Glum_Ad1127",
-        "score": 13,
-        "body": "Those tablets just aren’t great also though."
-      },
-      {
-        "author": "She_kicked_a_dragon",
-        "score": 5,
-        "body": "Shhhhhh"
-      }
-    ]
-  },
-  {
-    "id": "1uiym9f",
-    "title": "Potential quick fix for constant game freezing since patch 0.3",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uiym9f/potential_quick_fix_for_constant_game_freezing/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>if you are freezing every 2-3 maps since patch 0.3 and already tried everything under the sun like vulkan, limiting sound channels or unlimited shader cache, this might save you. i was crashing <strong>constantly</strong> on a 4090 and 14900k setup until i changed steam launch options after trying bzillion of things (even clean windows install and complete client checks)</p> <p>adding --noasync --nologo --waitforpreload completely stopped the freezes COMPLETELY. map loading is significantly slower—you will definitely notice the delay, even more if you do a lot of trading and visit many hideouts—because the engine forces assets to load upfront instead of streaming them on the fly. the stability is worth the trade.</p> <p>i am 50+ maps deep since the change without a single crash. if you need a walkthrough on how to add launch options, there are plenty of creator videos online covering the steps just googling those terms. </p> <p>other basic fixes like disabling steam or nvidia overlays are worth a shot if you haven&#39;t tried them, but this was the only thing that actually stabilized the client for me.</p> <p>good luck, stay sane. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/herakleion\"> /u/herakleion </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiym9f/potential_quick_fix_for_constant_game_freezing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uiym9f/potential_quick_fix_for_constant_game_freezing/\">[comments]</a></span>",
-    "published": "2026-06-29T17:13:40+00:00",
-    "author": "/u/herakleion",
-    "images": [],
-    "video": null,
-    "score": 24,
-    "comments": [
-      {
-        "author": "leojr159",
-        "score": 19,
-        "body": "I get that everyone wants to fix this asap but people need to stop spreading miracle fixes for the issue. Its a GGG and NVIDIA issue. I actually tried it and doesnt fix."
-      },
-      {
-        "author": "sakage",
-        "score": 8,
-        "body": "To confirm, this is the game freeze where your mid map, everything basically pauses, sits for 20 to 30 seconds before going to a black background the grinding gears and then everything coming back and unfreezing?"
-      },
-      {
-        "author": "tilsnz",
-        "score": 2,
-        "body": "I honestly thought this was just me that experienced this that you described. I moved from ps5 to pc ( new pc I brought) and thought my pc was struggling"
-      },
-      {
-        "author": "Humbugsen",
-        "score": 1,
-        "body": "i fixed this one by switching to vulkan from direct12, loading times are a bit longer and performance a bit worse tho"
-      },
-      {
-        "author": "acaurora",
-        "score": 2,
-        "body": "I did the same thing. With a 14900K and a 4080 Super, on the default DX12 would have the same issue that u/sakage mentioned. Switched to Vulkan and while yes the FPS seems a little lower, I have not crashed in the past 3 days of playing for 3+ hours every day."
-      },
-      {
-        "author": "herakleion",
-        "score": -1,
-        "body": "Mine would be complete game freeze. Like a screenshot. Id give it a try anyway."
-      },
-      {
-        "author": "Andalousian",
-        "score": 3,
-        "body": "I'm freezing almost every map with a beast of a machine, so I'll definitely try this and report back. I don't mind a longer loading time as I'm getting PTSD with freezes at the juiciest moment. I've noticed freezes happen a lot when a new mob type spawns, especially rogue exiles with new spell assets etc."
-      },
-      {
-        "author": "HughJass14",
-        "score": 2,
-        "body": "I’m running a 3080, added these flags and I am still getting the freezes into mass shader load."
-      },
-      {
-        "author": "PoE_Acronym_Bot",
-        "score": -1,
-        "body": "I noticed some Path of Exile keywords in this post: Map - Also called a \"Waystone\": an endgame item that opens up portals to a specific area to fight monsters ( Wiki ) I am a bot. | All acronyms | Suggest"
-      },
-      {
-        "author": "eminaz91",
-        "score": -2,
-        "body": "I made a post about the things that fixed my freezes, but it really got no traction on here. Even map loading had gotten way faster."
-      }
-    ]
-  },
-  {
-    "id": "1ujr28j",
-    "title": "Liquid Verisium Reroll Cheat Sheet",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ujr28j/liquid_verisium_reroll_cheat_sheet/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ujr28j/liquid_verisium_reroll_cheat_sheet/\"> <img src=\"https://preview.redd.it/ih9yfdprlfah1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=84caf91eb6631fdb4c8e9e7ed22e82f5825e3c5f\" alt=\"Liquid Verisium Reroll Cheat Sheet\" title=\"Liquid Verisium Reroll Cheat Sheet\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>compared to the last variation I added a lot of explanation at the side so people who are not too familiar with the mechanic should still be able to understand it. </p> <p>I will give out a link to the google sheet variant when I have cleaned the site up a bit more. For now the png will do :D</p> <p>Anything important missing? Let me know</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Luqas_Incredible\"> /u/Luqas_Incredible </a> <br/> <span><a href=\"https://i.redd.it/ih9yfdprlfah1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ujr28j/liquid_verisium_reroll_cheat_sheet/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-30T14:38:38+00:00",
-    "author": "/u/Luqas_Incredible",
-    "images": [
-      "https://i.redd.it/ih9yfdprlfah1.png"
-    ],
-    "video": null,
-    "score": 265,
-    "comments": [
-      {
-        "author": "SkoivanSchiem",
-        "score": 36,
-        "body": "I'm going to try and understand all of this because I like Expedition, but I just have to ask: why tf does GGG not explain that this is how their game works?!"
-      },
-      {
-        "author": "Friendly_Zucchini_41",
-        "score": 29,
-        "body": "Sometimes I read these posts and wonder if I'm even playing the same game."
-      },
-      {
-        "author": "Gnejs1986",
-        "score": 16,
-        "body": "why tf does GGG not explain that this is how their game works?! Well, technically it does :P You can read what every rune does in the tome/runeshape list, and the proliferation of runes is explained if you hover the golden frame either on the rune or in the list. It just doesn't hold your hand nor advise you on how to use said information :D It's 'hidden' behind a layer of reading and making decisions ;)"
-      },
-      {
-        "author": "KeeperofAbyss",
-        "score": 28,
-        "body": "Ohhh, now I get what you were trying to explain. This is some pocket enchantment table language knowledge from Minecraft that you need to understand in ordee to efficiently utilize remnants. But sure this cheat sheet helps! Thanks OP!"
-      },
-      {
-        "author": "taelor",
-        "score": 17,
-        "body": "Much better than yesterday! Great improvement. Typo of “market” instead of “marked” on the right hand side."
-      },
-      {
-        "author": "Luqas_Incredible",
-        "score": 9,
-        "body": "Thanks. Ill adjust"
-      },
-      {
-        "author": "PH-Genesis29",
-        "score": 20,
-        "body": "i dont get it."
-      },
-      {
-        "author": "Frangipane33",
-        "score": 28,
-        "body": "Keep good rewards remnants, remnants with a lot of waves because that’s a lot of monsters, and remnants that have a good flashy rune with a yellow square around it (because its effect will propagate to monsters from subsequent remnants). If you have a remnant (stone) with few runes and no fancy rune squared up then you should reroll the runes using a liquid verisium"
-      },
-      {
-        "author": "Prophesy78",
-        "score": 4,
-        "body": "Yep there we go, makes sense."
-      },
-      {
-        "author": "NotTheUsualSuspect",
-        "score": 13,
-        "body": "Shiny or big rock, good. Boring and small, reroll. Do shinies before big rocks if possible."
-      }
-    ]
-  },
-  {
-    "id": "1ujwy4h",
-    "title": "Loot from 30 High-investment Abyss+Deli maps",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ujwy4h/loot_from_30_highinvestment_abyssdeli_maps/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ujwy4h/loot_from_30_highinvestment_abyssdeli_maps/\"> <img src=\"https://preview.redd.it/qqb5glx7ogah1.png?width=140&amp;height=140&amp;auto=webp&amp;s=39919aececc71c0f4406e7d6668cc8c414d0caa3\" alt=\"Loot from 30 High-investment Abyss+Deli maps\" title=\"Loot from 30 High-investment Abyss+Deli maps\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Main tab 724 Div / Misc tab 166 Div without uniques/ Uniques 95+ Div</p> <p>Cost 330D</p> <p>Profit after expenses 560D not counting uniques</p> <p>200% Deli VAAL CITIES (Counts as forest on atlas +65% rare monsters)</p> <p>Doryani master (17 map mods): 34% effectiveness, 51% chance of monster mods, 17% rarity, 25% effect of suffix or prefix, 15% chance of corrupted or cleansed map</p> <p>Waystones: x30 103% monster rarity, 13% effectiveness, 25-30% item rarity (3D ea) = 90D</p> <p>Tablets: x30 Unique Abyss 17 pit (2D ea) = 60D / x9 Deli +2 random mods, +30% rare monsters, +effectiveness, +splinters (20D ea) = 180D</p> <p>165% rarity character <a href=\"https://poe.ninja/poe2/builds/runesofaldur/character/TeppuPoE-3687/CatsInMyDreams\">https://poe.ninja/poe2/builds/runesofaldur/character/TeppuPoE-3687/CatsInMyDreams</a></p> <p>Still sane, exile?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ivonnel\"> /u/Ivonnel </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1ujwy4h\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ujwy4h/loot_from_30_highinvestment_abyssdeli_maps/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-06-30T18:14:34+00:00",
-    "author": "/u/Ivonnel",
-    "images": [
-      "https://i.redd.it/qqb5glx7ogah1.png"
-    ],
-    "video": null,
-    "score": 614,
-    "comments": [
-      {
-        "author": "SeraphOfTheStart",
-        "score": 88,
-        "body": "I got carpal tunnel from looking at it. Processing img i812ungpogah1..."
-      },
-      {
-        "author": "Gloomfang_",
-        "score": 22,
-        "body": "bind left click to scroll wheel, it's pretty easy looting since you can move with WASD"
-      },
-      {
-        "author": "leonardo_streckraupp",
-        "score": 84,
-        "body": "Solo or group play?"
-      },
-      {
-        "author": "Ivonnel",
-        "score": 80,
-        "body": "Solo"
+        "author": "WrongPop3821",
+        "score": 70,
+        "body": "\"Azmerian Wisps can now only be released from a monster once, the first time a monster is killed.\" YALL NERFED WISPS!?!"
       },
       {
         "author": "threedoggies",
-        "score": 56,
-        "body": "That's a pretty massive investment but I think my main question is...how long did that setup take? Finding or making the right tablets, the right waystones, the right City nodes and deli on it, etc. How much prep time did it take? I love the game but it just seems to have such a massive administrative time sink."
+        "score": 57,
+        "body": "Fixed a bug where Atziri's Temple was sometimes created at the wrong monster level I hope so!"
       },
       {
-        "author": "Ivonnel",
-        "score": 40,
-        "body": "3 Days playing on and off, +-20 hours of chilling without rushing anything. Had to find and reach 6 separate Vaal Cities due to unfortunate fog spreads."
-      },
-      {
-        "author": "goodusernameishard",
-        "score": 22,
-        "body": "So about 30 div profit per hour?"
-      },
-      {
-        "author": "MellySantiago",
-        "score": 29,
-        "body": "I think this is disingenuous, I’ve had more fun with the 3 irradiated tablet farm on the road to setting up strategies like this than actually running them. Not mentioning getting 2-7 tablets per map, and as a poe1 8 mod farmer I’ve loved the idea of jackpot tablets which I regularly get worth 20-40div each, and many many more in the 1-5 div range. Plus running the actual bosses in the cities which drop tablets like regular maps and can drop lineage gems or the fragments worth a few div, it’s weird to discount all of that in setting up these strategies."
-      },
-      {
-        "author": "Asmosis66",
-        "score": 12,
-        "body": "Cities feel good because you're making insane profits, but travelling with 3x irradiated feels even better because you're having fun, its like a breath of fresh air."
-      },
-      {
-        "author": "Ivonnel",
-        "score": 14,
-        "body": "Well, if you want me to calculate... Lets say 10min per map (you can be faster) - 5 hours to run the maps. Getting to cities, spreading deli, increasing it to 200%... Say another 100 travel maps at 3 min per map. 5 more hours. Add 2 hours for buying/selling/chilling. 660/12 = 55D per hour. Can be more or less depending on your speed. Less in my case."
+        "author": "kncmusic",
+        "score": 50,
+        "body": "\"Fixed a bug where some monsters in Expeditions could become invisible and invincible.\" Expedition back to the menu"
       }
     ]
   },
   {
-    "id": "1uk2lf2",
-    "title": "Two big reasons why Runic Ward is amazing",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uk2lf2/two_big_reasons_why_runic_ward_is_amazing/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Ngl, I am addicted to Runic Ward now. I have always been a big fan of Recovery based builds, like Mana stacking regen/remnants etc. Runic ward is like this, but now you can also do both!</p> <p>For me, there are two very powerful Runes in particular that I have made excellent use of for ward builds:</p> <p>1) Rune of Equinox (caster weapons): Your mana regen applies to runic ward regen too, but you have 40% less mana regen </p> <p>2) Rune of Annihilation (martial weapons): spend 5% of your runic ward to add that amount as flat phys to weapon attacks </p> <p>#2 is an amazing way to further buff low level uniques. The Lorrata spear is pretty popular this season with being able to buff it a bit with runeforge. People are typically playing Original sin version, but Runic ward scaling is an alternative, or an addition. But you can also use this for loads of weapons, typically ones that won&#39;t need Iron runes.<br/> -&gt; The rune is also not local to attacks made with the weapon, and will add damage to attacks with their own bases like Repulsion, Caltrops and the new Conductive runes!<br/> -&gt; The Runic Infusion support gem will add another 5% of max ward as flat phys, but at the cost of 20% max ward per cast</p> <p>#1 can be used in caster weapons, which includes sceptres. This can work well with Spear+sceptre combo, so being able to use #2 as well in a Lorrata or Tangletongue spear, for example. Sceptre can roll max mana and mana regen, and with a stoic that has discipline aura + eldritch battery to convert the ES into Mana, you can get a good +500 max mana just from a sceptre. </p> <p>For use with #1, building around 50% mana before life is extremely effective, as it can in effect double your hit pool recovery. In a situation where you are down to 0 life and you take, for example, 1000 dmg, with 50% mana before life you would take 500 to ward, 500 to mana. If you had 500 mana regen p/s, with your mana regen *also* applying to ward, you will recover 500 mana and 500 ward in one second, therefore fully recovering the 1000 dmg. </p> <p>-&gt; Tldr with Rune of Equinox, 50% mana before life will effectively double your hit pool recovery for dmg taken beyond your Life pool. </p> <p>Two main problems with Runic ward builds are Stun and ailment threshold, as it is also with max mana builds. Without stacking life or ES with % of ES as Stun /ailment threshold, your base is low, while not having dmg reduction like armour. </p> <p>-&gt; Dream Fragments is an amazing solution for ailments when used on max mana/runic ward build. You get % max mana, mana regen, and Immune to chill and freeze, which is forking amazing. Ignite becomes far less of an issue because of high recovery, but you can supplement this with charm. </p> <p>-&gt; Flesh crucible: Unwavering Stance fixes stun threshold as it just straight up makes you immune to stuns. But this comes at the cost of not being able to dodge/sprint. Pros/cons, it prevents you from being sprint stunned, because you can&#39;t sprint! This really slows you down out of combat. Mageblood with at least one quicksilver legacy helps a lot. Disengage is better than dodge roll, as it moves you through enemies, and it also a travel skill, so I have just started using it on all builds like this. On any crit build, it is a pretty great skill on weapon swap, as you can use weapon swap points for shock magnitude, getting &#39;guaranteed&#39; shocks with Shocking Leap support. Wolf on weapon swap is also good for the movement speed and/or pounce (and shock weapon swap). Pounce and disengage don&#39;t share a cd, so you can even use both if you can. </p> <p>(I feel spoiled after playing a build with immune to chill/freeze/stun, and kind of don&#39;t want to ever play without it again.)</p> <p>But what about CI?<br/> Being able to stack Runic ward + Mana, and overflow both with their respective remnant skill sounds great for CI. However, you cannot use Olroths flask with CI, as you have to have an amount of life to recover for flask to be used, so you lose out on the insane Guard amount stacked on top of your hit pools. I am unaware if there is a way around this. But chaos res cap is much more easily obtained with Void flux, and adding life pool on top of Ward/Mana is just added gains. </p> <p>Uhtreds Chalice mana flask is amazing, as well. </p> <p>What other really cool tech have people found with Ward builds?</p> <p>Tldr, this is how I ended up playing Splinter of Lorrata/Plague bearer Runic ward/mana stacking Stormweaver...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Q_elle\"> /u/Q_elle </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uk2lf2/two_big_reasons_why_runic_ward_is_amazing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uk2lf2/two_big_reasons_why_runic_ward_is_amazing/\">[comments]</a></span>",
-    "published": "2026-06-30T21:43:25+00:00",
-    "author": "/u/Q_elle",
-    "images": [],
+    "id": "1uly7ze",
+    "title": "Rare that needs minions to be killed to die, still bricked in GE's",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uly7ze/rare_that_needs_minions_to_be_killed_to_die_still/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uly7ze/rare_that_needs_minions_to_be_killed_to_die_still/\"> <img src=\"https://preview.redd.it/o9btg5cviwah1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b7eeb2e49a2ab5604cc50830a73348b8f541c2cc\" alt=\"Rare that needs minions to be killed to die, still bricked in GE's\" title=\"Rare that needs minions to be killed to die, still bricked in GE's\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Grazed Prairie map</p> <p>It&#39;s a tiny map and ive ran the entire thing 10+ times. No minion to be found. Wont let me kill it and progress. Rip a use off my Aldurs.</p> <p>Also says 1 monster remaining and the 1 monster is the bugged one.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DaddyKun_\"> /u/DaddyKun_ </a> <br/> <span><a href=\"https://i.redd.it/o9btg5cviwah1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uly7ze/rare_that_needs_minions_to_be_killed_to_die_still/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-02T23:35:15+00:00",
+    "author": "/u/DaddyKun_",
+    "images": [
+      "https://i.redd.it/o9btg5cviwah1.png"
+    ],
     "video": null,
-    "score": 17,
+    "score": 25,
     "comments": [
       {
-        "author": "Shaz_berries",
-        "score": 11,
-        "body": "What I'll say is on my mage, just 250 total runic ward and no other investment is enough to support a verisium infusion, giving me 3 infusion every ~4s. Really insane, and just need to sacrifice a little defense here n there"
-      },
-      {
-        "author": "FattestRabbit",
-        "score": 2,
-        "body": "This is the way"
-      },
-      {
-        "author": "aDuggie",
+        "author": "P1NK2906",
         "score": 8,
-        "body": "Amazon is amazing for stacking rune ward. Get a reverie chest unique that makes your life flask recover indefinitely at a less regen rate Get the amazon ascendency notable that let's you recover mana from life flask and vice versa You'll have about 1000 regen / sec for life and mana Get the rune for armour that let's you recover runic ward for 15% of your life flask recovery (about 150 runic ward / sec indefinitely since your life flask is always running) Get the rune that let's your mana recover also apply to runic ward (vastly boosts the flat recovery from the first ward) Get the belt that h"
+        "body": "Nah.. FK THAT. I'm out. 3 in 5 Aldur's Saga maps lost.. same shit, immortal scorpions;"
       },
       {
-        "author": "Q_elle",
-        "score": 1,
-        "body": "Oh cool, I didnt know about the Reverie skill working for Runic ward. I looked at the item some, and was turned off by it because it pairs well with some different belts, but I don't want to give up mageblood :/"
+        "author": "P1NK2906",
+        "score": 8,
+        "body": "Same here.."
       },
       {
-        "author": "PoE_Acronym_Bot",
-        "score": 1,
-        "body": "I noticed some Path of Exile keywords in this post: CI - Chaos Inoculation keystone passive skill ( Wiki ) ES - Energy Shield ( Wiki ) I am a bot. | All acronyms | Suggest"
-      },
-      {
-        "author": "Chipper323139",
-        "score": 1,
-        "body": "How much runic ward can you realistically stack and can you regen it fast enough to spam Spearfield?"
-      },
-      {
-        "author": "Q_elle",
-        "score": 2,
-        "body": "I use Brass dome, and I have about 2600 Ward. Spearfield cannot use the Runic Infusion support gem, as the support gem does not support skills with the \"Sustained\" tag. Originally I thought Spearfield would be good for this, as you get many hits per cast, especially with knockback or reduced skill effect duration. I have around 500 mana regen, more ish if my mana is low. So, the answer is Yes, I can regen fast enough for spearfield, as it is only using 5% from annihilation. I also use Repulsion, and regen + remnants will easily sustain spearfield+repulsion procs. In my build, I am more so usin"
-      },
-      {
-        "author": "Chipper323139",
-        "score": 2,
-        "body": "Got it. But Spearfield does benefit from the rune in weapon no?"
-      },
-      {
-        "author": "aDuggie",
-        "score": 1,
-        "body": "Over 1300+ using reverie and some runes. It kind of sucks that you can't use the brass dome enchanted to give like 2k runic ward, but I regen 200-300 ward /sec so it's easily sustainable"
-      },
-      {
-        "author": "Chipper323139",
-        "score": 1,
-        "body": "So you get like 100 flat dmg from the rune, not terrible I guess. Is that enough to be transformative?"
-      }
-    ]
-  },
-  {
-    "id": "1uk8gpz",
-    "title": "Some Djinn MTXs have been quietly removed from the shop.",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uk8gpz/some_djinn_mtxs_have_been_quietly_removed_from/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uk8gpz/some_djinn_mtxs_have_been_quietly_removed_from/\"> <img src=\"https://preview.redd.it/vvu1k9mhwiah1.jpg?width=140&amp;height=96&amp;auto=webp&amp;s=c7988f9e245b2aca9d543e73ce53f3c245f27b24\" alt=\"Some Djinn MTXs have been quietly removed from the shop.\" title=\"Some Djinn MTXs have been quietly removed from the shop.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://pathofexile2.com/shop\">https://pathofexile2.com/shop</a></p> <p><a href=\"https://poe2db.tw/us/Djinn_Weapon_Skin\">https://poe2db.tw/us/Djinn_Weapon_Skin</a></p> <p><a href=\"https://poe2db.tw/us/Djinn_Character_Skin\">https://poe2db.tw/us/Djinn_Character_Skin</a></p> <p>The Djinn Weapon Skin and the Djinn Character Skin have been removed from the shop.</p> <p>These MTXs were not time-limited items, and other Djinn-themed MTXs are still available in the shop.</p> <p>I haven&#39;t seen any mention of this in the recent patch notes.</p> <p><del>Although I haven&#39;t been able to verify this myself, I&#39;ve heard that players who previously purchased these MTXs can&#39;t even use them in-game right now. If you already own them, please check and see if they are still in your MTX inventory.</del> EDIT: Looks like that was misinformation. Thanks for the answer!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Andromanner\"> /u/Andromanner </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1uk8gpz\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uk8gpz/some_djinn_mtxs_have_been_quietly_removed_from/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-01T01:58:43+00:00",
-    "author": "/u/Andromanner",
-    "images": [
-      "https://i.redd.it/vvu1k9mhwiah1.jpg"
-    ],
-    "video": null,
-    "score": 42,
-    "comments": [
-      {
-        "author": "Astrosloth92",
-        "score": 58,
-        "body": "don't they know you can't put the genie back in the bottle"
-      },
-      {
-        "author": "Disastrous_Chef_812",
-        "score": 25,
-        "body": "Me being the sucker that bought this skin thinking it turned you into a woman on any character"
-      },
-      {
-        "author": "BetweenTheRoots",
-        "score": 17,
-        "body": "They said they're working on a MTX for gender swapping characters a LONG time ago (I think around PoE 2 beta beginning or just before). Now that we're seeing more and more base model MTX like the Goblin and what not, I'd imagine they're just around the corner."
-      },
-      {
-        "author": "General_Dinner_996",
-        "score": 2,
-        "body": "That's super cool! Also a permanent transmog system to the likes of having a library of all the uniques collected and being able to use any available skin would go a long way in character customization. Some unique looks synergise super well. Frankly better than skins in most cases. I am using: Cospri's Will Assasin Garb Mind of the council Death Mask Essentia Sanguis Furtive Warps Gabmlesprint Embrossed Boots"
-      },
-      {
-        "author": "Mr_Krinkle",
-        "score": 3,
-        "body": "They are also working on a permanent transmog system. How it's taking this long, I don't know."
-      },
-      {
-        "author": "Goon_Unit",
-        "score": 2,
-        "body": "I only remember them mentioning this in an interview before the beta launched. They were asked if each class would be able to pick a gender like in d4 or if they would be gender locked like in poe1. They said they designed the characters and dialogue with gender in mind and they hadn't considered adding any alternatives. Jonathan suggested that maybe in the future it could be an MTX but that came off as a spitball idea for something way in the future and not anything actively being developed. That being said I'd definitely buy gender swap MTX and I hope they announce something soon."
-      },
-      {
-        "author": "Canksilio",
-        "score": 7,
-        "body": "Gonna be real I looked at the djinn character skin at some point and literally could not tell the difference between it and default"
-      },
-      {
-        "author": "MildStallion",
-        "score": 5,
-        "body": "It's tattoos but the face is mostly left clean, so if you aren't wearing something that shows skin it doesn't really do anything. It's easier to tell on huntress cause she already has some face paint or something, and that gets removed."
-      },
-      {
-        "author": "tooncake",
+        "author": "DeadlyBannana",
         "score": 6,
-        "body": "Wait what? and I'm about to buy them soon.. Are they planning it perhaps on a new npc eventually?"
+        "body": "I was looking forward to finally doing expeditions after I saw the patch notes. I stopped because of these specific bugs. Guess I'm sticking to rituals after all."
       },
       {
-        "author": "Barnesnrobles17",
-        "score": 5,
-        "body": "Huh yeah they were on my wishlist and now they’re not, wonder why they removed em?"
+        "author": "Xzubiidhu",
+        "score": 3,
+        "body": "its worse than before"
+      },
+      {
+        "author": "DeadlyBannana",
+        "score": 7,
+        "body": "I really don't understand why don't they just remove this stupid mechanic and call it a day. It's not fun to deal with even when it is working properly, let alone when it isn't."
+      },
+      {
+        "author": "Peelz4Dead",
+        "score": 7,
+        "body": "Just happened to me in an Aldurs saga expedition using 3 tablets that were 7 div ea and there is an aldur's saga in the map I can't get. V E R Y C O O L"
+      },
+      {
+        "author": "ezakuroy",
+        "score": 2,
+        "body": "Not going to run expeditions for the time being - first map for me this happened"
+      },
+      {
+        "author": "perfect-high",
+        "score": 1,
+        "body": "Just stopped to say Mm2 is goated"
+      },
+      {
+        "author": "WilG20",
+        "score": 0,
+        "body": "Just happened to me too, and on a map that I got 10 runes remnant..."
+      },
+      {
+        "author": "mandox1",
+        "score": -3,
+        "body": "Man, I’ve done so many expeditions, literal hundreds, and haven’t had this happen a single time. There’s always a small mob a ways away. Unfortunate luck I guess"
       }
     ]
   },
   {
-    "id": "1ukj42v",
-    "title": "PSA: If you roll out of the Expedition final boss key animation, you lose it",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ukj42v/psa_if_you_roll_out_of_the_expedition_final_boss/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>When using The Triskelion Reforged to fight the last Expedition boss, do not dodge roll. I did, it cancelled the animation and did not lower the barrier while still consuming the triskelion in my inventory. Lol</p> <p>Not really a big deal since they&#39;re quite cheap, but I could see newer players getting frustrated at losing the key to their first try.</p> <p>EDIT so people who find the thread know you can just relog to fix it, as per comments</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pedrw1884\"> /u/pedrw1884 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ukj42v/psa_if_you_roll_out_of_the_expedition_final_boss/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ukj42v/psa_if_you_roll_out_of_the_expedition_final_boss/\">[comments]</a></span>",
-    "published": "2026-07-01T11:34:29+00:00",
-    "author": "/u/pedrw1884",
+    "id": "1ulz69i",
+    "title": "Path of Exile 2 will be heading to Gamescom with an exclusive demo!",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ulz69i/path_of_exile_2_will_be_heading_to_gamescom_with/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulz69i/path_of_exile_2_will_be_heading_to_gamescom_with/\"> <img src=\"https://external-preview.redd.it/ArTk8y34SYIDi_1NjB4jdM4YaHEvgbnRycvHse5Aqy8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=281aef6966b4c68ecd44fb78579307c3c1a919f8\" alt=\"Path of Exile 2 will be heading to Gamescom with an exclusive demo!\" title=\"Path of Exile 2 will be heading to Gamescom with an exclusive demo!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zeekidc2\"> /u/zeekidc2 </a> <br/> <span><a href=\"https://www.pathofexile.com/forum/view-thread/3980614/page/1#p26776685\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulz69i/path_of_exile_2_will_be_heading_to_gamescom_with/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T00:17:59+00:00",
+    "author": "/u/zeekidc2",
     "images": [],
     "video": null,
-    "score": 88,
+    "score": 325,
     "comments": [
       {
-        "author": "MrFasy",
-        "score": 16,
-        "body": "Had you same experience some days ago but didnt notice the \"roll\" part of it. I thought the gods of wareclast just decided to eat my trikelion"
+        "author": "zeekidc2",
+        "score": 187,
+        "body": "They are probably teasing the new class or a new act at Gamescom."
       },
       {
-        "author": "bjorn_poole",
-        "score": 6,
-        "body": "The triskelion bugged for me in the quest version a few days after launch & i fixed it by shimmying around the energy aura thing until the objective updated"
+        "author": "Feisty_Calendar_6733",
+        "score": 154,
+        "body": "Could be PoE3."
       },
       {
-        "author": "IamJashin",
-        "score": 4,
-        "body": "Log out and in."
+        "author": "mobiuz_nl",
+        "score": 28,
+        "body": "Escape from wreaclast would be my guess"
       },
       {
-        "author": "Grimmjoww252",
-        "score": 4,
-        "body": "It’s a known bug roll or not. Just log out and back in and barrier is down"
-      },
-      {
-        "author": "SuckaB",
-        "score": 3,
-        "body": "Happened to me too. Didnt know you can relog to get it back."
-      },
-      {
-        "author": "-Midas-",
-        "score": 3,
-        "body": "I just went back to my hideout and then went back in and the barrier was down."
-      },
-      {
-        "author": "Sadness-Will-Sear",
-        "score": 2,
-        "body": "I think you can just open a new instance and it gets fixed. Happened to me on the quest run also."
-      },
-      {
-        "author": "otsu97",
-        "score": 4,
-        "body": "that only works on the quest run, does not work on the non-quest triskeles"
-      },
-      {
-        "author": "pedrw1884",
-        "score": 1,
-        "body": "Oh, well. I actually had two in my inventory, so I just opened it again and didn't roll that time"
-      },
-      {
-        "author": "ShimaDango",
-        "score": 1,
-        "body": "Got the same bug when i clicked too fast and transform into a wyvern to do a rend. Guess anything that cancels animation can screw it up."
-      }
-    ]
-  },
-  {
-    "id": "1ukmv4x",
-    "title": "Spamming Right Mouse Button nearly doubles Resonating Shield Attack Speed",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ukmv4x/spamming_right_mouse_button_nearly_doubles/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ukmv4x/spamming_right_mouse_button_nearly_doubles/\"> <img src=\"https://external-preview.redd.it/emI5YTNkM3RsbWFoMVxF-lTgS4RsPqpFxP8Tc0-tqiJVCoxHDnZhfEMMULLz.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3c948ec563d69aad16b80e764061db06dc1867f6\" alt=\"Spamming Right Mouse Button nearly doubles Resonating Shield Attack Speed\" title=\"Spamming Right Mouse Button nearly doubles Resonating Shield Attack Speed\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I tested it in maps, and it does work. Definitely shouldn&#39;t be working this way.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jazzlike_Emu8440\"> /u/Jazzlike_Emu8440 </a> <br/> <span><a href=\"https://v.redd.it/sn5p8t2tlmah1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ukmv4x/spamming_right_mouse_button_nearly_doubles/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-01T14:13:20+00:00",
-    "author": "/u/Jazzlike_Emu8440",
-    "images": [],
-    "video": "https://v.redd.it/sn5p8t2tlmah1",
-    "score": 92,
-    "comments": [
-      {
-        "author": "RyujinNoRay",
-        "score": 3,
-        "body": "literally the first thing came to my mind lmaoo"
-      },
-      {
-        "author": "Wheaterz9",
-        "score": 38,
-        "body": "A lot of the mace skills have a wind down time post attack, any block or dodge input cancels those and resonating shield counts as a block, meaning it can cancel into itself on a new press. You can get a lot more attacks and mobility by cancelling the mace moves with Resonating shield and then going again. I also don't like that animation cancel tech is necessary to make mace somewhat mobile. You're already locked into long attack animations I shouldn't then also be locked in a long post attack animation."
-      },
-      {
-        "author": "The-Root-Word",
-        "score": 5,
-        "body": "I'm ambivalent toward animation canceling, as I understand the arguments for and against it. Players who like higher skill ceilings love them while those who just want brain off hold button win hate them"
-      },
-      {
-        "author": "SimpleNovelty",
-        "score": 2,
-        "body": "It'd be nice if animation canceling wasn't only possible with dodge roll. My melee mace skill build was literally attack and spam dodge roll the second it connected because otherwise I'd be stuck waiting and taking hits because of how slow every skill is. And I'll be honest, I'd rather just be able to keep moving while using a melee skill like every other spell/ranged attack."
-      },
-      {
-        "author": "Wheaterz9",
-        "score": 2,
-        "body": "I would agree, but it's not even a true animation cancel. If you cancel out with block you still can't do a new attack action until the wind down would have ended. That's my experience of Titan's blood 2 hander and shield at least."
-      },
-      {
-        "author": "Greaterdivinity",
-        "score": 2,
-        "body": "It's with all melee skills, mace just has the longest wind down times. I utterly loath how the optimal and \"not dogshit-feeling\" way of playing melee is to dodge cancel out of the finishing animation constantly. No reason for that shit to take so long."
-      },
-      {
-        "author": "UseExact3011",
-        "score": 18,
-        "body": "This is the same concept with spark's mobility. You can spam click spark with less movement penalty"
-      },
-      {
-        "author": "DeBlackKnight",
+        "author": "EggplantNo2245",
         "score": 7,
-        "body": "And spell totems, and probably every non-channeled spell in the game"
+        "body": "Going to oriath in act 5 would technically be escaping wraeclast. Act 5 confirmed"
       },
       {
-        "author": "XypherFTW",
-        "score": 2,
-        "body": "Can confirm it works for fireball as well. Holding the key means movespeed reduction but if you spam click you move normally when a fireball isnt in your hand"
+        "author": "Kamlol",
+        "score": 6,
+        "body": "Swords?"
       },
       {
-        "author": "raban0815",
-        "score": 3,
-        "body": "Spam too much and you cancel the animation"
-      }
-    ]
-  },
-  {
-    "id": "1uknjxz",
-    "title": "Sell your tablets guys",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uknjxz/sell_your_tablets_guys/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uknjxz/sell_your_tablets_guys/\"> <img src=\"https://preview.redd.it/xd32s88qqmah1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=899dfbecc0458b2a3b2327ceb89ee2ea9802db87\" alt=\"Sell your tablets guys\" title=\"Sell your tablets guys\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Such value, much win</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Such--Balance\"> /u/Such--Balance </a> <br/> <span><a href=\"https://i.redd.it/xd32s88qqmah1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uknjxz/sell_your_tablets_guys/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-01T14:39:37+00:00",
-    "author": "/u/Such--Balance",
-    "images": [
-      "https://i.redd.it/xd32s88qqmah1.png"
-    ],
-    "video": null,
-    "score": 161,
-    "comments": [
-      {
-        "author": "PapaGlapa",
-        "score": 126,
-        "body": "I guess I don’t understand the game well enough to comprehend how a tablet would be worth 60 div. I can’t imagine that a single tablet limited to 10 runs would net 6 divs a run (at minimum)? I probably don’t know what I’m talking about though."
+        "author": "Sorry_Commission7740",
+        "score": 178,
+        "body": "poe 3 hype"
       },
       {
-        "author": "spicylongjohnz",
-        "score": 79,
-        "body": "It nets more than 6/map, especially if combined with party play."
+        "author": "JustRegularType",
+        "score": 68,
+        "body": "Finally, melee will be fixed!"
       },
       {
-        "author": "Incognitomous",
-        "score": 49,
-        "body": "Giga optimized abyss or breach setups can easily net more than 30-40div in revenue per map."
+        "author": "Nenconnoisseur",
+        "score": 37,
+        "body": "Jonathan \" I am improving melee, pray I do not improve it further \" will be there for sure"
       },
       {
-        "author": "pzBlue",
-        "score": 34,
-        "body": "Excluding what people said about party play, you also look at it wrong. Yes, it's a single tablet for 10 maps, it affects all abysses in this map, so if you combine them with unique or 3 other tablets in cities, value of it is a lot higher than just looking at tablet by itself."
+        "author": "KRX-",
+        "score": 50,
+        "body": "They might let you play through an area or two of Act 5 Something that might look similar to the Merc or Ranger showcase we saw years ago. However, I highly doubt we'll see anything brand new, and there certainly wont be a new class. Not because it isn't coming... but because I don't believe GGG would undermine Exilecon's main announcements."
       },
       {
-        "author": "SwangAroundnFindOut",
+        "author": "TheArhive",
         "score": 15,
-        "body": "It sells because it’s worth it for them. Never run expensive tablets in solo play though, in general you’ll not make your money back over time."
-      },
-      {
-        "author": "Aldunas",
-        "score": 40,
-        "body": "what was the tablet?"
-      },
-      {
-        "author": "iLoveSTiLoveSTi",
-        "score": 69,
-        "body": "Seriously, \"sell your tablets\" like they are all worth 60 div lol. We need to see those mods."
-      },
-      {
-        "author": "Jotun35",
-        "score": 11,
-        "body": "This. I had a look at my tablets yesterday: that was 12 divs (1 div tablet + an 11 one). That's it. Most tablets are dirt cheap because most mods are garbage."
-      },
-      {
-        "author": "SnooPeanuts9003",
-        "score": 24,
-        "body": "you guys just alch your tablets? or improve them any other way?"
-      },
-      {
-        "author": "Ultimesk",
-        "score": 59,
-        "body": "If it's magic or normal try transmute/aug in case you get a GG mod. If it's bad alch it, it will reroll them"
+        "body": "Hear me out... They announce TWO classes at exilecon."
       }
     ]
+  },
+  {
+    "id": "1ulz8vf",
+    "title": "PSA : Don't do expedition until next hotfix that fixes this mess",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ulz8vf/psa_dont_do_expedition_until_next_hotfix_that/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>3/3 expeditions bricked since new patch, was pretty good aldur saga expeditions too. Literally every expedition bricks due to some immortal mob or some other shit that stops the detonation chain. It is so bad that it feels like expedition had 0 bugs before the patch.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BigGameHunterMusic\"> /u/BigGameHunterMusic </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulz8vf/psa_dont_do_expedition_until_next_hotfix_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ulz8vf/psa_dont_do_expedition_until_next_hotfix_that/\">[comments]</a></span>",
+    "published": "2026-07-03T00:21:24+00:00",
+    "author": "/u/BigGameHunterMusic",
+    "images": [],
+    "video": null,
+    "score": 117,
+    "comments": [
+      {
+        "author": "convolutionsimp",
+        "score": 41,
+        "body": "I thought the patch was supposed to fix it... \"fixed a bug where some monsters in Expeditions could become invisible and invincible\""
+      },
+      {
+        "author": "sushisashimisushi",
+        "score": 39,
+        "body": "Yeah, it was supposed to happen all the time instead of sometimes /s"
+      },
+      {
+        "author": "convolutionsimp",
+        "score": 10,
+        "body": "At least the rng is gone, people always say they want determinism"
+      },
+      {
+        "author": "flyboyx26",
+        "score": 17,
+        "body": "Yup its the damn scorpion every time"
+      },
+      {
+        "author": "Royal_Box_2672",
+        "score": 9,
+        "body": "Lol seems like it's happening more than before now"
+      },
+      {
+        "author": "c-lati",
+        "score": 2,
+        "body": "Before it only happened on Barren Atoll. Now it’s happening in every map. It’s just they aren’t invisible anymore and untargetable anymore. But they are invencible."
+      },
+      {
+        "author": "rancidmeat5511",
+        "score": 8,
+        "body": "Same. Ive had 2 bricks in a row due to invulnerable monsters. One from a shared minion life where the minion didnt exist and the other was a monster whom my spell totems wouldn't attack in addition to it looking like Arc would even chain to it (at least didnt do damage if it did chain)."
+      },
+      {
+        "author": "Ehjookayted",
+        "score": 5,
+        "body": "Same issue. 2/2 Aldur’s Saga maps bricked. Shared minion life rune is untakeable. Hope this gets fixed ASAP."
+      },
+      {
+        "author": "lucio_tuli",
+        "score": 4,
+        "body": "I thought i was going crazy and that my build couldnt handle a 6 rune rock... this needs to be fixed asap"
+      },
+      {
+        "author": "Eep1337",
+        "score": 2,
+        "body": "yep bump"
+      }
+    ]
+  },
+  {
+    "id": "1um12ts",
+    "title": "Expedition still has immortal mob issues, I woudn't do any aldurs right now",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1um12ts/expedition_still_has_immortal_mob_issues_i_woudnt/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um12ts/expedition_still_has_immortal_mob_issues_i_woudnt/\"> <img src=\"https://external-preview.redd.it/GjoZ4KTnpSnq2zOrBD6-ZB6X4zqu0LPO0r6hd4NbT30.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=17e9db249f30c78df8063936777f8ad3fc598eca\" alt=\"Expedition still has immortal mob issues, I woudn't do any aldurs right now\" title=\"Expedition still has immortal mob issues, I woudn't do any aldurs right now\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SelfReconstruct\"> /u/SelfReconstruct </a> <br/> <span><a href=\"https://i.imgur.com/0OFjD36.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um12ts/expedition_still_has_immortal_mob_issues_i_woudnt/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T01:49:00+00:00",
+    "author": "/u/SelfReconstruct",
+    "images": [],
+    "video": null,
+    "score": 65,
+    "comments": [
+      {
+        "author": "holy_calamity_",
+        "score": 23,
+        "body": "It literally seems more common after the patch"
+      },
+      {
+        "author": "SelfReconstruct",
+        "score": 5,
+        "body": "Yeah, I never had the issue on remnants before the patch, just on the grand expedition with the strongboxes from the strongbox monsters themselves. I started treating the boxes as map killing landmines and never ran into the invisible immortal mobs again until this patch. Not invisible, but definitely immortal."
+      },
+      {
+        "author": "Eceer704",
+        "score": 6,
+        "body": "seems to always be that scorpion guy, just had same issue and lost the map"
+      },
+      {
+        "author": "Minimum-Effort",
+        "score": 5,
+        "body": "Confirming it happened to me, first explosion first map after patch. It was a rerolled Legacy near spawn so of course I started the chain there, but the first rare from the first wave was immortal so the whole exped bricked"
+      },
+      {
+        "author": "zethras",
+        "score": 2,
+        "body": "This just happened to me. Im done with expedition. Back to voice farming."
+      },
+      {
+        "author": "Victorio45",
+        "score": 1,
+        "body": "Culling strike SHOULD be a thing to destroy that, SHOULD"
+      },
+      {
+        "author": "Blestyr",
+        "score": 2,
+        "body": "Probably the biggest \"fixed but not fixed\" patch in POE2 so far."
+      },
+      {
+        "author": "SelfReconstruct",
+        "score": 1,
+        "body": "Further Update: Esh and Tul were supposedly fixed in this patch, but they are still bugged as well. GGG needs to get it together."
+      },
+      {
+        "author": "Dysghast",
+        "score": 2,
+        "body": "Easily fixed if they just relented and removed all invincibility nonsense in the game."
+      },
+      {
+        "author": "johnnybeesknees",
+        "score": 1,
+        "body": "Woke up with 2 grand expeditions left from an aldurs saga to do and am very grateful for all these warnings. Hopefully they fix it soon."
+      }
+    ]
+  },
+  {
+    "id": "1um2z88",
+    "title": "0.5.4b Hotfix 2",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1um2z88/054b_hotfix_2/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um2z88/054b_hotfix_2/\"> <img src=\"https://external-preview.redd.it/ArTk8y34SYIDi_1NjB4jdM4YaHEvgbnRycvHse5Aqy8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=281aef6966b4c68ecd44fb78579307c3c1a919f8\" alt=\"0.5.4b Hotfix 2\" title=\"0.5.4b Hotfix 2\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><ul> <li>Fixed a bug where the Oath Rune could spawn a single invincible Monster that could not die.</li> <li>Fixed a bug where you could interact with Verisium Remnants after applying Liquid Verisium to them in Expeditions and Grand Expeditions.</li> <li>Fixed a bug where the option to quick-apply a Liquid Verisium to a Remnant would not always be visible.</li> <li>Fixed a bug where the red text colour used in various locations changed unexpectedly.</li> </ul> <p>This patch was deployed without restarting the servers, you&#39;ll need to restart your client to patch the client changes.<br/> The console clients for this patch will be released later today.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Andromanner\"> /u/Andromanner </a> <br/> <span><a href=\"https://www.pathofexile.com/forum/view-thread/3980736\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um2z88/054b_hotfix_2/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T03:20:35+00:00",
+    "author": "/u/Andromanner",
+    "images": [],
+    "video": null,
+    "score": 228,
+    "comments": [
+      {
+        "author": "BeMyBrutus",
+        "score": 85,
+        "body": "Wait, if we can't see the liquid verisium changes anymore than how do I know if I'm gonna choose it? That kind of bricks the whole system."
+      },
+      {
+        "author": "prod44",
+        "score": 49,
+        "body": "Ya, this change makes it a lot worse. No more planning, just yolo into random ones"
+      },
+      {
+        "author": "Pretend-Guide-8664",
+        "score": 28,
+        "body": "I think that was the original intention, the UI popping up still seemed unintentional. It's meant to be a lottery style instant pop Knowing what it was without looking up a cheat sheet was nice though and I think they should consider putting the reward choice in a floating text above the rolled remnant"
+      },
+      {
+        "author": "convolutionsimp",
+        "score": 27,
+        "body": "The lottery style reward is fine, but not being able to see what rune propagates removes all kinds of agency from running expeditions. Now it's just rng while before there was at least some agency and planning involved. It doesn't make any sense. In a previous patch they explicitly added the propagation thing so that we can (supposedly) make interesting decisions about how to propagate mods. And now they are just removing a big part of that?"
+      },
+      {
+        "author": "Rholo-dolo",
+        "score": 26,
+        "body": "I just noticed this in my grand expedition and I hate it lol. Like what's the point of re rolling. It auto picks it anyways so what's the harm in seeing them?"
+      },
+      {
+        "author": "convolutionsimp",
+        "score": 85,
+        "body": "Fixed a bug where the red text colour used in various locations changed unexpectedly As a developer myself I kind of have to wonder how text color can change unexpectedly. Like, what system changes could have possibly led to text color changing if no related ui changes were intended. It's just that these UI things are typically completely separate from all the system logic. Or mayeb there was some other UI change in the patch that caused it?"
+      },
+      {
+        "author": "KeyCapPusher",
+        "score": 51,
+        "body": "After seeing some posts about the corruption text I figured they might be making some changes for accessibility. Specifically color blind settings that were unintentionally changed for defaults"
+      },
+      {
+        "author": "polarfang21",
+        "score": 74,
+        "body": "Hold on, the being able to view the results of liquid before starting it wasn’t intended? Why not just keep it? Makes it easier to prepare or skip if it would be a waste of time"
+      },
+      {
+        "author": "Xeriuss2k17",
+        "score": 46,
+        "body": "GGG wants you to gamble, always been that way btw. Buffs and nerfs are just a rebalance of the gambling-factor."
+      },
+      {
+        "author": "Routine_Stranger_326",
+        "score": 75,
+        "body": "Re-roll change is such a fucking nerf."
+      }
+    ]
+  },
+  {
+    "id": "1um7323",
+    "title": "0.5.4b Hotfix 3 (Liquid verisium change reverted)",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1um7323/054b_hotfix_3_liquid_verisium_change_reverted/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.pathofexile.com/forum/view-thread/3980829\">https://www.pathofexile.com/forum/view-thread/3980829</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PersonalitySorry1898\"> /u/PersonalitySorry1898 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um7323/054b_hotfix_3_liquid_verisium_change_reverted/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um7323/054b_hotfix_3_liquid_verisium_change_reverted/\">[comments]</a></span>",
+    "published": "2026-07-03T06:55:16+00:00",
+    "author": "/u/PersonalitySorry1898",
+    "images": [],
+    "video": null,
+    "score": 119,
+    "comments": [
+      {
+        "author": "grouteu",
+        "score": 25,
+        "body": "alleluia"
+      },
+      {
+        "author": "DemolitionNT",
+        "score": 6,
+        "body": "BIG!"
+      },
+      {
+        "author": "__PRock",
+        "score": 8,
+        "body": "So how does this work you just slam liquid verisim during grand expeditions on bad rolled stones ?"
+      },
+      {
+        "author": "FantaSeahorse",
+        "score": 2,
+        "body": "Yep, pretty much"
+      },
+      {
+        "author": "KatzOfficial",
+        "score": 3,
+        "body": "Omg bless them fr"
+      },
+      {
+        "author": "Shimazu_Maru",
+        "score": 2,
+        "body": "Caved in to backlash? Papa Chris would never have done that."
+      },
+      {
+        "author": "Trooolllol",
+        "score": 39,
+        "body": "Players when GGG holds their ground: \"You guys suck! Yall never listen to players!!\" Also players when GGG listens to critism: \"You guys suck! No backbone!\""
+      },
+      {
+        "author": "Ynead",
+        "score": 1,
+        "body": "gomba"
+      },
+      {
+        "author": "dante3590",
+        "score": 2,
+        "body": "That's good. It didn't make sense at all the change."
+      },
+      {
+        "author": "imittn",
+        "score": 1,
+        "body": "That's so good thanks GGG actually best devs"
+      }
+    ]
+  },
+  {
+    "id": "1um778m",
+    "title": "You can once again interact with Verisium Remnants after applying Liquid Verisium to them in Expeditions and Grand Expeditions.",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1um778m/you_can_once_again_interact_with_verisium/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.pathofexile.com/forum/view-thread/3980829\">https://www.pathofexile.com/forum/view-thread/3980829</a></p> <p>Expedition is back baby.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nhocbaongoc\"> /u/nhocbaongoc </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um778m/you_can_once_again_interact_with_verisium/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um778m/you_can_once_again_interact_with_verisium/\">[comments]</a></span>",
+    "published": "2026-07-03T07:01:29+00:00",
+    "author": "/u/nhocbaongoc",
+    "images": [],
+    "video": null,
+    "score": 33,
+    "comments": [
+      {
+        "author": "fahrenhate",
+        "score": 1,
+        "body": "one of us!"
+      },
+      {
+        "author": "mmateus7",
+        "score": 1,
+        "body": "This means what? i can choose another one from new list? Edit: Nevermind, i already saw what they changed and was reading this with incorrect information."
+      }
+    ]
+  },
+  {
+    "id": "1um83bc",
+    "title": "Liquid Verisium Has Been Changed Back",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1um83bc/liquid_verisium_has_been_changed_back/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um83bc/liquid_verisium_has_been_changed_back/\"> <img src=\"https://preview.redd.it/lg7xsj9g0zah1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e3ae1e076656ce6a61caae4ca354de164c570610\" alt=\"Liquid Verisium Has Been Changed Back\" title=\"Liquid Verisium Has Been Changed Back\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>For those just seeing the front posts and not the hotfix</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Luqas_Incredible\"> /u/Luqas_Incredible </a> <br/> <span><a href=\"https://i.redd.it/lg7xsj9g0zah1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1um83bc/liquid_verisium_has_been_changed_back/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T07:54:14+00:00",
+    "author": "/u/Luqas_Incredible",
+    "images": [
+      "https://i.redd.it/lg7xsj9g0zah1.jpeg"
+    ],
+    "video": null,
+    "score": 86,
+    "comments": [
+      {
+        "author": "ns2b",
+        "score": 2,
+        "body": "Dam theyre good huh"
+      },
+      {
+        "author": "Mortradin",
+        "score": 1,
+        "body": "Good"
+      },
+      {
+        "author": "4rck",
+        "score": 10,
+        "body": "Because that would make it so OP? If thats the case then make Liquid Verisium so expensive."
+      },
+      {
+        "author": "I-N-V-A-L-I-D",
+        "score": 3,
+        "body": "Me when the gambling mechanic has gambling"
+      }
+    ]
+  },
+  {
+    "id": "1umd2gl",
+    "title": "PSA remove your jewel before selling your glove",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1umd2gl/psa_remove_your_jewel_before_selling_your_glove/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1umd2gl/psa_remove_your_jewel_before_selling_your_glove/\"> <img src=\"https://preview.redd.it/z4iz5qreb0bh1.png?width=140&amp;height=43&amp;auto=webp&amp;s=dc3137e7d06d1f6c897b9ce939d48167405de45a\" alt=\"PSA remove your jewel before selling your glove\" title=\"PSA remove your jewel before selling your glove\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Just bought this pair of glove for 350d that come with this jewel which cost around the glove itself</p> <p>idk if this player is end league and selling their stuff or forgot about it</p> <p><a href=\"https://preview.redd.it/z4iz5qreb0bh1.png?width=1491&amp;format=png&amp;auto=webp&amp;s=b07b050509df0fb527ca35870821b1f8caebe7bd\">https://preview.redd.it/z4iz5qreb0bh1.png?width=1491&amp;format=png&amp;auto=webp&amp;s=b07b050509df0fb527ca35870821b1f8caebe7bd</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TSW_Pisces\"> /u/TSW_Pisces </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1umd2gl/psa_remove_your_jewel_before_selling_your_glove/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1umd2gl/psa_remove_your_jewel_before_selling_your_glove/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T12:24:56+00:00",
+    "author": "/u/TSW_Pisces",
+    "images": [
+      "https://i.redd.it/z4iz5qreb0bh1.png"
+    ],
+    "video": null,
+    "score": 107,
+    "comments": [
+      {
+        "author": "laosguy615",
+        "score": 62,
+        "body": "TIL you can socket jewels in your gears"
+      },
+      {
+        "author": "Shimazu_Maru",
+        "score": 24,
+        "body": "Only in the gloves and it deletes everything other augment Socket"
+      },
+      {
+        "author": "xblackdemonx",
+        "score": 7,
+        "body": "TIL you can socket jewels in your gloves"
+      },
+      {
+        "author": "goldmeistergeneral",
+        "score": 6,
+        "body": "Wait til you see the Tabula Rasa levelling unique"
+      },
+      {
+        "author": "Ashencroix",
+        "score": 3,
+        "body": "Oh, what does it do in PoE2? I currently have one I'm slowly paying off in installments in rituals."
+      },
+      {
+        "author": "goldmeistergeneral",
+        "score": 7,
+        "body": "No stats or level/attribute requirements but 6 jewel sockets. Can be runeforged for 50k verisium (and one of the crest tokens) to give 150 runic ward"
+      },
+      {
+        "author": "niek_man",
+        "score": 25,
+        "body": "The more i learn the less i realize i know about this game. Im level 90 and every time i look to upgrade gear i go crosseyed with new info and just got back to mapping."
+      },
+      {
+        "author": "Kitaenyeah",
+        "score": 22,
+        "body": "Quite frankly that seems like and okay deal. I have crafted 50-100 of those jewels, they are pretty consistently to make for 140–190d. The gloves themselves also don‘t scream nowhere near 350d to me. 100-200? Sure."
+      },
+      {
+        "author": "d-crow",
+        "score": 22,
+        "body": "The jewel quality costs 100d"
+      },
+      {
+        "author": "mashandal",
+        "score": 2,
+        "body": "Yeah but it's wasted on that jewel, having only one caster mod touched by it."
+      }
+    ]
+  },
+  {
+    "id": "1umgkto",
+    "title": "PSA New Abyss bug after 0.5.4b patch - Occasional random faction selection",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1umgkto/psa_new_abyss_bug_after_054b_patch_occasional/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Just wanted to let all the fellow abyss enjoyers know that there is a new bug right after today&#39;s patch where there is a chance (maybe 5-10%) where your abyss faction type would NOT be the choice that is according to what you specced into your abyss atlas tree and it randomizes to an other faction. </p> <p>So that means if you are trying to farm for Omen of Lights with amanamu void rares, there will be a 5-10% chance of a map to not being able to drop any amanamu related omens like echoes or lights.</p> <p>Had over 20 other people on stream to confirm this bug in over 10-20 maps that they&#39;ve done and I myself had also 2 maps in 20 where i had monsters and loot that would not drop if it was amanamu (my abyss specced choice). </p> <p>Extra info: Bug still happens with or without overrun tablet.</p> <p>pls fix ggg</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redviles\"> /u/redviles </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1umgkto/psa_new_abyss_bug_after_054b_patch_occasional/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1umgkto/psa_new_abyss_bug_after_054b_patch_occasional/\">[comments]</a></span>",
+    "published": "2026-07-03T14:52:05+00:00",
+    "author": "/u/redviles",
+    "images": [],
+    "video": null,
+    "score": 12,
+    "comments": [
+      {
+        "author": "AutoModerator",
+        "score": 1,
+        "body": "Please make sure you check the Known Issues List or the Bug Report Forums for any pre-existing bug reports related to your issue. Duplicate reports on Reddit may be removed. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns."
+      }
+    ]
+  },
+  {
+    "id": "1ums06w",
+    "title": "How To Properly Reroll Verisium Remnants",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ums06w/how_to_properly_reroll_verisium_remnants/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ums06w/how_to_properly_reroll_verisium_remnants/\"> <img src=\"https://external-preview.redd.it/RWnSmt_j6uArm3oYfP5Tm2hZ961EKaYp-R7qxAkPLZw.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8c9169ad4541c664f84c6878d41030008eb731db\" alt=\"How To Properly Reroll Verisium Remnants\" title=\"How To Properly Reroll Verisium Remnants\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>After my rerolling cheat sheet has seen decent popularity and great positive feedback, I have now finished creating my videoguide around the topic.</p> <p>In this video I am deep diving and explaining the different ideas of rerolling within the cheat sheet, including examples and visualisations.</p> <p><a href=\"https://docs.google.com/spreadsheets/d/1RJjAVro0dqsZSlF0tzWExPs4sY9BjYF1wZjPrzzKFng/edit?usp=sharing\">Cheat Sheet</a></p> <p>Note that I have taken the base from a different cheat sheet and just put mine on the second page while editing the first one a bit. The original first page is not mine and comes from <a href=\"https://docs.google.com/spreadsheets/d/16YU8mSS7TdLPdmOunVjiPn_NrKVGfcnMkuMQDy8jgZA/htmlview?gid=0&amp;pru=AAABn04ciUY*-B8NoBxOBkDT8sBpbDOVNg#gid=0\">this</a></p> <p>While many other creators have covered expedition in the last couple of days I do think I can add some interesting stuff here or there.</p> <p>If any questions stay unanswered feel free to ask. I will try to answer everything</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Luqas_Incredible\"> /u/Luqas_Incredible </a> <br/> <span><a href=\"https://youtu.be/1orVbQ8cSV8\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ums06w/how_to_properly_reroll_verisium_remnants/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-03T22:25:13+00:00",
+    "author": "/u/Luqas_Incredible",
+    "images": [],
+    "video": null,
+    "score": 12,
+    "comments": []
   }
 ]
