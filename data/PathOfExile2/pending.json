@@ -1,194 +1,5 @@
 [
   {
-    "id": "1utui49",
-    "title": "Why every endgame build paths around the outer edge of the tree",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1utui49/why_every_endgame_build_paths_around_the_outer/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>I did some tree optimization using brute force solvers and now I understand clearly why every endgame build follows the outer edge.</p> <p>I looked at a specific case of pathing to Crimson Assault from the Witch starting location and collecting 200% increased critical strike chance. When valuing jewel sockets at 15% crit, it produced the classic shape of going straight to the edge and then hugging it.</p> <p>When jewel sockets are treated as giving nothing, the path changes to the border of class starting areas. There is a simple reason for this but it is nice to see that it holds up in 100% optimal (according to very unrealistic criteria) pathing.</p> <p>The tree has 12 straight spokes, 6 of which are aligned with the class starting locations&#39; directions. It also has three perfectly symmetric (but drawn wavy) rings of attribute nodes. The inner ring that marks the edge of the class starting areas takes 4 edges from spoke to spoke. The middle ring takes 5 and the outer takes 5.</p> <p>So the inner ring is the fastest but has very few clusters in exchange. The outer ring has jewel sockets and the most powerful clusters also tend to be on the outer ring.</p> <p>Another perspective is that jewels with a single crit affix made it worth it to use the outer ring, while the inner ring was used for the pathing to the keystone otherwise. Those jewels can have four more modifiers on top. This really drives home the point that jewel sockets are the only thing that matters, provided you have the budget or patience to acquire them.</p> <p>Maybe you want to optimize the tree as well? The main insight needed is that pathing on the choosable attribute rings and spokes is optimal. Nodes that offer alternative paths are rare and never offer shortcuts, so they are only worth taking if they have desirable stats. I used Mixed-Integer Linear Programming to optimize a tree graph that was consolidated into just the spoke crossings and clusters of interest but there are most likely more efficient methods. It seems very tractable to me, especially as there is little nonlinear scaling involving just the tree, crit being the one exception.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/joonazan\"> /u/joonazan </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1utui49/why_every_endgame_build_paths_around_the_outer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1utui49/why_every_endgame_build_paths_around_the_outer/\">[comments]</a></span>",
-    "published": "2026-07-11T20:17:34+00:00",
-    "author": "/u/joonazan",
-    "images": [],
-    "video": null,
-    "score": 82,
-    "comments": [
-      {
-        "author": "lionheart832",
-        "score": 146,
-        "body": "1 crit node on tree is the same as 0.5 affix on a jewel, so 1 jewel is the equivalent of ~7 points. That's why"
-      },
-      {
-        "author": "NerrionEU",
-        "score": 49,
-        "body": "The fact that PoE 2 rare jewels are even better than PoE 1 jewels already is insane, while the regular tree nodes are mostly very weak."
-      },
-      {
-        "author": "Lower_Educator_5031",
-        "score": 49,
-        "body": "Its worth 8 points with proper % to suffix jewel and quality."
-      },
-      {
-        "author": "d-crow",
-        "score": 29,
-        "body": "Ridiculous no? Sold a perfect sapphire the other day, using 12% spell, 10% crit chance, 15% crit bonus as a baseline, this thing is absolutely not making it to 1.0 <image>"
-      },
-      {
-        "author": "Skaitavia",
-        "score": 8,
-        "body": "Yeah no way this makes it to 1.0. It's been like this EVERY LEAGUE from 0.1. It became stupid in 0.4 with rare adorned being introduced and then everyone corrupting jewels to get 5 mods. Now we have natty 5 mods that can corrupt to 6 mods, crafted increased effect, jewel quality. All of which rare adorned can apply to. And if you compare the juiciest critical damage notables on the tree to your jewel, there's no comparison at all. 60% crit damage but with 25% reduced global defenses or 20% reduced critical hit chance. Each comes with a negative. Yet yours alone is 68% for spells, you get 27% c"
-      },
-      {
-        "author": "lIlIIIIlllIIlIIIllll",
-        "score": 20,
-        "body": "Insane how you were able to come to that conclusion without mixed integer linear programming!"
-      },
-      {
-        "author": "CaptainAgnarr",
-        "score": 45,
-        "body": "Jewels are ridiculous is mostly why, even more so this league. And unique jewels provide utility you can't get on the tree itself, so you might want them for those. And also it's the quickest tree traversal between what are generally the better nodes."
-      },
-      {
-        "author": "joonazan",
-        "score": 11,
-        "body": "And even if jewels only had one or two affixes, they would be powerful enough to shift everyone to the outer edge of the tree probably. You travel one node slower on the outer edge than on the inner ring but that one node is a jewel socket, so it will always have a stat that you want. But for some reason GGG thought it would be balanced if it had four stats."
-      },
-      {
-        "author": "vulcanfury12",
-        "score": 9,
-        "body": "What's more, jewels don't have a downside unlike a lot of notables. Which you also need to use up between 2-4 small nodes in order to get to."
-      },
-      {
-        "author": "uhohnotfound",
-        "score": 20,
-        "body": "This is like theworsrkept secret. Just like at poe ninja no matter starting class etc it's beeline to out ring and grab every jewel node. Kinda stinks if you looking for a build after week1 or less.... oooh like this skill let's see how I should build.. oh. It's all jewels"
-      }
-    ]
-  },
-  {
-    "id": "1utwv6m",
-    "title": "Fracturing orb farm",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1utwv6m/fracturing_orb_farm/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>With the price of fracturing orbs continuing to go up I thought I would do some farming and figured out a strat that has been netting me about 1/2 an orb every map. With my build this has turned into almost 60 divs per hour including hunting the cleansed areas. Not including the anomaly maps you find and boss fragments.</p> <p>Maps- t15 high item rarity rolls</p> <p>Atlas just make sure you have the summoning circle nodes selected</p> <p>Master -Hilda multiple tablet node and the chance to duplicate domains node and the chance to have boss mob instead of rare mob</p> <p>Tablets- irradiated with rarity and summoning circle </p> <p>Ritual with summoning circle chance and chance for omens rarity good</p> <p>Deli with summoning circle, rarity, chance for unique</p> <p>Very low effort strat and very cheap to run. Basically you speed run the map make sure to find the additional summoning circle interactable. Some maps if you proc you can get 5 bosses from the circle. Most Ive gotten was 3 orbs from one map with lucky ritual proc and Hilda boss mob procs. I ran this for 4 hours today so could have just been really lucky RNG but thought I would share</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/deadheaddestiny\"> /u/deadheaddestiny </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1utwv6m/fracturing_orb_farm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1utwv6m/fracturing_orb_farm/\">[comments]</a></span>",
-    "published": "2026-07-11T21:55:44+00:00",
-    "author": "/u/deadheaddestiny",
-    "images": [],
-    "video": null,
-    "score": 238,
-    "comments": [
-      {
-        "author": "Streetwind",
-        "score": 141,
-        "body": "You want to spam summoning circles in cleansed areas because of the Atlas passive that adds a 5% chance for fracturing orbs to drop from bosses with additional modifiers. However, there's only a 25% chance for these bosses to gain an additional modifier. So it can make sense to drop one tablet with summoning circle chance in favor of a Cruel Hegemony unique tablet, which adds a guaranteed modifier to all bosses in the map. You may get one fewer boss per map, but all of them can roll to drop an orb."
-      },
-      {
-        "author": "pritosng",
-        "score": 64,
-        "body": "You don't need the unique Tablet. Rare Tablets can roll Unique Monsters have +1 Rare modifiers."
-      },
-      {
-        "author": "bonifiedmarinade",
-        "score": 14,
-        "body": "I guess it depends on which is cheaper"
-      },
-      {
-        "author": "Mixels",
-        "score": 8,
-        "body": "Cruel Hegemony is pretty much always cheaper if only because you can only use one per map."
-      },
-      {
-        "author": "deadheaddestiny",
-        "score": 9,
-        "body": "Smart thinking I'll test this tomorrow!"
-      },
-      {
-        "author": "FluffyNerve7415",
-        "score": 8,
-        "body": "No, 3 orbs was his single luckiest map. Average for this farm is probably something 1 orb per 3 maps or so."
-      },
-      {
-        "author": "deadheaddestiny",
-        "score": 7,
-        "body": "Only one map that happened to me but I would get 2 in one map fairly often if you get good procs"
-      },
-      {
-        "author": "Wils1337",
-        "score": 16,
-        "body": "I was messing around with this yesterday T15 corrupted waystone with 40 minster rarity Jado in his usual way 3 tables with 1-2 additional random modifiers From one cleansed area I dropped 5 fracturing orbs with out counting the Immured Fury"
-      },
-      {
-        "author": "WingXero",
-        "score": 9,
-        "body": "Hm. Interesting. I'll give it a go later. Thanks for sharing!"
-      },
-      {
-        "author": "deadheaddestiny",
-        "score": 6,
-        "body": "There is probably optimization but this is what I came up as best with after an hour or 2 of testing. Orbs drop much more frequently from boss monsters in the map so this strat gets the most bosses I could think of"
-      }
-    ]
-  },
-  {
-    "id": "1uu6ajc",
-    "title": "You Can Keep Rerolling Limb Modification Options at the Flesh Surgeon.",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uu6ajc/you_can_keep_rerolling_limb_modification_options/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve friends who spam Temple, but they didn&#39;t know you can reroll your limb modification options as much as you want, so I figured I&#39;d share this info for the 17 people who still run Temple this league.</p> <p>When you&#39;re presented with the choice at the Flesh Surgeon, don&#39;t make a selection and instead click on the X at the bottom. Your character will get off the table, and you&#39;ll be able to get on the table again, which rerolls the available options, making it a lot easier to get the rolls and values you want.</p> <p>You can also do the same if you have Flesh Surgeon IV. The game counts you used an attempt only when you modify the limb, so you can keep getting on/off the table as much as you want, as long as you don&#39;t pick anything.</p> <p>As an extra bit of info, here&#39;s the list of all the limb modifications you can currently get and their values: <a href=\"https://poe2db.tw/Transcendent_limb#TranscendentLimbMods\">Transcendent Limb - PoE2DB, Path of Exile Wiki us</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Vegetable_Reason_483\"> /u/Vegetable_Reason_483 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uu6ajc/you_can_keep_rerolling_limb_modification_options/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uu6ajc/you_can_keep_rerolling_limb_modification_options/\">[comments]</a></span>",
-    "published": "2026-07-12T05:19:24+00:00",
-    "author": "/u/Vegetable_Reason_483",
-    "images": [],
-    "video": null,
-    "score": 169,
-    "comments": [
-      {
-        "author": "Primary_Impact_2130",
-        "score": 46,
-        "body": "for the 17 people who still run Temple this league. Which is hilarious because it's very very profitable."
-      },
-      {
-        "author": "anp_fj",
-        "score": 11,
-        "body": "I did try it yesterday, made like 70 divs from 49 crystal. i even brick the first couple runs too"
-      },
-      {
-        "author": "W00psiee",
-        "score": 4,
-        "body": "So what is the strat?"
-      },
-      {
-        "author": "anp_fj",
-        "score": 9,
-        "body": "Ah I’m no expert tho. What I did was running 3 temple tablet first. you could do this anywhere, clear 10 maps with ‘additional crystal’ tablet (you’ll get about 40+ crystal to run temple) OR you can run 20 maps really cheap with just quantity waystone mod (60 crystal for 20 maps) for tablet farm. Additionally, you can just travel to boss map to get extra div too (and use the same cheap waystone tablet to farm them too, no need to invest extra) Running temple you build road in the middle, put unique room you don’t want at the edge, put room you want at the third row from the middle. (< this is "
-      },
-      {
-        "author": "Such--Balance",
-        "score": 28,
-        "body": "To add for those that dont know and keep rerolling for a limb they cant get.. If you have limb that gives x, your other side of that limb cant roll x anymore. Source: Trust me, i tried to roll double mods a LOT"
-      },
-      {
-        "author": "O4epegb",
-        "score": 11,
-        "body": "I don't know how, but it's possible to get duplicates, e.g. this guy has double attack speed https://poe.ninja/poe2/builds/runesofaldurhc/character/Tadayasux-6657/TadayasuBugVictmim?i=35"
-      },
-      {
-        "author": "deeplywoven",
-        "score": 3,
-        "body": "Might be some kind of bug, tbh. I'm pretty sure they removed the ability to get 2x of the same mod. I've never once seen it this league."
-      },
-      {
-        "author": "Unlucky_Raccoon_5829",
-        "score": 16,
-        "body": "For the 17 people who still run temple man that’s hilarious I am still laughing XD"
-      },
-      {
-        "author": "anp_fj",
-        "score": 7,
-        "body": "18 now because I just started yesterday.. we are an army."
-      },
-      {
-        "author": "Enaramen",
-        "score": 9,
-        "body": "fuck! shouldve asked here first. My ice shot deadeye did not deserve that curse duration on her left arm."
-      }
-    ]
-  },
-  {
     "id": "1uva5fc",
     "title": "I desecrated more than 500 rings. Here is what I found - Part 2",
     "link": "https://www.reddit.com/r/PathOfExile2/comments/1uva5fc/i_desecrated_more_than_500_rings_here_is_what_i/",
@@ -199,16 +10,16 @@
       "https://i.redd.it/pceolu1uezch1.png"
     ],
     "video": null,
-    "score": 73,
+    "score": 75,
     "comments": [
       {
         "author": "Mean-Attention-6161",
-        "score": 6,
+        "score": 7,
         "body": "This is really cool! Out of curiosity is this data gathering experiment mainly for personal confirmation of the data, contributions to supporting evidence or as entertainment/sense of accomplishment? (Or a mix or something not mentioned)"
       },
       {
         "author": "Civil-Bee-f",
-        "score": 5,
+        "score": 4,
         "body": "I'm working on my crafting calculator"
       },
       {
@@ -248,7 +59,7 @@
       },
       {
         "author": "Civil-Bee-f",
-        "score": 13,
+        "score": 14,
         "body": "It's not enough to recover the true weights, but it's enough to say with confidence that some mods are statistically more likely to appear than others."
       }
     ]
@@ -266,11 +77,11 @@
       "https://i.redd.it/46508edf43dh1.png"
     ],
     "video": null,
-    "score": 228,
+    "score": 236,
     "comments": [
       {
         "author": "preemo",
-        "score": 345,
+        "score": 359,
         "body": "TIL there are extraction orbs. +1 to Intellect."
       },
       {
@@ -280,42 +91,42 @@
       },
       {
         "author": "One-Alternative1573",
-        "score": 213,
+        "score": 232,
         "body": "Very nice! I think I still prefer piloting my shitty build in maps for hours finding nothing of value. To each their own"
       },
       {
         "author": "not_old_redditor",
-        "score": 74,
+        "score": 83,
         "body": "Also known as playing the game"
       },
       {
         "author": "EVEseven",
-        "score": 173,
+        "score": 183,
         "body": "Ahhh there's the catch Step1) have a ton of money. Haha I'm just goshing. Good on you that's a hell of a lot of money. My strategy is widely different. It revolves around me putting a lot of time and thought into what would better balance my trinity. Buy said item. Only to realize it actually made it worse. Rinse and repeat. Its more of a long game strategy though. You're welcome to it as well 😁😁😁"
       },
       {
         "author": "jossief1",
-        "score": 141,
+        "score": 140,
         "body": "Well done. You can delete this post now as I think enough people have seen it..."
       },
       {
         "author": "thatsrealneato",
-        "score": 79,
+        "score": 75,
         "body": "I’m always amazed at how much people who don’t understand how things work will overpay for things"
       },
       {
         "author": "Dallacar",
-        "score": 34,
+        "score": 29,
         "body": "Happens in real life too. Huge money saver if you know what you're doing, I thank my dad for teaching his kids how to change their oil every time I have to"
       },
       {
         "author": "weveran",
-        "score": 34,
+        "score": 30,
         "body": "I see this mentioned a lot, but around here I'd save like $20 to change oil myself. Not only would I have to buy the stuff and crawl under the car, but I'd have to deal with the disposal too. Plus the landlord forbids \"maintenance\" so that's a huge gray area. Meanwhile I can swing into an express change while I'm already in town for something else and I'm in and out in usually less than 10 minutes."
       },
       {
         "author": "ZYRANOX",
-        "score": 20,
+        "score": 21,
         "body": "People like paying to have others go through the troubles of something they aren't specialized in whether it's simple or not. Thats just how society is. For example there really isn't a single human alive today that knows how to make a computer from natural resources but there are so many people you can go to a that are experts on each part of building a computer."
       }
     ]
@@ -335,33 +146,33 @@
     "comments": [
       {
         "author": "FanatiXX82",
-        "score": 90,
+        "score": 93,
         "body": "TLDR its 50/50 you either get it or you dont."
       },
       {
         "author": "KylAnde01",
-        "score": 16,
+        "score": 14,
         "body": "Heard a stats teacher say \"anything less than a 100% chance is a 50/50, even if the chances are 99%.\" That stuck with me. Putting a few hundred hours into XCOM helped to drill that fact into my brain forever."
       },
       {
         "author": "Reasonable_Yam3401",
-        "score": 4,
+        "score": 5,
         "body": "That’s why I like games like Battle Brothers. The devs expose the attack rolls so you can see the game destroy you on a 5% chance 3 times in a row and you can’t even complain."
       },
       {
         "author": "poseidonvn",
-        "score": 20,
+        "score": 19,
         "body": "All of this just for a 50/50 😭"
       },
       {
-        "author": "Untuchabl",
-        "score": 7,
-        "body": "I always just assumed 50 percent desecrated modifier reveal rate. Looks good"
+        "author": "elementlessmonster",
+        "score": 6,
+        "body": "I said, I just want to play a game after work. Not to work again! Lol. Impressive work but as the others said 50/50."
       },
       {
-        "author": "elementlessmonster",
-        "score": 7,
-        "body": "I said, I just want to play a game after work. Not to work again! Lol. Impressive work but as the others said 50/50."
+        "author": "Untuchabl",
+        "score": 5,
+        "body": "I always just assumed 50 percent desecrated modifier reveal rate. Looks good"
       },
       {
         "author": "PoE_Acronym_Bot",
@@ -375,13 +186,498 @@
       },
       {
         "author": "Civil-Bee-f",
-        "score": 2,
+        "score": 1,
         "body": "this link https://poe2db.tw/us/Rings#ModifiersCalc"
       },
       {
         "author": "hkidnc",
-        "score": 9,
+        "score": 7,
         "body": "For what it's worth, Modifier weights were acquired via trial/error testing using Recombinators. Now that we don't have those anymore, any changes to the modifier pool will cause the poe2db numbers to be incorrect (or, well, will make their accuracy unreliable) https://poe2db.tw/us/weightings"
+      }
+    ]
+  },
+  {
+    "id": "1uwokol",
+    "title": "Tip: If you EVER get chain stunned and die, you need more stun threshold/recovery, stun charm is a flimsy interim solution that can and should be replaced.",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>It seems to be a common problem new players run into, especially when trying to step into juiced delirium. Stick some passive points into the solution and add more or remove some as you see fit</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bigmanorm\"> /u/bigmanorm </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/\">[comments]</a></span>",
+    "published": "2026-07-14T23:11:49+00:00",
+    "author": "/u/bigmanorm",
+    "images": [],
+    "video": null,
+    "score": 13,
+    "comments": [
+      {
+        "author": "FullFlight9715",
+        "score": 24,
+        "body": "Problem is in expeditions there so much shit on my screen that I have no idea why exactly I can’t move… no idea if stunned, frozen or whatever"
+      },
+      {
+        "author": "bigmanorm",
+        "score": 4,
+        "body": "The scorpion is a motherfucker with his electrocute, especially when he's enraged with attack speed lol, ailment threshold is a bitch to come by without being an energy shield build. The only other thing to look out for is the big slugs frontal breath that builds up freeze"
+      },
+      {
+        "author": "Micro_mint",
+        "score": 16,
+        "body": "It’s a lesson everyone learns eventually: sometimes less dps and more qol is worthwhile Stuff like swapping crit jewels for es jewels just feels so smooth after ggg removed 6 portals as a primary defensive layer"
+      },
+      {
+        "author": "AluminumFoilWrap",
+        "score": 14,
+        "body": "Everyone gangsta with no stun threshold in their CI build until a gang of white mobs treats you like this <image>"
+      },
+      {
+        "author": "smashsenpai",
+        "score": 11,
+        "body": "I tried giving up the stone charm in favor of stun threshold on the tree. I still got chain stunned and died. The brief window of stun immunity from the stone charm is better."
+      },
+      {
+        "author": "Rookva",
+        "score": 5,
+        "body": "The funniest part about this game is there are so many tools to negate or neuter negative effects on you but people really just don't seem capable of deciding between living and doing SLIGHTLY less damage or dying."
+      },
+      {
+        "author": "bigmanorm",
+        "score": 2,
+        "body": "I don't really look down on casuals for not experimenting or trying to understand stuff, a lot of build guides let people down by neglecting shit like this and never offering common solutions to common problems"
+      },
+      {
+        "author": "emapco",
+        "score": 2,
+        "body": "If you have a lot of energy shield, then a Heart of the Well Diamond with \"gain additional stun threshold equal to x% of maximum energy shield\" and \"gain additional ailment threshold equal to x% of maximum energy shield\" is very handy. I have 9k energy shield and very rarely get stunned. That's the only gear I have with stun threshold. Note, I also have Craiceann's rune of warding on my body armour."
+      },
+      {
+        "author": "Zorops",
+        "score": 2,
+        "body": "Stun threshold based on energy shield doesnt even seem to do anything. I got 50% for 12000 es and those expedition mon still install stun when attacked"
+      },
+      {
+        "author": "nackedsnake",
+        "score": 2,
+        "body": "As soon as I found out stone charm doesn’t prevent the initial stun I immediately ditched it, what a bait."
+      }
+    ]
+  },
+  {
+    "id": "1ux0dwb",
+    "title": "Breach Tree you can hold the hive blood and just click on the items on your stash",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ux0dwb/breach_tree_you_can_hold_the_hive_blood_and_just/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>In case you guys don&#39;t know, when on the breach tree, if you open your stash and decide to select any womgift it will appear on the tree right? There is the symbol of hive blood just below the womgift you placed. Hold CTRL and click mouse and you can use the hive blood on your stash instead of doing manually one by one. </p> <p>To Mod: If you already knew this please, sorry to waste your time... And mine... And please close it</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nikiforenk0\"> /u/Nikiforenk0 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux0dwb/breach_tree_you_can_hold_the_hive_blood_and_just/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux0dwb/breach_tree_you_can_hold_the_hive_blood_and_just/\">[comments]</a></span>",
+    "published": "2026-07-15T09:00:16+00:00",
+    "author": "/u/Nikiforenk0",
+    "images": [],
+    "video": null,
+    "score": 39,
+    "comments": [
+      {
+        "author": "ToiletSenpai",
+        "score": 5,
+        "body": "It’s a good tip! I only recently learned it as well but it’s a gamechanger. Thank you"
+      },
+      {
+        "author": "Exclucive",
+        "score": 4,
+        "body": "What about PS5 😶"
+      },
+      {
+        "author": "HunchoLou",
+        "score": 3,
+        "body": "Yes it works, hold X"
+      },
+      {
+        "author": "Evening_Ticket7638",
+        "score": 1,
+        "body": "I had no idea. Thank you."
+      },
+      {
+        "author": "Nikiforenk0",
+        "score": 1,
+        "body": "I read this with the voice from the shop manager! Hahah"
+      },
+      {
+        "author": "Flob-",
+        "score": 0,
+        "body": "Is there also a convenient way to pick up all those catalysts instead of clicking them one by one?"
+      },
+      {
+        "author": "Nikiforenk0",
+        "score": 1,
+        "body": "I wish..."
+      }
+    ]
+  },
+  {
+    "id": "1ux3yip",
+    "title": "I ran 100 Arbiter of Ash. Here is what i got!",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ux3yip/i_ran_100_arbiter_of_ash_here_is_what_i_got/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux3yip/i_ran_100_arbiter_of_ash_here_is_what_i_got/\"> <img src=\"https://preview.redd.it/mp8yfd04uddh1.jpg?width=140&amp;height=140&amp;auto=webp&amp;s=f025caaa225660facbdc7c76388c809052d3aefa\" alt=\"I ran 100 Arbiter of Ash. Here is what i got!\" title=\"I ran 100 Arbiter of Ash. Here is what i got!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>The boss fight itself is relatively chill. I encountered a bug: the boss died, and nearly at the same time, I died as well. I pressed revive at the checkpoint instantly. Unfortunately, he never dropped any loot, and the boss fight was over.</p> <p><a href=\"https://docs.google.com/spreadsheets/d/16nrvnKlBFIJZVWCPrnTmdkB5mUofpLtNCUonywOgP9w/edit?usp=sharing\">Sheet</a></p> <p><a href=\"https://youtu.be/O-mQpDAUHzc\">VideoProof</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Br4veDreamer\"> /u/Br4veDreamer </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1ux3yip\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux3yip/i_ran_100_arbiter_of_ash_here_is_what_i_got/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-15T12:05:56+00:00",
+    "author": "/u/Br4veDreamer",
+    "images": [
+      "https://i.redd.it/mp8yfd04uddh1.jpg"
+    ],
+    "video": null,
+    "score": 118,
+    "comments": [
+      {
+        "author": "Alive_Conference_598",
+        "score": 34,
+        "body": "Thanks for giving me one more thing I'll never touch again"
+      },
+      {
+        "author": "GaliaHero",
+        "score": 14,
+        "body": "would be smarter and use doryani instead of jado and would be smarter to sell diamonds and regalias unidentified, so don't take this as a realistic spreadsheet"
+      },
+      {
+        "author": "EIPsyCongruo",
+        "score": 6,
+        "body": "Which requires one's muscle memory not to instantly click doryani in hideout..."
+      },
+      {
+        "author": "glassfoxx",
+        "score": 33,
+        "body": "Isn’t Doryani better for Pinnacle Bosses or no?"
+      },
+      {
+        "author": "GaliaHero",
+        "score": 16,
+        "body": "it depends if the lineage gems or the uniques the boss drops are more worth it. for arbiter of ash I'd definitely run doryani, as there are several uniques that are (potentially) worth money and 1 lineage gem thats only 3 divine worth"
+      },
+      {
+        "author": "Ok_Instruction2858",
+        "score": 23,
+        "body": "Im running with Driyani and sell all loot unidentified. It's very solid."
+      },
+      {
+        "author": "SouthLoop_Sunday",
+        "score": 12,
+        "body": "I love these posts. Shockingly bad farm though, wow."
+      },
+      {
+        "author": "Zongi88",
+        "score": 20,
+        "body": "Im pretty sure jado was a bad choice here. Chance for extra uniq is huge on arbiter."
+      },
+      {
+        "author": "Candid-Value-8853",
+        "score": 4,
+        "body": "I made a mirror in less the a week off this boss and still farming it. I use dory, only gamble regalias IF the diamonds aren't dry streaking and I can sell those to float. Ive sold multiple 150+ sacred flames(corrupt all 55+ for damage gained., lots of 300+ regalias, even 50+ on the gloves if high roll and corrupted. My best run with a farming session was 41 DIAMONDS in 121 kills. I then got to roll all my regalias and 3-1 the shit ones. My builds almost 3 mirrors atm and its all from this boss for the last 2 mirrors farmed in currency. InbredTed is the name if you wanna see my gear on ninja b"
+      },
+      {
+        "author": "sunbunman",
+        "score": 10,
+        "body": "Sell all prisms unid, that shit is pure Gamba. Moriors can be 3:1 so you should be doing that for all of the garbage. Doryani is the best for farming arby"
+      }
+    ]
+  },
+  {
+    "id": "1ux8sox",
+    "title": "Item Skill Level Limit - For those unaware",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1ux8sox/item_skill_level_limit_for_those_unaware/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux8sox/item_skill_level_limit_for_those_unaware/\"> <img src=\"https://preview.redd.it/2mvkz1uqtedh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0402b615319672c1a33d21366d738440f5961ae4\" alt=\"Item Skill Level Limit - For those unaware\" title=\"Item Skill Level Limit - For those unaware\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I&#39;ve seen some confusion around this so just wanted to let those know who are unaware.</p> <p>The skill level on the item is based on the amount of attribute you have.</p> <p>In this case Purity of Fire is level 14 because I don&#39;t have enough intellect for it to be any higher. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Old_Credit5771\"> /u/Old_Credit5771 </a> <br/> <span><a href=\"https://i.redd.it/2mvkz1uqtedh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1ux8sox/item_skill_level_limit_for_those_unaware/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-15T15:17:04+00:00",
+    "author": "/u/Old_Credit5771",
+    "images": [
+      "https://i.redd.it/2mvkz1uqtedh1.png"
+    ],
+    "video": null,
+    "score": 117,
+    "comments": [
+      {
+        "author": "hkidnc",
+        "score": 54,
+        "body": "It's based off of both character level and attribute. It basically uses the highest level version of that skill which you qualify for. Which is nice!"
+      },
+      {
+        "author": "panoramicc",
+        "score": 29,
+        "body": "Dude, ty for this post. I have been so confused. For any given skill, how do you know which attribute is limiting it?"
+      },
+      {
+        "author": "Old_Credit5771",
+        "score": 10,
+        "body": "Hold alt and hover over th skill, it will most likely be the highest necessary attribute on there"
+      },
+      {
+        "author": "Ghrenix",
+        "score": 7,
+        "body": "What is your character level?"
+      },
+      {
+        "author": "Old_Credit5771",
+        "score": 6,
+        "body": "94"
+      },
+      {
+        "author": "JinKazamaru",
+        "score": 5,
+        "body": "Infernal Witch be wishing they had that"
+      },
+      {
+        "author": "Old_Credit5771",
+        "score": 6,
+        "body": "94 Edit: Wrong reply button"
+      },
+      {
+        "author": "Bambam0141",
+        "score": 1,
+        "body": "Id love that, just need more spirit."
+      },
+      {
+        "author": "KiefScoop",
+        "score": 2,
+        "body": "This would also happen if you did have the attributes but lacked the level required for the skill."
+      },
+      {
+        "author": "DealerOfArms",
+        "score": 3,
+        "body": "You can also add more slots onto skills that are from items with jewelers orbs. (At least on weapons, worked on the unique ashbark talisman)"
+      }
+    ]
+  },
+  {
+    "id": "1uxczwg",
+    "title": "Ran my first Aldur's Saga, here's the loot from only four maps",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uxczwg/ran_my_first_aldurs_saga_heres_the_loot_from_only/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uxczwg/ran_my_first_aldurs_saga_heres_the_loot_from_only/\"> <img src=\"https://preview.redd.it/34rdk0aujfdh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=200a2813a04c0e8dc78794cbb98481b814f7f342\" alt=\"Ran my first Aldur's Saga, here's the loot from only four maps\" title=\"Ran my first Aldur's Saga, here's the loot from only four maps\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Here&#39;s everything that was worth anything from the four maps I ran. 3 new Aldur&#39;s Saga was a HUGE payout!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lego_Professor\"> /u/Lego_Professor </a> <br/> <span><a href=\"https://i.redd.it/34rdk0aujfdh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uxczwg/ran_my_first_aldurs_saga_heres_the_loot_from_only/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-15T17:42:24+00:00",
+    "author": "/u/Lego_Professor",
+    "images": [
+      "https://i.redd.it/34rdk0aujfdh1.png"
+    ],
+    "video": null,
+    "score": 182,
+    "comments": [
+      {
+        "author": "Wrath_Viking",
+        "score": 232,
+        "body": "getting 3x saga's back is extreme luck btw"
+      },
+      {
+        "author": "Lego_Professor",
+        "score": 35,
+        "body": "Yeah off four maps seems like RNG was heavily in my favor. I heard that the saga can self-sustain, but I wasn't expecting THREE new ones haha! I bet my next saga will be a bust to average it all out."
+      },
+      {
+        "author": "PM_Me_Those_",
+        "score": 9,
+        "body": "The self-sustain is SOMEWHAT common... I haven't had a problem at all, in about 10 aldur's i think I bought one. You may even just self-sustain off this luck alone going forward."
+      },
+      {
+        "author": "Inevitable_Disk_3344",
+        "score": 8,
+        "body": "In my experience sustain still has a lot of RNG elements that lean toward not on a long enough time horizon. I was sustaining fine until my logbook pathing confronted me with just a bunch of shit rumors combined with some unlucky runs"
+      },
+      {
+        "author": "PM_Me_Those_",
+        "score": 7,
+        "body": "Thats when you use Uhtreds and run a few uhtreds to get better rumours. You save your aldurs for 4+ rumours with no boss rumours or 5 rumours if there is a boss rumour. So far I've had no issue sustaining them this way. I even found an aldur's saga in one of my uhtred saga, luckily, further helping sustain."
+      },
+      {
+        "author": "Inevitable_Disk_3344",
+        "score": 47,
+        "body": "When Aldur's Saga goes off it's the most invigorating farm in the game, but when it doesn't it feels utterly defeating especially if you paid upfront for all the inputs that optimize it. My first two Aldur's were absolutely ridiculous. Both dropped an Aldur's Saga for self sustain , plus a ton of currency. My next two were utter fucking garbage. Like four expedition nodes that each dropped like 5-6 div for a net loss against the opportunity cost of not just selling Aldur's Saga..."
+      },
+      {
+        "author": "Sven676",
+        "score": 37,
+        "body": "You got 3 alders saga from 4 maps? Pretty crazy"
+      },
+      {
+        "author": "IBVVDH",
+        "score": 14,
+        "body": "sir, please adjust your loot filter... you are picking up a lot of worthless junk"
+      },
+      {
+        "author": "Strange_Salad3369",
+        "score": 10,
+        "body": "Loot filter my guy"
+      },
+      {
+        "author": "Good_whatsoever",
+        "score": 14,
+        "body": "Exalts, idols, LESSER JEWELLERS ORBS, Literally 0.06 of an exalt, like come on man what a waste of screen and performance"
+      }
+    ]
+  },
+  {
+    "id": "1uy42a3",
+    "title": "Basic Beginner Cheat Sheet for Understanding Crafting Omens",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uy42a3/basic_beginner_cheat_sheet_for_understanding/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uy42a3/basic_beginner_cheat_sheet_for_understanding/\"> <img src=\"https://preview.redd.it/jpaom76ajldh1.png?width=140&amp;height=88&amp;auto=webp&amp;s=3cab1e03e3674d7c9a7f393edf65eff2d0041e35\" alt=\"Basic Beginner Cheat Sheet for Understanding Crafting Omens\" title=\"Basic Beginner Cheat Sheet for Understanding Crafting Omens\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I notice in every crafting related thread there&#39;s always a lot of people showing frustration at the complexity and not understanding a lot of the terminology being used. It&#39;s a jumble of sinistral this and desecrated that and can be pretty confusing. I&#39;m not listing everything here as there&#39;s a lot of omens that are rarely used and some only in very niche circumstances. The ones below you&#39;ll see mentioned in crafting conversations a lot and for those struggling with this stuff you&#39;ll see that they are actually very simple.</p> <p>First things first. If you&#39;re on PC hover over an item with your mouse and hit alt and it will display all Prefixes and Suffixes on the item. If you have a desecrated mod the Tier text on the right will be the Green.</p> <p><a href=\"https://preview.redd.it/jpaom76ajldh1.png?width=775&amp;format=png&amp;auto=webp&amp;s=ee220dd2011b7cccc9ca212058f911ea8ded1316\">https://preview.redd.it/jpaom76ajldh1.png?width=775&amp;format=png&amp;auto=webp&amp;s=ee220dd2011b7cccc9ca212058f911ea8ded1316</a></p> <p>By default items can have 3 Prefixes and 3 Suffixes. You don&#39;t need to know much more about it other than that all possible base mods are either a prefix or a suffix. You can check what these are on poe2db for any item. These are the possible base mods for an INT Helmet</p> <p><a href=\"https://preview.redd.it/z9oar3tnjldh1.png?width=1498&amp;format=png&amp;auto=webp&amp;s=7a9ac171ffb39762e5b5a5a068b36a70c03c4843\">https://preview.redd.it/z9oar3tnjldh1.png?width=1498&amp;format=png&amp;auto=webp&amp;s=7a9ac171ffb39762e5b5a5a068b36a70c03c4843</a></p> <p>Generally speaking an item is made up of 3 of each. There are ways of accessing other pools of mods but it&#39;s beyond the scope of this right now.</p> <p>Covering the handfull of Omens that are regularly discussed is pretty simple. They are just a way of targeting the usage of basic currency. For the most part we&#39;re really just talking about Exalted Orbs, Chaos Orbs and Annulment Orbs</p> <p>One thing to keep in mind and credit to <a href=\"/u/melankoholisti\">u/melankoholisti</a> who mentioned this in another conversation earlier most of the Omens are telling us what they do by their name</p> <p><strong>Sinistral</strong> is an adjective meaning on the left side<br/> <strong>Dextral</strong> is an adjective meaning on the right side</p> <p>Prefixes first on the left, Suffixes on the right. See above mod screenshot</p> <p>So now we know that Sinistral omens are related to Prefixes and Dextral to Suffixes</p> <p>Now it&#39;s just a matter of matching them up against their currency</p> <table><thead> <tr> <th align=\"left\"><strong>Exalted Orb</strong></th> <th align=\"left\"><strong>Augments a Rare item with a new random modifier.</strong></th> </tr> </thead><tbody> </tbody></table> <table><thead> <tr> <th align=\"left\"><strong>Target Prefix</strong></th> <th align=\"left\"><strong>Omen of Sinistral Exaltation</strong></th> <th align=\"left\"><strong>Your next Exalted Orb will add only prefix modifiers.</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Target Suffix</strong></td> <td align=\"left\"><strong>Omen of Dextral Exaltation</strong></td> <td align=\"left\"><strong>Your next Exalted Orb will add only suffix modifiers.</strong></td> </tr> </tbody></table> <table><thead> <tr> <th align=\"left\"><strong>Chaos Orb</strong></th> <th align=\"left\"><strong>Removes a random modifier and augments a Rare item with a new random modifier</strong></th> </tr> </thead><tbody> </tbody></table> <table><thead> <tr> <th align=\"left\"><strong>Target Prefix</strong></th> <th align=\"left\"><strong>Omen of Sinistral Erasure</strong></th> <th align=\"left\"><strong>While this item is active in your inventory your next Chaos Orb will remove only prefix modifiers</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Target Suffix</strong></td> <td align=\"left\"><strong>Omen of Dextral Erasure</strong></td> <td align=\"left\"><strong>While this item is active in your inventory your next Chaos Orb will remove only prefix modifiers</strong></td> </tr> <tr> <td align=\"left\"><strong>Target lowest level mod</strong></td> <td align=\"left\"><strong>Omen of Whittling</strong></td> <td align=\"left\"><strong>While this item is active in your inventory your next Chaos Orb will remove the lowest level modifier</strong></td> </tr> </tbody></table> <table><thead> <tr> <th align=\"left\"><strong>Orb of Annulment</strong></th> <th align=\"left\"><strong>Removes a random modifier from an item</strong></th> </tr> </thead><tbody> </tbody></table> <table><thead> <tr> <th align=\"left\"><strong>Target Prefix</strong></th> <th align=\"left\"><strong>Omen of Sinistral Annulment</strong></th> <th align=\"left\"><strong>While this item is active in your inventory your next Orb of Annulment will remove only prefix modifiers</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Target Suffix</strong></td> <td align=\"left\"><strong>Omen of Dextral Annulment</strong></td> <td align=\"left\"><strong>While this item is active in your inventory your next Orb of Annulment will remove only suffix modifiers</strong></td> </tr> <tr> <td align=\"left\"><strong>Target Desecrated Mod</strong></td> <td align=\"left\"><strong>Omen of Light</strong></td> <td align=\"left\"><strong>While this item is active in your inventory your next Orb of Annulment will remove only Desecrated modifiers</strong></td> </tr> </tbody></table> <p>I hope this helps someone. Realising that most of these things are just ways of targeting specific mods or vacant mods on a piece of gear. I will add that the Chaos orb Omen descriptions are confusing to newer players and a bit of a trap. It&#39;s pretty easy to think erasure would be related to an annulment when it&#39;s actually just related to the first stage of using a Chaos orb which is a 2 step process of removing a modifier and then adding one.</p> <p>Most of this really boils down to,<br/> No omen = use currency on random prefix or suffix<br/> Then it&#39;s just the variations of targeting them and of course the Omen of Light for annuling a desecrated mod only</p> <p>The nuance of crafting comes down to knowing when to use these of course along with how to use things like fracturing and is something best learned through practice and other tutorials.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ferdinono\"> /u/ferdinono </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uy42a3/basic_beginner_cheat_sheet_for_understanding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uy42a3/basic_beginner_cheat_sheet_for_understanding/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-16T14:13:10+00:00",
+    "author": "/u/ferdinono",
+    "images": [
+      "https://i.redd.it/jpaom76ajldh1.png",
+      "https://i.redd.it/z9oar3tnjldh1.png"
+    ],
+    "video": null,
+    "score": 120,
+    "comments": [
+      {
+        "author": "bennyrosso",
+        "score": 25,
+        "body": "Amazing I would just add that the Omen of Whittling when is active in your inventory will preview in yellow what is/are the lowest modifier (wich is not easy to know)"
+      },
+      {
+        "author": "ferdinono",
+        "score": 8,
+        "body": "good point"
+      },
+      {
+        "author": "Clarine87",
+        "score": 3,
+        "body": "You can also preview crafts in other people's hideout shops. If you're unsure which mod a Whittling will replace."
+      },
+      {
+        "author": "GenesectX",
+        "score": 13,
+        "body": "from my experience crafting in poe2 can be boiled down to just a few steps assuming you arent doing mirror tier items roll or buy desired mod on base, 2 random affixes + desecrate for a 1/3 to slam fracture (12d+base+rolling cost per attempt) or buy fractured base (might be expensive) chaos spam for 2nd desired affix use either sinistral or dextral omens of crystallization depending on which affix is open for guaranteed free perfect essence mod/alloy (skip if you dont want any) use desecration omen to desecrate on desired affix and if you miss, omen of light and go again, you can do this as ma"
+      },
+      {
+        "author": "Daedalus81",
+        "score": 2,
+        "body": "Ok so where I really dropped crafting was this part: \"chaos spam for 2nd desired affix\" I had a base with a nice mod and using a perf aug I got a crap one. So I \"chaos spammed\" and I would just end up removing the good mod all the friggin time. And I'm not loaded with greater let alone perf chaos or even whittling to make any kind of progress. I feel like crafters are really leaving out the cost here..."
+      },
+      {
+        "author": "bennyrosso",
+        "score": 1,
+        "body": "Chaos spam is after the fracture step u made it when? Of course there is a cost but you are aiming at something worth 100+ divines u probably will spend less then the value of the item. You are not gonna have with 10 divines something worth 200"
+      },
+      {
+        "author": "Daedalus81",
+        "score": 1,
+        "body": "I only needed like 3 mods. I could have cared less what the rest were at the time so more like a 5 div to me, but maybe 20 fully fleshed out. But the sense that I'm getting is that it is pointless to try and craft without sufficient investment and that it would be easier found on the market. In this case the market didn't have what I wanted, but that seems pretty terrible for a crafting paradigm. Not that I think it needs to change -- I just think people need to adjust the framing a bit."
+      },
+      {
+        "author": "Orachor",
+        "score": 7,
+        "body": "I mean all of these are well described when checking the item’s description, the issue is that there are crafting mechanics that are not described anywhere for example using a perfect essence on an item that has full prefixes and suffixes (6 in total) will only remove either a prefix or suffix depending on the affix the esence adds (it needs to make space for the affix)."
+      },
+      {
+        "author": "ferdinono",
+        "score": 2,
+        "body": "There's a lot more to crafting of course but I think a lot of this terminology is what makes peoples heads spin and think everything is more complicated than it really is. Realising that they only really need to understand a handfull of terms to be able to follow 75% of a crafting conversation hopefully helps some realise it's not as nuts as it seems at first."
+      },
+      {
+        "author": "melankoholisti",
+        "score": 6,
+        "body": "Thanks for the shoutout!"
+      }
+    ]
+  },
+  {
+    "id": "1uybatz",
+    "title": "0.5.4c Patch Notes",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uybatz/054c_patch_notes/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><ul> <li>Added support for the new Supporter Packs.</li> </ul> <p>Thank you for your support!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Andromanner\"> /u/Andromanner </a> <br/> <span><a href=\"https://www.pathofexile.com/forum/view-post/26790276\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uybatz/054c_patch_notes/\">[comments]</a></span>",
+    "published": "2026-07-16T18:35:24+00:00",
+    "author": "/u/Andromanner",
+    "images": [],
+    "video": null,
+    "score": 231,
+    "comments": [
+      {
+        "author": "notJames24",
+        "score": 184,
+        "body": "Most complicated patch so far"
+      },
+      {
+        "author": "Taluh-a",
+        "score": 17,
+        "body": "Looking at the downtime, it seems so Edit: It's [may be (nearly)...] up Back to maintenance Edit 2: It's up"
+      },
+      {
+        "author": "Eleven655321",
+        "score": 107,
+        "body": "I fully support adding support for the new supporter packs."
+      },
+      {
+        "author": "refinedmercy",
+        "score": 29,
+        "body": "+1 I support this; we must all support supporter packs being supportable by all supporters"
+      },
+      {
+        "author": "throwawayurwaste",
+        "score": 59,
+        "body": "It's gonna be very funny if this patch somehow makes the optimization worse"
+      },
+      {
+        "author": "Deathack97",
+        "score": 22,
+        "body": "I mean, it can't get any worse than this, right? 🫪"
+      },
+      {
+        "author": "uzu_afk",
+        "score": 42,
+        "body": "<image>"
+      },
+      {
+        "author": "Elegant_Chocolate546",
+        "score": 28,
+        "body": "I gotta stop playing for this?"
+      },
+      {
+        "author": "ItzZiplineTime",
+        "score": 24,
+        "body": "Damn they gotta take realm offline for 20 minutes over some cosmetics? 😂"
+      },
+      {
+        "author": "parasocks",
+        "score": 15,
+        "body": "Servers need a cigarette break too"
+      }
+    ]
+  },
+  {
+    "id": "1uyfh0i",
+    "title": "New patch seems to have broken Grand expeditions, don't waste your expensive tablets/maps rn (This was an Aldur's logbook grand expedition that spawned with 0 remnants)",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uyfh0i/new_patch_seems_to_have_broken_grand_expeditions/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uyfh0i/new_patch_seems_to_have_broken_grand_expeditions/\"> <img src=\"https://preview.redd.it/9cmbc8edqndh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fdd651cb267d3723051e38d6f8af37298e92a711\" alt=\"New patch seems to have broken Grand expeditions, don't waste your expensive tablets/maps rn (This was an Aldur's logbook grand expedition that spawned with 0 remnants)\" title=\"New patch seems to have broken Grand expeditions, don't waste your expensive tablets/maps rn (This was an Aldur's logbook grand expedition that spawned with 0 remnants)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ChubbyPandaWifeHaver\"> /u/ChubbyPandaWifeHaver </a> <br/> <span><a href=\"https://i.redd.it/9cmbc8edqndh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uyfh0i/new_patch_seems_to_have_broken_grand_expeditions/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-16T21:11:46+00:00",
+    "author": "/u/ChubbyPandaWifeHaver",
+    "images": [
+      "https://i.redd.it/9cmbc8edqndh1.png"
+    ],
+    "video": null,
+    "score": 22,
+    "comments": [
+      {
+        "author": "Tranchoir",
+        "score": 3,
+        "body": "no joke , 1 st map after patch, got a oath rune bug (only the rare left , unkillable, i looked everywhere on map, nothing)"
+      },
+      {
+        "author": "Small_Act7219",
+        "score": 2,
+        "body": "I just had this same thing happen with a remnant on Jade Isle map. only the rare left, i ran all throughout the map with it chasing me and nada."
+      },
+      {
+        "author": "resurrectedbear",
+        "score": null,
+        "body": "Same..."
+      },
+      {
+        "author": "sunbunman",
+        "score": 2,
+        "body": "Feels like every patch breaks GE in one way or another"
+      },
+      {
+        "author": "binotheclown",
+        "score": 2,
+        "body": "The 1-line patch managed to break expeditions again? LUL"
+      },
+      {
+        "author": "Firm-Project-5193",
+        "score": null,
+        "body": "rip, had 3 tablets ready to go too"
+      },
+      {
+        "author": "Elegant_Chocolate546",
+        "score": -1,
+        "body": "Oh cool, and here I was thinking about finally getting around and trying expeditions for the first time in the next few days 🤣"
       }
     ]
   }
