@@ -1,265 +1,5 @@
 [
   {
-    "id": "1uva5fc",
-    "title": "I desecrated more than 500 rings. Here is what I found - Part 2",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uva5fc/i_desecrated_more_than_500_rings_here_is_what_i/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uva5fc/i_desecrated_more_than_500_rings_here_is_what_i/\"> <img src=\"https://preview.redd.it/pceolu1uezch1.png?width=140&amp;height=54&amp;auto=webp&amp;s=7021efef5960bbc5434825e8f7d9b93221e158c6\" alt=\"I desecrated more than 500 rings. Here is what I found - Part 2\" title=\"I desecrated more than 500 rings. Here is what I found - Part 2\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In <a href=\"https://www.reddit.com/r/PathOfExile2/s/NHGDnRqlzQ\">Part 1</a>, I looked at the overall split between natural and desecrated options.</p> <h1>Are all desecrated modifiers equally likely?</h1> <p>If every desecrated modifier had the same chance to be selected, the estimates should be clustered around the grey vertical line.</p> <p>They are not.</p> <blockquote> <p><strong>Sanity check:</strong> The observed frequencies of all non-desecrated modifiers matched the weights listed on PoE2DB quite well. This suggests that the data collection and the general weighting model were working as expected.</p> </blockquote> <h1>Prefixes</h1> <p>For prefixes, the confidence intervals are still fairly wide, so I would not overstate the exact ordering.</p> <p>But even with this sample, one thing stands out: </p> <p><strong>Increased Remnant Effect appears statistically more common than Ignite Magnitude.</strong></p> <p><em>Look at the Prefix frequency chart (image 2)</em></p> <p>Even in the smaller prefix pool, the data already suggests that the weights are not uniform.</p> <h1>Suffixes</h1> <p>For suffixes, the effect is much clearer.</p> <p>With 15 suffix mods, a uniform model would put each one at about 6.7%. Instead, the estimated draw shares range from about 11.8% for Strength + Dexterity down to about 1.2% for Cooldown Recovery Rate.</p> <p>That gap is too large to comfortably explain with a simple equal-weight model.</p> <p><strong>Using</strong> <code>1 / number of desecrated mods</code> <strong>as the chance for every modifier is probably wrong.</strong></p> <p><em>Look at the Suffix frequency chart (image 3)</em></p> <h1>Attribute modifiers have a shared block</h1> <p>The clearest blocking behaviour I found was related to attributes.</p> <p>Strength, Dexterity, and Intelligence do not appear to behave like three completely separate desecrated families.</p> <p>Having an attribute modifier already present on the item seems to block the other desecrated attribute options as well.</p> <p>For example, an existing Strength modifier does not only affect another Strength roll. It appears to remove the shared attribute group from the Desecrate pool, including Dexterity and Intelligence variants.</p> <p>This matters a lot when estimating the probability of a specific reveal.</p> <p>You cannot always take the global frequency of a Dexterity modifier and apply it directly to your item. If the item already has an attribute modifier, that option may be completely unavailable.</p> <h1>Resistances behave differently</h1> <p>I did not observe the same shared block between elemental resistances.</p> <p>The same appears to apply to mixed resistance modifiers, such as Fire + Chaos Resistance and their analogues.</p> <p>This behaviour is also supported by trade listings: items with resistance combinations are commonly available, while similar combinations involving attributes do not appear to exist.</p> <p>These two situations should therefore not be modelled in the same way:</p> <ul> <li>An existing attribute can block the other attribute outcomes.</li> <li>An existing elemental resistance does not appear to block the other elements or resistance combinations.</li> </ul> <p>This can create a significant difference between the global observed frequency and the actual probability on a specific item.</p> <h1>How to interpret these frequencies</h1> <p>These estimates are best read as relative draw probabilities under the tested conditions.</p> <p>They show which desecrated modifiers are common, which are rare, and roughly how large the difference is between them. The group-corrected estimates also account for cases where a modifier was unavailable because its mod group was already blocked.</p> <p>For practical crafting, these frequencies become especially useful together with omens that guarantee a Kurgal, Amanamu, or Ulaman property. Once the property is fixed, we can focus on the relative frequencies of the modifiers inside that smaller pool.</p> <p>The exact internal game weights are still unknown, but the practical conclusions are clear:</p> <ul> <li>Desecrated modifiers have different draw rates.</li> <li>Attribute modifiers appear to share a blocking group.</li> <li>Elemental resistance modifiers remain available independently.</li> <li>Existing modifiers change the available pool.</li> <li>Property-forcing omens can significantly narrow the set of possible outcomes.</li> </ul> <p>I’ll add the methodology details in the comments.</p> <p>In Part 3, I will use these results to estimate the chance and average cost of obtaining a natural modifier through Desecrate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Civil-Bee-f\"> /u/Civil-Bee-f </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1uva5fc\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uva5fc/i_desecrated_more_than_500_rings_here_is_what_i/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-13T12:27:43+00:00",
-    "author": "/u/Civil-Bee-f",
-    "images": [
-      "https://i.redd.it/pceolu1uezch1.png"
-    ],
-    "video": null,
-    "score": 77,
-    "comments": [
-      {
-        "author": "Mean-Attention-6161",
-        "score": 6,
-        "body": "This is really cool! Out of curiosity is this data gathering experiment mainly for personal confirmation of the data, contributions to supporting evidence or as entertainment/sense of accomplishment? (Or a mix or something not mentioned)"
-      },
-      {
-        "author": "Civil-Bee-f",
-        "score": 4,
-        "body": "I'm working on my crafting calculator"
-      },
-      {
-        "author": "Mean-Attention-6161",
-        "score": 3,
-        "body": "That’s awesome, being able to use your own tool that you worked so hard on is a great feeling. Reminds me of the dozen or so spreadsheets on pricing and manufacturing costs I had made for myself for EVE."
-      },
-      {
-        "author": "Civil-Bee-f",
-        "score": 5,
-        "body": "A quick note on methodology I used rings with item level 65 or higher and split them into two groups: one for testing prefixes and one for testing suffixes. The suffix group was larger because the suffix pool contains more desecrated modifiers. For the suffix test, each ring had: 3 filled prefixes 1–2 suffixes I then used a Desecrated Bone, so the available slots were mostly limited to suffixes. For the prefix test, I did the opposite: 3 filled suffixes 1–2 prefixes This let me analyse prefix and suffix frequencies separately."
-      },
-      {
-        "author": "rude_ooga_booga",
-        "score": 1,
-        "body": "Why minimum ilvl 65?"
-      },
-      {
-        "author": "coffealake",
-        "score": 3,
-        "body": "So true when I try to get the exposure effect. The modifiers for the new rune bound affixes are also not equal. Try getting a boots with 15% chance to not comsume charges."
-      },
-      {
-        "author": "Justlik3thewind",
-        "score": 2,
-        "body": "how does this help the rng god?"
-      },
-      {
-        "author": "HappyHopping",
-        "score": 2,
-        "body": "The 1 weighting for desecrated mods is a placeholder value that we know is inaccurate. The mod pool weighting was generated from the chance of success from the recombinator, we had no API access or datamining that helped POE2 DB come up with these values. Desecrated mods could not be used with with recombinator. Other mods we don't know the weights of were jewels, where mods like +1 to maximum rage is an extremely rare mod on rubies that has a very low weight (based upon my experience there isn't a mod with a lower weight). Now that the recombinator is not in the game we will have no knowledge"
-      },
-      {
-        "author": "rude_ooga_booga",
-        "score": 1,
-        "body": "Nice work. I don't mean to critisize but is the sample size truly big enough tht we can be quite certain your findings of different weightings are true? 500 desecrated rings is maybe 1500 desecrated mods (sorry I skimmed through some parts). Couldn't there be variance in that?"
-      },
-      {
-        "author": "Civil-Bee-f",
-        "score": 15,
-        "body": "It's not enough to recover the true weights, but it's enough to say with confidence that some mods are statistically more likely to appear than others."
-      }
-    ]
-  },
-  {
-    "id": "1uvsquh",
-    "title": "How I made 20+ mirrors this league",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uvsquh/how_i_made_20_mirrors_this_league/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uvsquh/how_i_made_20_mirrors_this_league/\"> <img src=\"https://preview.redd.it/wx0hev9933dh1.png?width=140&amp;height=76&amp;auto=webp&amp;s=4c6e99a60d396e7347fe63c74efe8b2b6bd85fae\" alt=\"How I made 20+ mirrors this league\" title=\"How I made 20+ mirrors this league\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I&#39;m done with the league so I&#39;m revealing a very simple method (2 approaches) that made me over half of my currency. Currently sitting on ~8 mirrors of raw currency and several high value chase uniques (will probably do a giveaway later). Important to note that the method will likely not work once more people start doing the same. This is more of a PSA that you can get your own legacies for a lot cheaper.</p> <p>Tracking scroll (did not get this until recently): </p> <p><a href=\"https://preview.redd.it/wx0hev9933dh1.png?width=388&amp;format=png&amp;auto=webp&amp;s=2b96ddf3a1ebbd927a9730c8f18f71d2fa078443\">https://preview.redd.it/wx0hev9933dh1.png?width=388&amp;format=png&amp;auto=webp&amp;s=2b96ddf3a1ebbd927a9730c8f18f71d2fa078443</a></p> <p>While I was doing usual hideout warrior activities such as crafting and arbitrage, I came across a method that was effortless and requires no crafting knowledge. It seems like a lot of people are unaware of how to create socketable Aldur&#39;s runes with Aldur&#39;s Legacy. Many people are buying the legacies through trade rather than the currency exchange.</p> <p>Approach #1: Buy Aldur&#39;s legacy (currently 275-280divs) from the currency exchange and socket them into a corresponding unique (usually this costs nothing, like 1-20ex). I slowly purchased 35 of them for 268-275 divs last night and sold all the legacies within 2 hours. The margin depends on the time of the day. I sold them at 15-50divs profit per piece. Sometimes the margin can be over 100divs. Popular ones (Greymake, thorns, lifesprig, foxshade, quilrain) sell faster but have smaller margins.</p> <p><a href=\"https://preview.redd.it/cxhbr51e43dh1.png?width=396&amp;format=png&amp;auto=webp&amp;s=b4b64832b925bad9a0f87e9b30c9967c11c93d54\">https://preview.redd.it/cxhbr51e43dh1.png?width=396&amp;format=png&amp;auto=webp&amp;s=b4b64832b925bad9a0f87e9b30c9967c11c93d54</a></p> <p><a href=\"https://preview.redd.it/46508edf43dh1.png?width=387&amp;format=png&amp;auto=webp&amp;s=113c2512000e07452bbc8dbf81674697f03af0c4\">https://preview.redd.it/46508edf43dh1.png?width=387&amp;format=png&amp;auto=webp&amp;s=113c2512000e07452bbc8dbf81674697f03af0c4</a></p> <p>Approach #2: You can use extraction orbs to remove them from items. People often brick their items and throw them up for 150-200divs. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/uzo9000\"> /u/uzo9000 </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uvsquh/how_i_made_20_mirrors_this_league/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uvsquh/how_i_made_20_mirrors_this_league/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-14T00:05:36+00:00",
-    "author": "/u/uzo9000",
-    "images": [
-      "https://i.redd.it/wx0hev9933dh1.png",
-      "https://i.redd.it/cxhbr51e43dh1.png",
-      "https://i.redd.it/46508edf43dh1.png"
-    ],
-    "video": null,
-    "score": 238,
-    "comments": [
-      {
-        "author": "preemo",
-        "score": 356,
-        "body": "TIL there are extraction orbs. +1 to Intellect."
-      },
-      {
-        "author": "Maleficent_Tale1997",
-        "score": 16,
-        "body": "Shush dont ruin my perfect rune farm XD"
-      },
-      {
-        "author": "One-Alternative1573",
-        "score": 233,
-        "body": "Very nice! I think I still prefer piloting my shitty build in maps for hours finding nothing of value. To each their own"
-      },
-      {
-        "author": "not_old_redditor",
-        "score": 82,
-        "body": "Also known as playing the game"
-      },
-      {
-        "author": "EVEseven",
-        "score": 179,
-        "body": "Ahhh there's the catch Step1) have a ton of money. Haha I'm just goshing. Good on you that's a hell of a lot of money. My strategy is widely different. It revolves around me putting a lot of time and thought into what would better balance my trinity. Buy said item. Only to realize it actually made it worse. Rinse and repeat. Its more of a long game strategy though. You're welcome to it as well 😁😁😁"
-      },
-      {
-        "author": "jossief1",
-        "score": 139,
-        "body": "Well done. You can delete this post now as I think enough people have seen it..."
-      },
-      {
-        "author": "thatsrealneato",
-        "score": 74,
-        "body": "I’m always amazed at how much people who don’t understand how things work will overpay for things"
-      },
-      {
-        "author": "Dallacar",
-        "score": 33,
-        "body": "Happens in real life too. Huge money saver if you know what you're doing, I thank my dad for teaching his kids how to change their oil every time I have to"
-      },
-      {
-        "author": "weveran",
-        "score": 32,
-        "body": "I see this mentioned a lot, but around here I'd save like $20 to change oil myself. Not only would I have to buy the stuff and crawl under the car, but I'd have to deal with the disposal too. Plus the landlord forbids \"maintenance\" so that's a huge gray area. Meanwhile I can swing into an express change while I'm already in town for something else and I'm in and out in usually less than 10 minutes."
-      },
-      {
-        "author": "ZYRANOX",
-        "score": 21,
-        "body": "People like paying to have others go through the troubles of something they aren't specialized in whether it's simple or not. Thats just how society is. For example there really isn't a single human alive today that knows how to make a computer from natural resources but there are so many people you can go to a that are experts on each part of building a computer."
-      }
-    ]
-  },
-  {
-    "id": "1uw7oiu",
-    "title": "Calculating the chance to hit T1 Added Fire Damage with Desecrate",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uw7oiu/calculating_the_chance_to_hit_t1_added_fire/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uw7oiu/calculating_the_chance_to_hit_t1_added_fire/\"> <img src=\"https://preview.redd.it/r49biiqrx6dh1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=b2e47e2a3213414209ad2a5557e46f513c8da540\" alt=\"Calculating the chance to hit T1 Added Fire Damage with Desecrate\" title=\"Calculating the chance to hit T1 Added Fire Damage with Desecrate\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In <a href=\"https://www.reddit.com/r/PathOfExile2/s/HZLP61Zj9D\">the previous post</a>, I estimated how many Desecrate modifiers can occupy a three-option reveal.</p> <p>Now let’s use those results for a practical crafting calculation.</p> <p>For this example, we want to hit:</p> <p><strong>T1 added flat fire damage</strong></p> <p>The relevant prefix weights are:</p> <pre><code>T1 fire damage weight = 200 Total prefix weight = 69,500 </code></pre> <p>The chance to hit this modifier in one available natural prefix slot is:</p> <pre><code>a = 200 / 69,500 a ≈ 0.002878 </code></pre> <p>So each available natural prefix slot has approximately a:</p> <pre><code>0.288% chance </code></pre> <p>to contain T1 added fire damage.</p> <h1>Accounting for Desecrate slots</h1> <p>The observed prefix distribution was:</p> <pre><code>1 desecrated prefix: 198 reveals 2 desecrated prefixes: 37 reveals 3 desecrated prefixes: 1 reveal Total: 236 reveals </code></pre> <p>This gives:</p> <pre><code>P1 = 198 / 236 ≈ 0.8390 P2 = 37 / 236 ≈ 0.1568 P3 = 1 / 236 ≈ 0.0042 </code></pre> <p>We don&#39;t know the true chances, but the approximate 95% confidence intervals are:</p> <pre><code>P1: 78.7%–88.0% P2: 11.6%–20.9% P3: 0.07%–2.36% </code></pre> <p>For the two common outcomes, the sampling error is roughly <strong>±4.7 percentage points</strong>. You will see later that sampling error doesn&#39;t matter much in practical calculations.</p> <p>The third outcome was observed only once, so its relative uncertainty is much larger. These intervals are also not independent, because <code>P1 + P2 + P3 = 1</code>.</p> <p>With one desecrated prefix, two natural prefix slots remain.</p> <p>With two desecrated prefixes, one natural prefix slot remains.</p> <p>With three desecrated prefixes, no natural prefix slots remain.</p> <p>The probability of hitting the target modifier is therefore:</p> <pre><code>P(success) = P1 × (1 - (1 - a)^2) + P2 × a </code></pre> <p>Substituting the values:</p> <pre><code>P(success) = (198 / 236) × (1 - (1 - 200 / 69,500)^2) + (37 / 236) × (200 / 69,500) </code></pre> <p>The chance to hit the modifier in two available natural slots is:</p> <pre><code>1 - (1 - 200 / 69,500)^2 ≈ 0.005747 </code></pre> <p>Therefore:</p> <pre><code>P(success) ≈ 0.8390 × 0.005747 + 0.1568 × 0.002878 P(success) ≈ 0.005273 </code></pre> <p>So after accounting for the slots occupied by Desecrate:</p> <pre><code>Chance per reveal ≈ 0.527% Average attempts ≈ 1 / 0.005273 ≈ 190 </code></pre> <h1>Omen of Abyssal Echoes</h1> <p>Treating the reroll from Omen of Abyssal Echoes as a second independent reveal window:</p> <pre><code>P(success with Echoes) = 1 - (1 - 0.005273)^2 P(success with Echoes) ≈ 0.01052 </code></pre> <p>Therefore:</p> <pre><code>Chance with Echoes ≈ 1.05% Average attempts with Echoes ≈ 95 </code></pre> <h1>What if multiple elemental damage types are acceptable?</h1> <p>Maybe we do not specifically need fire damage. Cold or lightning damage may also be acceptable for the craft.</p> <p>In that case, we can add the weights of all acceptable modifiers before running the same calculation:</p> <pre><code>Combined target weight = fire weight + cold weight + lightning weight </code></pre> <p>Then:</p> <pre><code>a = combined target weight / total prefix weight </code></pre> <p>The rest of the calculation stays the same.</p> <p>This is equivalent to adding their per-slot probabilities. However, it is safer and simpler to combine the weights first rather than adding the final per-reveal probabilities.</p> <h1>The collarbone also changes the probability</h1> <p>The total eligible modifier weight depends on the collarbone used for the craft.</p> <p>A more expensive collarbone can add a minimum modifier-level restriction. This removes lower-level modifiers from the eligible pool, reduces the total weight, and increases the probability of hitting a high-level target modifier.</p> <p>However, the stronger collarbone is also more expensive.</p> <p>The setup with the highest success chance is therefore not necessarily the setup with the lowest expected crafting cost. The result depends on the current prices of:</p> <ul> <li>the different collarbones;</li> <li>Omen of Abyssal Echoes;</li> <li>the base item;</li> <li>and any other resources consumed by each attempt.</li> </ul> <p>Because these prices change, it makes sense to repeat the calculation using current prices each time.</p> <p>I made a calculator for this:</p> <p><a href=\"https://craftgaz.com/home/\">Crafting calculator</a></p> <p>It compares the success chance and expected crafting cost for different setups. Using advanced operations, it calculates the cheapest way to reach the required modifiers.</p> <h1>Result</h1> <p>For T1 added fire damage with the weights used in this example:</p> <pre><code>Chance per reveal: ≈ 0.527% Average attempts: ≈ 190 With Omen of Abyssal Echoes: ≈ 1.05% Average attempts: ≈ 95 </code></pre> <p>For comparison, if all three options were natural prefixes:</p> <pre><code>1 - (1 - 200 / 69,500)^3 ≈ 0.861% </code></pre> <p>That would give:</p> <pre><code>Without accounting for Desecrate: ≈ 116 attempts After accounting for Desecrate: ≈ 190 attempts </code></pre> <p>So in this example, ignoring the slots occupied by Desecrate underestimates the expected number of attempts by about 63%.</p> <p>After including the sampling uncertainty from the observed Desecrate-slot distribution, the approximate ranges are:</p> <pre><code>Without Echoes: Chance per reveal: 0.513%–0.541% Corresponding average attempts: 185–195 With Omen of Abyssal Echoes: Chance per attempt: 1.024%–1.080% Corresponding average attempts: 93–98 </code></pre> <p>These ranges only represent sampling uncertainty in the observed Desecrate-slot distribution. They do not include possible uncertainty in modifier weights or in the underlying model.</p> <h1>More crafting examples</h1> <p>Here are several complete craft setups with their probabilities and estimated costs:</p> <ul> <li><a href=\"https://craftgaz.com/#ir=VZLPbtswDMZfxfjOOjjDuj-6DWjTU7eh220IDMaiA2G05Ely6iDwdQ-wR9yTDLSTtjuKIj9-_JFn9FwI9oziizAsPvNT1SbqCgz2lDV0H8VVjz4cYNAK5QyLy9PLUWA_vJkNaPK5yVwy7I-dQS6UigonSr6ctIQSwyAzu6aPTvPOOKQ4DrC4m4aYx8R3Xcet9s7eae9vY9f5CQbCRxbYdzcGR5KRF8HgYq-m1G9TToNGb7mjUVSiS9SWMbGD7UgyzzuD_Xhq2pgXZ1s_6V89zwYcSjrBbgxCdLx6-86p94FEc70mGgTqtUfivLbIpNBeS83mjC_DtWRjILRX40hRpOp8yqXqo4NBXLIeo8hWow_RLXugdFghnq8MviZeGSyIfYANo4hZ2TX8CxZbn_iWejoo4d6H5oLr_c1_GNY6x5nbROUl4pdt4JNz7F6kPmKnyEgkPjXPRbAljazMAk9lmXlnUC6sLtvfS2x_rkNckF1vKkSVgC_cV39__6niwImKjyEvz2ey1zVsTL0z4GnQs1jszst18dC0NMC-ret6_gc\">ring: T1 added fire damage craft</a></li> <li><a href=\"https://craftgaz.com/#ir=zZVLbtswEIavQswqAVjAb7fctXlt-kKanWEItDhyiFCkSlKJDUPbAt32Dj1D9z1KTlKMJEd92EUDOECXGpE___k4nNlAjlGC2EDU0SAIeIt3LPUyi8BhIQOFLpxR7FLbJXBIjQwBBLSf2twaEM8HFQe50iEJGAOI2ZxDiNJHEvbS67imLdIjcAiIKsmdonUbWHpXFiDgbFW4UHo8yzJM6eygFZ39ocwyvQIOBm_RgJiMOdxKU2ItaJXLyRT5TeK6oOgpZrI0JJF5mcbSowKRSROwmnNYlOskdaF2dq5X9K9XVRzQRr8G0eNgncLG27uCVmlVh41c0PngnTEs0z5EljsFHFy96tIZc07RN07VOKVfNiw221Tee2xSqUlpC8KWxvAGQYIfQcC59ngqc7kkULm2SZv1dPxLNs0-hQFTL2MX0TVUeKkUqk7qBcwr_hgXJ86oA7nopB7t4rVeXker7fJAVn7TIz9zDtIYd5c87AQRfYlUEBZXEcS0ItNX6HNtpdmWQ5-DlTnl4TGUJrIjjyEeU9VKekQ_lRaHvIxdBe5SGzyo3Tl_86zQmCLrs9mDYdY4Zt-_sas-O7r__HU6Pp7_42mvvLTp9fasYVfIf5enV-VsXconrrT1ewlYe_6vrpBDmlP_uCB1C6JPdxev0dZc0YQm9Cf10S7qAzajij0g8HEHfK_yQVg_3aPdT3jUEh7uJDzZRXjIZtSZDkh42hHeq3wQwk_XnPcTnrSExxU1q9gSbkfswrj0phkxLejt4LaOWhnoiDm7__SFuQK9jNrZUH82XQu6WdfjUz7hYz7iQz7g_TkHXBU0h2vvVT3OsUhSWYAY9Xq96gc\">ring: T1 added elem damage craft</a></li> <li><a href=\"https://craftgaz.com/#ir=3ZjfaiM3FMZfRRwotFSwY8d2krlzutlSSJptEnqzGCOPztjqaqSppEntNYZeFXq77Cv0GXrfR8mTFEkz4z_xbpuSsKZXZjTy0aff0fnk4yUU6BikS3DCSYQUzrR2ltz_-oHkkjnyNfmC4B2zQitSGszFHC1QmDDrJ_9QieytlaIkNzMdXmSSWduEAQpC3klIT7orCmwu7Niis5C-GVGwjhnnVzbMCLeAFK6ZQaBgEfm40NzPW8LU6Kr0L5FXGfKhkAUq97IyzAmt_HTBvZSbKs_FHChIvEMJaTehcMdkhSGw4rrw6gzL3dgtSj_6EnNWSQcUcsMyVxnkkOZMWlyNKEyqxTjTNih8Jeb-XbJaUUDlzALShILSHKPGq9LPEjwMSzbx64PRUpJcGOtIoTlQ0GHWtZbylR-91DxwZ2YamSybrbwOnKEmJhSkqpKSRhRj_DlqR5WhfY0mQ-X3UAg1rrc-6G9tKX6Zo8XMMLceEYEwXOiMye9UZpBZ5Ocx10PFzxWa6eJmJlDyYxit6GP0nTGLIXAjdFthb_BohT5iLe6aOaGmOxJ7MPJpY1LqX8ZtKEidqdDnTeHcQXq08vu4RVMIxWSTtQ4FxQq_NYPWw7TM18JG4ikUVRBWh1vCmWEqmzURuuu8e6EkSCbN5slff5LbDvny_vc_eoOv_DnUKiT_G12pcMIsBjGHDphCVvhi_NbXqYK048m6GSpIBxRQ2ji0S-doTadFUp_cDTSD_tOg-Ry18XEuvZpLN3C5qlymC28bkUxvTQbnLJhRtInz8JQuIZdaG0j7Cd1B4JdgpojO8f86UBrSk8cUlC_8WN_9vZT762BMqUq2lIfhqeXk97AX69B_vHnCQzlU_MZV6nZm0M605Nuw47f_Le6gugF5UYNMAoj_rvdS36G_aH9EqTN_PR-awLYqL0SOh6vukin2HOpGdZ30No_2ov6J5svjgdEOFSf-zJH20JEXpEkzafJMXpBWO_FotwbCbtbVluyttsHBeNrB3ATbhvYPd-Ca7_Fevsef380O3h0-mfkD0Pfs_vCU9A7-snr2u6Bx28HH3Hafjz4o810n3Tdnr0tvO_JDA27bzw2TqZTIF4T5pphow9HUNgHfa1MwKd7hVT0aQ53u7YxO287owb8Bt51PNkqxkfZSXR2z7vsnUmdvoyHVoUuDZWz9lfYtGwiHBbn_7T3RJcY-34ZHgzY27E3rndAj2qN92qUDekw7Iwo4LzFzTSbbJXKhhJ2tV_hJC5WSiXYzIpniQk0jpLiOVkis1I5IttDV5oIn9HR3kfBXBpbjjJWQ9pIkWf0N\">dex_int boots: flat evasion+es and percent evasion+es</a></li> <li><a href=\"https://craftgaz.com/#ir=pVTNatwwEH4VMacGVNi_ZFvdAklooaUhCfQQFjMrjzcisuRK8maXxddCr32HPkPvfZQ8SZFsr5N0KZTerPHom_m-bzQ7KCkgiB0EFTSBgAuHMtSOmK8IHXtQ4Y7dqdUdwxBQ3scw5cBhiT6mX1t0yqzYdcwGDlKj9zHenZVeaxDztw0H3CifeQoexO0ODJbxfuFQivdGOkJP-Wmqcd2VwA3F3AWHlbN1Fb_hYOqiWXDwAV2ITBw6FbYg4AodAQdPlGelzdu6CQrEAPSZsLLmXFNJJqA-wxJXdElOkgnxtspjn5eOCrUBDprWpEHMOKxR15TKmNyWkbvDImRhW8XoGRVY64hQdIrmIArUnmKzy3qbSetTvxdqE_9Npk3DgUxwWxAjDsbm1Lb8qYppKk9hjctYH5zVmhXK-cBKG9WyKevKan0Rox9tnmxFt-ol76hc10VLJRmiDAhTa92JnNGXp-I8N6RUJuv4z-fPiLUIOXmSDsMQUUl1-GAl6kOgb1rvUGv7kO2vgwiupiiHoU0AMW4a_lSG8SADbTCJ3LI_Tyexg0Jb65JeLenYzYA3eYE3-U-86Qu86YA3cOoxzwaWO1haEy05NVK14zb4tXhai4OjNaHuRige4wD0E7Xv5CR1ckOuVCZmt_3MeP_cHqy7f10pksTG7LY3kO2tYa03LJnDfv1kN2P26vHbj_n8aBEfA2p6MrLT0ajhUNZhmO1D5Y8PlZ-wV_vypfL-6E_48eQQ-mkIVFahBz8ZtP4nOns_-oUXv-9UyPo19dflFBX3tZSUll0P8U6l0THZ_tcsHQtUGsRxE0c9dOJ0Fi-1lffPNmLaIhDffxwRUIFK9vj1O7MVOQzKGp-Ojny7Xvo9MeJjPuFTPuPH_GTBgTYVydCNatqPVGUSKxCz0WjU_AY\">spear: fracture T1 attack speed</a></li> </ul> <p>These examples use the same model, with the target modifiers, eligible modifier pools, resource prices, and crafting steps adjusted for each craft.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Civil-Bee-f\"> /u/Civil-Bee-f </a> <br/> <span><a href=\"https://i.redd.it/r49biiqrx6dh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uw7oiu/calculating_the_chance_to_hit_t1_added_fire/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-14T12:46:10+00:00",
-    "author": "/u/Civil-Bee-f",
-    "images": [
-      "https://i.redd.it/r49biiqrx6dh1.png"
-    ],
-    "video": null,
-    "score": 41,
-    "comments": [
-      {
-        "author": "FanatiXX82",
-        "score": 93,
-        "body": "TLDR its 50/50 you either get it or you dont."
-      },
-      {
-        "author": "KylAnde01",
-        "score": 14,
-        "body": "Heard a stats teacher say \"anything less than a 100% chance is a 50/50, even if the chances are 99%.\" That stuck with me. Putting a few hundred hours into XCOM helped to drill that fact into my brain forever."
-      },
-      {
-        "author": "Reasonable_Yam3401",
-        "score": 5,
-        "body": "That’s why I like games like Battle Brothers. The devs expose the attack rolls so you can see the game destroy you on a 5% chance 3 times in a row and you can’t even complain."
-      },
-      {
-        "author": "poseidonvn",
-        "score": 19,
-        "body": "All of this just for a 50/50 😭"
-      },
-      {
-        "author": "elementlessmonster",
-        "score": 7,
-        "body": "I said, I just want to play a game after work. Not to work again! Lol. Impressive work but as the others said 50/50."
-      },
-      {
-        "author": "Untuchabl",
-        "score": 6,
-        "body": "I always just assumed 50 percent desecrated modifier reveal rate. Looks good"
-      },
-      {
-        "author": "PoE_Acronym_Bot",
-        "score": 4,
-        "body": "I noticed some Path of Exile keywords in this post: ES - Energy Shield ( Wiki ) I am a bot. | All acronyms | Suggest"
-      },
-      {
-        "author": "CryptoThroway8205",
-        "score": 3,
-        "body": "How do you know t1 fire is 200 weight? I tried simulating in craftofexile but had no idea if it was right with abyssal echoes and some omens don't seem programmed in. Poe2db craft just failed the import."
-      },
-      {
-        "author": "Civil-Bee-f",
-        "score": 1,
-        "body": "this link https://poe2db.tw/us/Rings#ModifiersCalc"
-      },
-      {
-        "author": "hkidnc",
-        "score": 7,
-        "body": "For what it's worth, Modifier weights were acquired via trial/error testing using Recombinators. Now that we don't have those anymore, any changes to the modifier pool will cause the poe2db numbers to be incorrect (or, well, will make their accuracy unreliable) https://poe2db.tw/us/weightings"
-      }
-    ]
-  },
-  {
-    "id": "1uwokol",
-    "title": "Tip: If you EVER get chain stunned and die, you need more stun threshold/recovery, stun charm is a flimsy interim solution that can and should be replaced.",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>It seems to be a common problem new players run into, especially when trying to step into juiced delirium. Stick some passive points into the solution and add more or remove some as you see fit</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bigmanorm\"> /u/bigmanorm </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uwokol/tip_if_you_ever_get_chain_stunned_and_die_you/\">[comments]</a></span>",
-    "published": "2026-07-14T23:11:49+00:00",
-    "author": "/u/bigmanorm",
-    "images": [],
-    "video": null,
-    "score": 13,
-    "comments": [
-      {
-        "author": "FullFlight9715",
-        "score": 22,
-        "body": "Problem is in expeditions there so much shit on my screen that I have no idea why exactly I can’t move… no idea if stunned, frozen or whatever"
-      },
-      {
-        "author": "bigmanorm",
-        "score": 3,
-        "body": "The scorpion is a motherfucker with his electrocute, especially when he's enraged with attack speed lol, ailment threshold is a bitch to come by without being an energy shield build. The only other thing to look out for is the big slugs frontal breath that builds up freeze"
-      },
-      {
-        "author": "Micro_mint",
-        "score": 15,
-        "body": "It’s a lesson everyone learns eventually: sometimes less dps and more qol is worthwhile Stuff like swapping crit jewels for es jewels just feels so smooth after ggg removed 6 portals as a primary defensive layer"
-      },
-      {
-        "author": "AluminumFoilWrap",
-        "score": 14,
-        "body": "Everyone gangsta with no stun threshold in their CI build until a gang of white mobs treats you like this <image>"
-      },
-      {
-        "author": "smashsenpai",
-        "score": 12,
-        "body": "I tried giving up the stone charm in favor of stun threshold on the tree. I still got chain stunned and died. The brief window of stun immunity from the stone charm is better."
-      },
-      {
-        "author": "Rookva",
-        "score": 4,
-        "body": "The funniest part about this game is there are so many tools to negate or neuter negative effects on you but people really just don't seem capable of deciding between living and doing SLIGHTLY less damage or dying."
-      },
-      {
-        "author": "bigmanorm",
-        "score": 3,
-        "body": "I don't really look down on casuals for not experimenting or trying to understand stuff, a lot of build guides let people down by neglecting shit like this and never offering common solutions to common problems"
-      },
-      {
-        "author": "emapco",
-        "score": 2,
-        "body": "If you have a lot of energy shield, then a Heart of the Well Diamond with \"gain additional stun threshold equal to x% of maximum energy shield\" and \"gain additional ailment threshold equal to x% of maximum energy shield\" is very handy. I have 9k energy shield and very rarely get stunned. That's the only gear I have with stun threshold. Note, I also have Craiceann's rune of warding on my body armour."
-      },
-      {
-        "author": "Zorops",
-        "score": 2,
-        "body": "Stun threshold based on energy shield doesnt even seem to do anything. I got 50% for 12000 es and those expedition mon still install stun when attacked"
-      },
-      {
-        "author": "nackedsnake",
-        "score": 2,
-        "body": "As soon as I found out stone charm doesn’t prevent the initial stun I immediately ditched it, what a bait."
-      }
-    ]
-  },
-  {
     "id": "1ux0dwb",
     "title": "Breach Tree you can hold the hive blood and just click on the items on your stash",
     "link": "https://www.reddit.com/r/PathOfExile2/comments/1ux0dwb/breach_tree_you_can_hold_the_hive_blood_and_just/",
@@ -268,11 +8,11 @@
     "author": "/u/Nikiforenk0",
     "images": [],
     "video": null,
-    "score": 38,
+    "score": 36,
     "comments": [
       {
         "author": "ToiletSenpai",
-        "score": 6,
+        "score": 5,
         "body": "It’s a good tip! I only recently learned it as well but it’s a gamechanger. Thank you"
       },
       {
@@ -318,16 +58,16 @@
       "https://i.redd.it/mp8yfd04uddh1.jpg"
     ],
     "video": null,
-    "score": 117,
+    "score": 121,
     "comments": [
       {
         "author": "Alive_Conference_598",
-        "score": 35,
+        "score": 34,
         "body": "Thanks for giving me one more thing I'll never touch again"
       },
       {
         "author": "GaliaHero",
-        "score": 13,
+        "score": 15,
         "body": "would be smarter and use doryani instead of jado and would be smarter to sell diamonds and regalias unidentified, so don't take this as a realistic spreadsheet"
       },
       {
@@ -337,7 +77,7 @@
       },
       {
         "author": "glassfoxx",
-        "score": 32,
+        "score": 30,
         "body": "Isn’t Doryani better for Pinnacle Bosses or no?"
       },
       {
@@ -357,7 +97,7 @@
       },
       {
         "author": "Zongi88",
-        "score": 21,
+        "score": 22,
         "body": "Im pretty sure jado was a bad choice here. Chance for extra uniq is huge on arbiter."
       },
       {
@@ -367,7 +107,7 @@
       },
       {
         "author": "sunbunman",
-        "score": 11,
+        "score": 12,
         "body": "Sell all prisms unid, that shit is pure Gamba. Moriors can be 3:1 so you should be doing that for all of the garbage. Doryani is the best for farming arby"
       }
     ]
@@ -387,7 +127,7 @@
     "comments": [
       {
         "author": "hkidnc",
-        "score": 56,
+        "score": 55,
         "body": "It's based off of both character level and attribute. It basically uses the highest level version of that skill which you qualify for. Which is nice!"
       },
       {
@@ -397,12 +137,12 @@
       },
       {
         "author": "Old_Credit5771",
-        "score": 10,
+        "score": 11,
         "body": "Hold alt and hover over th skill, it will most likely be the highest necessary attribute on there"
       },
       {
         "author": "Ghrenix",
-        "score": 6,
+        "score": 7,
         "body": "What is your character level?"
       },
       {
@@ -448,11 +188,11 @@
       "https://i.redd.it/34rdk0aujfdh1.png"
     ],
     "video": null,
-    "score": 185,
+    "score": 187,
     "comments": [
       {
         "author": "Wrath_Viking",
-        "score": 234,
+        "score": 236,
         "body": "getting 3x saga's back is extreme luck btw"
       },
       {
@@ -477,12 +217,12 @@
       },
       {
         "author": "Inevitable_Disk_3344",
-        "score": 49,
+        "score": 48,
         "body": "When Aldur's Saga goes off it's the most invigorating farm in the game, but when it doesn't it feels utterly defeating especially if you paid upfront for all the inputs that optimize it. My first two Aldur's were absolutely ridiculous. Both dropped an Aldur's Saga for self sustain , plus a ton of currency. My next two were utter fucking garbage. Like four expedition nodes that each dropped like 5-6 div for a net loss against the opportunity cost of not just selling Aldur's Saga..."
       },
       {
         "author": "Sven676",
-        "score": 37,
+        "score": 38,
         "body": "You got 3 alders saga from 4 maps? Pretty crazy"
       },
       {
@@ -492,12 +232,12 @@
       },
       {
         "author": "Strange_Salad3369",
-        "score": 11,
+        "score": 10,
         "body": "Loot filter my guy"
       },
       {
         "author": "Good_whatsoever",
-        "score": 15,
+        "score": 16,
         "body": "Exalts, idols, LESSER JEWELLERS ORBS, Literally 0.06 of an exalt, like come on man what a waste of screen and performance"
       }
     ]
@@ -518,7 +258,7 @@
     "comments": [
       {
         "author": "bennyrosso",
-        "score": 30,
+        "score": 29,
         "body": "Amazing I would just add that the Omen of Whittling when is active in your inventory will preview in yellow what is/are the lowest modifier (wich is not easy to know)"
       },
       {
@@ -528,17 +268,17 @@
       },
       {
         "author": "Clarine87",
-        "score": 5,
+        "score": 6,
         "body": "You can also preview crafts in other people's hideout shops. If you're unsure which mod a Whittling will replace."
       },
       {
         "author": "GenesectX",
-        "score": 13,
+        "score": 15,
         "body": "from my experience crafting in poe2 can be boiled down to just a few steps assuming you arent doing mirror tier items roll or buy desired mod on base, 2 random affixes + desecrate for a 1/3 to slam fracture (12d+base+rolling cost per attempt) or buy fractured base (might be expensive) chaos spam for 2nd desired affix use either sinistral or dextral omens of crystallization depending on which affix is open for guaranteed free perfect essence mod/alloy (skip if you dont want any) use desecration omen to desecrate on desired affix and if you miss, omen of light and go again, you can do this as ma"
       },
       {
         "author": "Daedalus81",
-        "score": 3,
+        "score": 4,
         "body": "Ok so where I really dropped crafting was this part: \"chaos spam for 2nd desired affix\" I had a base with a nice mod and using a perf aug I got a crap one. So I \"chaos spammed\" and I would just end up removing the good mod all the friggin time. And I'm not loaded with greater let alone perf chaos or even whittling to make any kind of progress. I feel like crafters are really leaving out the cost here..."
       },
       {
@@ -553,7 +293,7 @@
       },
       {
         "author": "Orachor",
-        "score": 8,
+        "score": 9,
         "body": "I mean all of these are well described when checking the item’s description, the issue is that there are crafting mechanics that are not described anywhere for example using a perfect essence on an item that has full prefixes and suffixes (6 in total) will only remove either a prefix or suffix depending on the affix the esence adds (it needs to make space for the affix)."
       },
       {
@@ -577,46 +317,46 @@
     "author": "/u/Andromanner",
     "images": [],
     "video": null,
-    "score": 283,
+    "score": 289,
     "comments": [
       {
         "author": "notJames24",
-        "score": 216,
+        "score": 218,
         "body": "Most complicated patch so far"
       },
       {
         "author": "Taluh-a",
-        "score": 22,
+        "score": 23,
         "body": "Looking at the downtime, it seems so Edit: It's [may be (nearly)...] up Back to maintenance Edit 2: It's up"
       },
       {
         "author": "Eleven655321",
-        "score": 120,
+        "score": 123,
         "body": "I fully support adding support for the new supporter packs."
       },
       {
         "author": "refinedmercy",
-        "score": 33,
+        "score": 32,
         "body": "+1 I support this; we must all support supporter packs being supportable by all supporters"
       },
       {
         "author": "throwawayurwaste",
-        "score": 68,
+        "score": 67,
         "body": "It's gonna be very funny if this patch somehow makes the optimization worse"
       },
       {
         "author": "Deathack97",
-        "score": 28,
+        "score": 29,
         "body": "I mean, it can't get any worse than this, right? 🫪"
       },
       {
         "author": "uzu_afk",
-        "score": 51,
+        "score": 55,
         "body": "<image>"
       },
       {
         "author": "Elegant_Chocolate546",
-        "score": 32,
+        "score": 31,
         "body": "I gotta stop playing for this?"
       },
       {
@@ -626,7 +366,7 @@
       },
       {
         "author": "parasocks",
-        "score": 21,
+        "score": 20,
         "body": "Servers need a cigarette break too"
       }
     ]
@@ -640,7 +380,7 @@
     "author": "/u/steelballsafury",
     "images": [],
     "video": null,
-    "score": 51,
+    "score": 50,
     "comments": [
       {
         "author": "bri_breazy",
@@ -649,12 +389,12 @@
       },
       {
         "author": "Tranchoir",
-        "score": 9,
+        "score": 10,
         "body": "got the same bug , on my 1st map (dont know why you ve been downvoted)"
       },
       {
         "author": "ryyzany",
-        "score": 6,
+        "score": 5,
         "body": "The gremlins who stalk new posts on this sub are loud and plenty"
       },
       {
@@ -669,17 +409,17 @@
       },
       {
         "author": "chilled50",
-        "score": 8,
+        "score": 9,
         "body": "I wonder what causes the bug because I’ve ran hundreds of grand expeditions with oath runes and never encountered missing/unkillable mobs. I don’t doubt it’s happening but it’s strange I haven’t encountered it."
       },
       {
         "author": "dayumpachuau",
-        "score": 5,
+        "score": 6,
         "body": "Mobs can spawn in unkillable areas in my case , I can see it but can't damage them"
       },
       {
         "author": "Status_Yam_128",
-        "score": 2,
+        "score": 4,
         "body": "I never encountered it until today. In my case, at least one of the monsters I would have needed to kill to get rid of the invincible one just didn't spawn. I covered every single inch of the map looking for it. an entire node on an Aldur's run bricked."
       },
       {
@@ -705,11 +445,11 @@
       "https://i.redd.it/9cmbc8edqndh1.png"
     ],
     "video": null,
-    "score": 69,
+    "score": 70,
     "comments": [
       {
         "author": "binotheclown",
-        "score": 29,
+        "score": 31,
         "body": "The 1-line patch managed to break expeditions again? LUL"
       },
       {
@@ -724,17 +464,17 @@
       },
       {
         "author": "Tranchoir",
-        "score": 18,
+        "score": 19,
         "body": "no joke , 1 st map after patch, got a oath rune bug (only the rare left , unkillable, i looked everywhere on map, nothing)"
       },
       {
         "author": "Small_Act7219",
-        "score": 7,
+        "score": 6,
         "body": "I just had this same thing happen with a remnant on Jade Isle map. only the rare left, i ran all throughout the map with it chasing me and nada."
       },
       {
         "author": "resurrectedbear",
-        "score": 4,
+        "score": 5,
         "body": "Same..."
       },
       {
@@ -744,7 +484,7 @@
       },
       {
         "author": "sunbunman",
-        "score": 4,
+        "score": 5,
         "body": "Feels like every patch breaks GE in one way or another"
       },
       {
@@ -768,21 +508,21 @@
     "author": "/u/6yclone",
     "images": [],
     "video": null,
-    "score": 87,
+    "score": 97,
     "comments": [
       {
         "author": "Arktyus",
-        "score": 54,
+        "score": 57,
         "body": "While this strat is really good, you can go on a bad RNG streak with this as well. This is also not a beginner strategy as the total investment is 50+ div."
       },
       {
         "author": "AdThese8596",
-        "score": 7,
+        "score": 6,
         "body": "Agreed! What is an actual beginner strategy? For context, it's my first time getting to mapping, I'm at T7 Waystones now, trying to rush fortress, but progress is slow as I can't play that much. Is this what I should be doing? Should I go for any other the quests first?"
       },
       {
         "author": "Jerppaknight",
-        "score": 10,
+        "score": 12,
         "body": "Complete the atlas to the point you defeat Arbiter of Divinity at least once. After that pick a mechanic (Breach, Abyss, Ritual, Delirium) and complete that quest line. Farm preferred mechanic around the map completing all Matriarch and Patriarch halls to redo Arbiter for more atlas points. Other one is just run 3x irridiated tablets to farm mechanic tablets and sell those for easy money. The most important part is to complete Atlas first. Doing one map for one point is boring so I'd advice to hunt halls to kill Arbiter over and over again to complete Atlas tree. Sorry if I'm unclear. Feel fre"
       },
       {
@@ -792,33 +532,143 @@
       },
       {
         "author": "SyrenSyn",
-        "score": 30,
+        "score": 48,
         "body": "I'm gonna need a youtube video with an ai generated xx/div per hour thumbnail before I'm sold."
       },
       {
+        "author": "stuuupoo",
+        "score": 4,
+        "body": "Lol well said😂"
+      },
+      {
         "author": "No_Map1168",
-        "score": 11,
+        "score": 12,
         "body": "I've actually been doing something like this for the past 2-3 days and I've made some amazing profit. The only thing I am not doing is not searching for cities. If I have them, good, but if not I'll just run without city. Like 95% of my runs were done outside cities. After about 30+ rites (so 180+ maps) I've only had one 6-map run that genuinely didn't give me anything, and by that I mean no purple omens, only a few smaller 100-200ex ones. I've kept all the things I got in my last 20 nameless before cashing in since I didn't really need the money. I had like 21 whittlings, between 5-9 of each "
       },
       {
         "author": "6yclone",
-        "score": 6,
+        "score": 5,
         "body": "That's been my experience almost exactly. I have actually been profitable on every single run because of chaotic omens and two cities."
       },
       {
         "author": "Dysss",
-        "score": 5,
+        "score": 3,
         "body": "I think ritual really just isn't for me. I've done almost this exact strat about 6 times now, except fully doing it in cities with the reroll tablet from the beginning. I've only seen 3 purple omens and 1 chance omen across all ~60 maps. I would do some other strat like farming abyss or deli, hear about how good ritual is, then proceed to lose 50d before giving up."
       },
       {
         "author": "Saitaver",
         "score": 11,
         "body": "not expensive - 20-30 divs. Brother I have like 7 divs, my biggest sale was 2 😭 Now i'm on t12 and they're not coming easily..."
+      }
+    ]
+  },
+  {
+    "id": "1uz8lwv",
+    "title": "Using a Cryptic Key on Ogham's Legacy allows you to resummon the exact same monster, allowing you to give it up to 12 extra modifiers.",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uz8lwv/using_a_cryptic_key_on_oghams_legacy_allows_you/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uz8lwv/using_a_cryptic_key_on_oghams_legacy_allows_you/\"> <img src=\"https://preview.redd.it/9yit4c6u5udh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e34a6f1b249efa8dbbda489500d4fb8321b352d6\" alt=\"Using a Cryptic Key on Ogham's Legacy allows you to resummon the exact same monster, allowing you to give it up to 12 extra modifiers.\" title=\"Using a Cryptic Key on Ogham's Legacy allows you to resummon the exact same monster, allowing you to give it up to 12 extra modifiers.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>No, I didn&#39;t get any good drops, just 1 divine on my 5th kill of 12.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kryomon\"> /u/Kryomon </a> <br/> <span><a href=\"https://i.redd.it/9yit4c6u5udh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uz8lwv/using_a_cryptic_key_on_oghams_legacy_allows_you/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-17T18:51:22+00:00",
+    "author": "/u/Kryomon",
+    "images": [
+      "https://i.redd.it/9yit4c6u5udh1.png"
+    ],
+    "video": null,
+    "score": 10,
+    "comments": [
+      {
+        "author": "TheInnsanity",
+        "score": 4,
+        "body": "imagine getting a fox spirit on there"
       },
       {
-        "author": "elispion",
+        "author": "TheVaultKing",
+        "score": 2,
+        "body": "I managed to get a spirit to possess one of those boxes. It didn't actually possess the summoned creature for some reason. I just chalked it up to that box once again being garbage."
+      },
+      {
+        "author": "CosmicTeapott",
+        "score": 4,
+        "body": "I've never even heard of a Cryptic Key or Oghams Legacy before in my life, didn't realize that's what that strong box was named"
+      },
+      {
+        "author": "Vitchman",
+        "score": 3,
+        "body": "Spiritwalker here. Can I tame that shit?!?"
+      },
+      {
+        "author": "Im_the_Keymaster",
+        "score": 3,
+        "body": "Tamed beasts can have 4 mods max. It will just pick randomly from that pool of mods to give it."
+      },
+      {
+        "author": "3eyedOdin",
+        "score": 2,
+        "body": "You can also use Omen of Secret Compartments (it's a real thing I swear) to activate it an additional time."
+      }
+    ]
+  },
+  {
+    "id": "1uzrfcw",
+    "title": "PSA for people who have a lot of the atlas explored, but haven't done any cruxes...",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1uzrfcw/psa_for_people_who_have_a_lot_of_the_atlas/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uzrfcw/psa_for_people_who_have_a_lot_of_the_atlas/\"> <img src=\"https://preview.redd.it/9isjfu2ogydh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fc457c62f84c09311c4f67bc560dfd331871309f\" alt=\"PSA for people who have a lot of the atlas explored, but haven't done any cruxes...\" title=\"PSA for people who have a lot of the atlas explored, but haven't done any cruxes...\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>An audience with the king costs ~40 ex, and a head of the king sells for 3.5 div. You drop at least one, sometimes 2 each run - which takes 1-2 minutes on any cruxes that you&#39;ve already pathed to without revealing.</p> <p>Didn&#39;t get lucky on any good omens, but from nothing diamonds seem to drop every 4-5 runs, which sell for a decent amount unid (or feel free to gamble).</p> <p>200 div in 30 minutes, absolute braindead farm. But obviously only that profitable one time.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PegDude\"> /u/PegDude </a> <br/> <span><a href=\"https://i.redd.it/9isjfu2ogydh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1uzrfcw/psa_for_people_who_have_a_lot_of_the_atlas/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-07-18T09:35:10+00:00",
+    "author": "/u/PegDude",
+    "images": [
+      "https://i.redd.it/9isjfu2ogydh1.png"
+    ],
+    "video": null,
+    "score": 152,
+    "comments": [
+      {
+        "author": "lipman19",
+        "score": 60,
+        "body": "Yeah you must be lucky because this definitely doesn’t drop this much"
+      },
+      {
+        "author": "Brave-Parsnip9999",
+        "score": 9,
+        "body": "I’ve ran a good bit of ritual, mostly expedition. I’ve never gotten a from nothing drop."
+      },
+      {
+        "author": "rude_ooga_booga",
+        "score": 49,
+        "body": "Easy profit! These diamonds aren't rare but you still might've had double the normal drop rate"
+      },
+      {
+        "author": "No-Journalist7994",
+        "score": 28,
+        "body": "I’ve done at least 30 cruxes this league and never seen a diamond drop."
+      },
+      {
+        "author": "Ratb33",
+        "score": 25,
+        "body": "I don’t even know what the fux a crux is. Haha."
+      },
+      {
+        "author": "Frankster418",
+        "score": 6,
+        "body": "Right there with ya"
+      },
+      {
+        "author": "Ratb33",
         "score": 5,
-        "body": "I'd recommend getting to t15s, finishing Jado's questline and running triple irradiated waystone chance +effectiveness tablets to farm tablets. It is by far the simplest and easiest farming technique in the whole game and also the most enjoyable. It requires no setup beyond getting jado maxed for his extra content chance and getting mountain biomes atlas passive for more tablets. You dont even have to craft the found tablets and does not require in-depth price checking if you dont want to. Its by far the most 'play the game and get rich' strat."
+        "body": "I’ll tell yah this. I don’t know and I’m still having the best time in any version of POE ever. POE2 0.5 is an absolute banger. And I’m having a blast. I wasn’t even considering POE1 3.29 until I watched the stream they did a couple days ago. And goddamn, GGG seems to have their internal allocation of work and people figured out because they’re unloading a ton of content on us. I need a towel. :)"
+      },
+      {
+        "author": "nguoihn1988",
+        "score": 9,
+        "body": "But how do you spam cruxes? Spot that can reveal it seems pretty rare for me to make realistic strat farm. I mean when I see one I just pop it and collect the head, that's all. Do you have any other special trick?"
+      },
+      {
+        "author": "CausePure2810",
+        "score": 9,
+        "body": "You can’t really spam them if you’ve been doing them as you go. This is a useful PSA for people who have explored a decent amount and not done any cruxes because they likely have at least a few spots ready to go, but once you’ve done those you slow way down and have to find more spots, can’t really sustain this without just mapping more in a random direction and at that point you can probably find something better to do with your time."
+      },
+      {
+        "author": "marslo",
+        "score": 6,
+        "body": "The hell is a cruxes"
       }
     ]
   }
