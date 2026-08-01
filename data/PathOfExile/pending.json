@@ -1,418 +1,5 @@
 [
   {
-    "id": "1v9l1wh",
-    "title": "Learned something new today",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9l1wh/learned_something_new_today/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Helena identifies all items when you ctrl+alt click her. She’s my new favorite hideout npc, I’ve just returned after a while not sure how long that’s been in the game but that is all. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheBasementCreature\"> /u/TheBasementCreature </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9l1wh/learned_something_new_today/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9l1wh/learned_something_new_today/\">[comments]</a></span>",
-    "published": "2026-07-29T04:01:05+00:00",
-    "author": "/u/TheBasementCreature",
-    "images": [],
-    "video": null,
-    "score": 15,
-    "comments": [
-      {
-        "author": "4rkarium",
-        "score": 21,
-        "body": "All NPC that identify items in game have the same short-cut, also Ctrl+Left click gets you in sell window, Ctrl+Right click gets you in buy window"
-      },
-      {
-        "author": "TheBasementCreature",
-        "score": 3,
-        "body": "Ya I’ve always just used any npc that ctrl click opens a sell window next to my stash in hideout but ctrl alt click identify ctrl click sell in one npc?! Nutty tech lol"
-      },
-      {
-        "author": "ledrif",
-        "score": 2,
-        "body": "I also use Helena for Ident and selling by stash, but also because i change hideouts often."
-      },
-      {
-        "author": "MaxeDamage",
-        "score": 2,
-        "body": "New day new HO!"
-      },
-      {
-        "author": "ledrif",
-        "score": 2,
-        "body": "I build hideouts, i also support spectres in 6666. So I jump between the hideout i want to use, a hideout which supports mass desecration and corpse targetting, 1-2 WIPs, periodically visit my old hideouts, and i will download a hideout from showcases discord to walk it to check how they placed things. Poe2 has it easy on a button, until then Helena will be a staple access near WP or stash lol."
-      },
-      {
-        "author": "MaxeDamage",
-        "score": 2,
-        "body": "Ah I don't have the patience to build them myself. I get 1 area looking decent and then lose my mind doing the other 90% haha There is so many options and pieces that its hard to get it \"right\""
-      },
-      {
-        "author": "Xzarg_poe",
-        "score": 5,
-        "body": "You can also Ctrl +Alt click Faustus to get into your sell stash! Randomly learned this today."
-      },
-      {
-        "author": "LordAlfrey",
-        "score": 1,
-        "body": "You can use similar shortcuts with most NPCs, worth trying out on the ones you use with regularity. I believe it's a standard schema that just accesses their first option in dialogue with ctrl click, second with alt ctrl. I think there's another, alt click? I don't use that one so I don't really know it. Works in poe2 as well."
-      },
-      {
-        "author": "kl2999",
-        "score": 1,
-        "body": "Damn, didn't know this. Thanks for sharing."
-      },
-      {
-        "author": "CoelhoVerbal",
-        "score": -4,
-        "body": "It's \"new\", added last league if i remember right. The hotkey part is the important part, most people just click on her and then click on \"identify all\". Also, there's a NPC on each act that does the same as her."
-      }
-    ]
-  },
-  {
-    "id": "1v9olli",
-    "title": "Explaining the \"101% Damage taken as with 100% MoM bug\" from my previous post.",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9olli/explaining_the_101_damage_taken_as_with_100_mom/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1v9olli/explaining_the_101_damage_taken_as_with_100_mom/\"> <img src=\"https://external-preview.redd.it/GcdSKYf6cV2Wd3MrIfIwPnBYeN3G9IBOD6SHibBtyJY.jpeg?width=140&amp;height=105&amp;auto=webp&amp;s=ee229294b62bd6690483b9cae4c3ee0a8ff8172b\" alt=\"Explaining the &quot;101% Damage taken as with 100% MoM bug&quot; from my previous post.\" title=\"Explaining the &quot;101% Damage taken as with 100% MoM bug&quot; from my previous post.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I decided to make a new post because I want to spread this finding, because what I understood in the old post was only half correct, and I don&#39;t want the misinformation, although not intended, to spread further. Sorry if it seems like I&#39;m spamming.</p> <p>Previous post: <a href=\"https://www.reddit.com/r/pathofexile/s/PIe0TLfTVq\">https://www.reddit.com/r/pathofexile/s/PIe0TLfTVq</a></p> <p><em>Long story short, Yesterday I switched to 100% MoM build and level 66, I got killed by Blood Vortex (the red orb in Blood Aqueduct) and after I switched to 9% BBD and have 105% fire and cold damage taken as lightning and chaos, I survived. So I made a post about that you need more than 101% conversion.</em></p> <p>Tl;DR: <strong>101% conversion is not bugged</strong>, but there is a weird bug/mechanic happening in acts that make monsters in Act 1-10 ignore some of your &quot;xxx damage taken as xxx&quot; mod. <strong>You can play 100% MoM with 101% taken as in maps, BUT if you ever returned to Acts to carry a friend, test mechanic, challenges, or anything, 105% in Act 1-3 or 101% in Act 4-10 will get you killed.</strong></p> <p>This is the full story of my testing.</p> <p>From my previous post <a href=\"/u/Ozzudno\">u/Ozzudno</a> suggested me to test the bug by unequiping armour because the armour could be the reason, I agree with his logic and tried that, but I went to Act 2 Merveil because I think fighting a boss in a controlled environment would be better for testing.</p> <p>But on my way to Merveil, I got killed by Merveil&#39;s Attendant, even though I already used the 9% BBD.</p> <p>I was so confused about what happened, but I decided to went and go fight Merveil anyway, and Merveil could not kill me, her cold damage didn&#39;t reach my life.</p> <p>I was even more confused, so I decided to test further by tanking Merveil&#39;s Attendant, then I realize her cold wave also couldn&#39;t reach my life either, only her &quot;Scream&quot; can kill me.</p> <p>I went to check PoEDB to try to link the Blood Vortex and Merveil&#39;s Attendant&#39;s Scream, and I found connection. Despite being a hit, both skills do not have critical strike chance. Normally monster skills also have base crit chance of 5% or 6%, but these two moves have no crit chance.</p> <p>I then want to test my hypothesis, so I went to Tidal Island in Act 1 to fight Hailrake, his Glacial Cascade also doesn&#39;t have critical strike chance.</p> <p>Then the dejavu happened, I got killed by Tide Strider before reaching Hailrake.</p> <p>I checked Tide Strider PoEDB, and found out that he has 5% crit chance on every skills...?</p> <p>I now knew that my hypothesis must be wrong, so I decided I will check with almost every monsters in the Acts. And I spend 4 hours fighting and testing in different acts.</p> <p><em>(Here&#39;s the video if you want to watch:</em> <a href=\"https://youtu.be/xdFLc3VVtOE\"><em>https://youtu.be/xdFLc3VVtOE</em></a> <em>. I tested with much more monsters than what were in this vid. But it would be too long so I didn&#39;t put all of them in here.)</em></p> <p>What I found out was, <strong>some of the non-boss monsters bypassed some of the &quot;xxx damage taken as xxx&quot; modifier.</strong> <del>As you can see, I was ignited by the Vaal Commander in Act 2.</del></p> <p><a href=\"https://preview.redd.it/6b1aa2rtl3gh1.png?width=1904&amp;format=png&amp;auto=webp&amp;s=3b835d47a8196b68c2b23892062b69971635d57a\">https://preview.redd.it/6b1aa2rtl3gh1.png?width=1904&amp;format=png&amp;auto=webp&amp;s=3b835d47a8196b68c2b23892062b69971635d57a</a></p> <p><del>Normally, if you didn&#39;t take damage of that type, you won&#39;t get the ailment of that damage type too. I can only be ignited if the monster deals fire damage to me.</del></p> <p><strong>Edit: I was wrong, I was killed by the Explosive Arrow&#39;s explosion, not the ignite.</strong></p> <p><a href=\"https://www.youtube.com/watch?v=u5F6gY03OhU\">https://www.youtube.com/watch?v=u5F6gY03OhU</a></p> <p><strong>It was my oversight because if even 1 fire damage hit me, I would actually die before ignite happen. But my point about fire hit bypass my taken as is still the same.</strong></p> <p>Then I tested with General Gravicius, but he couldn&#39;t kill or ignite me with any of his skills. This is the same as when I tested fighting Merveil, and also the other Act bosses. <strong>None of the boss I tested bypass the damage taken as mod, only mob monsters do.</strong></p> <p>But if you watch the vid, I also didn&#39;t get chilled by the mobs in the Brine King map (Act 6) either, so my next hypothesis was <strong>this weird bug scales with Acts</strong> (or more precisely, area level) and it stopped somewhere in the acts.</p> <p>So I tested further, and found out that <strong>by the start of Act 4, monsters hit stop bypassing my mana pool with 9% BBD, BUT they still kill me with 5% BBD.</strong></p> <p>So, <strong>in Act 1-3, most monsters bypass your &quot;damage taken as,&quot; no matter if I have 5% BBD or 9% BBD. Then from Act 4 onwards, this will only happen if I have 101% taken as, if I have 105% taken as then it&#39;s fixed.</strong></p> <p>I tested it again to confirm this by having my friend wear a Kaom&#39;s Bind and standing near me, and the results were as I expected.</p> <p>In Act 1-3, every physical hit killed me, 5% and 9% BBD made no difference.</p> <p>In Act 4-9 every physical hit killed me when I used 5% BBD, but no longer killed me if I used the 9% one.</p> <p><strong>Then I joined his ilv 83 Chart, and even with 5% BBD, no hit bypassed my mana and killed me anymore.</strong></p> <p>So, this is not entirely a 101% taken as bug, but it&#39;s a weird bug or maybe a hidden mechanic that makes monster in acts have some damage bypass damage taken as mod, or worsen the rounding bug, but it keeps scaling down per area level, then when you reach map, just 101% is fine.</p> <p>Normally, this wouldn&#39;t be a problem, because no sane person would play this build before they reach map, but in case you play this build and have to come back to Act for whatever reasons, you may randomly died without knowing why.</p> <p>I spend a lot of time testing this and now I will go back to playing again, thanks for reading, and good luck.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlackPandar\"> /u/BlackPandar </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9olli/explaining_the_101_damage_taken_as_with_100_mom/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9olli/explaining_the_101_damage_taken_as_with_100_mom/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-29T07:04:26+00:00",
-    "author": "/u/BlackPandar",
-    "images": [
-      "https://i.redd.it/6b1aa2rtl3gh1.png"
-    ],
-    "video": null,
-    "score": 432,
-    "comments": [
-      {
-        "author": "Lollister",
-        "score": 275,
-        "body": "i cant really do anything with this information but i love that you put that much time investigating it"
-      },
-      {
-        "author": "NephDada",
-        "score": 81,
-        "body": "Just a random guess, but my assumption is rounding errors amplified by low damage hits. If a monster hits you for 5 fire damage, you get 2 lightning and 2 chaos, with 1 lethal leftover fire damage. Once the hits start getting bigger, the 1 leftover damage gets covered by the extra 9% taken as, and in the endgame even a 1% extra is enough. This is pure speculation. You could test that by taking fixed low damage it's in the endgame"
-      },
-      {
-        "author": "BlackPandar",
-        "score": 18,
-        "body": "I'm also not 100% sure, but I don't think the amount of the damage is the factor. Because when I tested with Merveil I didn't take any damage to my life, while monsters in act 3 one shotted me, and Merveil should deal less damage than act 3 monsters. The other thing is, the act 4 thingie that I mentioned starts as soon as I step into the Aqueduct. If the amount of damage is a factor, it shouldn't be exactly at the start of act 4. If damage is a factor some monster in act 4 with low roll hit should still be able to kill me, but it didn't happen at all. Edit: Fix English in my second paragraph, "
-      },
-      {
-        "author": "CaptainDumpling",
-        "score": 52,
-        "body": "Feels like there is something up with 'damage taken as' in general, I'm 5k life 90 fire res with 90% ele and phys taken as fire and am still planking a lot more than I normally would with only 80% res"
-      },
-      {
-        "author": "bolshneinache",
-        "score": 43,
-        "body": "wtf is bbd"
-      },
-      {
-        "author": "doinitforthelulzzz",
-        "score": 108,
-        "body": "Big Booty Dialla"
-      },
-      {
-        "author": "paleocomixinc",
-        "score": 23,
-        "body": "Ooh, she out for that Not-a-COCKroach"
-      },
-      {
-        "author": "BlackPandar",
-        "score": 42,
-        "body": "Bound by Destiny, the jewel with different mods that will only work when you wear minimum number of influenced items. In my case it's \"#% of ele damage taken as chaos if you have at least 4 Hunter items.\""
-      },
-      {
-        "author": "emiracles",
-        "score": 6,
-        "body": "Big black dungeon"
-      },
-      {
-        "author": "redlow0992",
-        "score": 13,
-        "body": "Something is funky with damages and damage taken as in general. GGG is vibe coding too hard."
-      }
-    ]
-  },
-  {
-    "id": "1v9omtg",
-    "title": "Flame Link Mercenary Calculator - Excel Sheet to Compare Rares (max life, light radius, increased max life)",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9omtg/flame_link_mercenary_calculator_excel_sheet_to/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>TL;DR: Stop guessing on item upgrades. Plug your stats into the sheet, compare two items, see instant Flame Link damage results with green/red highlights. Takes 30 seconds per comparison.</p> <p>FYI: I made it with excel and uploaded it to sheets. That&#39;s why some formating/colouring might be“bricked”.</p> <p>Hey everyone,</p> <p>I&#39;ve built a Flame Link DPS &amp; Equivalence Calculator Google Sheets compatible that lets you instantly compare any two Item options and see exactly how much damage your Flame Link gains or loses.</p> <p>How the Calculator Works Setup (takes 30 seconds): Fill in your Current Stats (Total Life, % Increased Max Life, Buff Effect %, Light Radius %) Fill in Item A (your currently equipped ring - e.g., +5 Flame Link) Fill in Item B (the alternative ring you&#39;re comparing) Enter your Flame Link Gem Base Level</p> <p>The sheet then automatically calculates: Effective Gem Level for both options Total Life after swapping items Light Radius % after swapping items Added Fire Damage Result for both rings - using the core formula:</p> <p>Added Fire = (Gem Base Avg + 5% of Total Life) × (1 + Buff Effect% + Light Radius%)</p> <p>Green/Red Highlight showing which ring wins (green = better, red = worse) Damage Difference and % Gain/Loss in the Comparison block</p> <p>Bonus: Stat Equivalence Table useful for Jewel searches and co The sheet also generates an auto-updating equivalence list based on your current stats:</p> <p>1% Light Radius ≈ X Total Life ≈ Y% Increased Max Life</p> <p>100 flat Life on Item ≈ Z% Light Radius</p> <p>1% Increased Max Life ≈ W% Light Radius</p> <p>Fire damage per 1% LR</p> <p>Damage per 1 max Life</p> <p>Damage per 1% inc max Life</p> <p>This lets you instantly evaluate any stat combination without re-calculating</p> <p>Link to the sheet (copy it so you can use it): </p> <p><a href=\"https://docs.google.com/spreadsheets/d/10ngh-Xhz7aO61c50kcKB2mH_aglq0FOKCUt6gJaWMQk/edit?usp=sharing\">Flame Link - DPS &amp; Equivalence Calculator</a></p> <p>Let me know if you have questions or find any bugs! (most likely won’t update the sheet much but help each other to maybe improve it.)</p> <p>EDIT1: Updates Sheet for Dissolution calc, added Current Added Fire below Current Overview.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/grogo-\"> /u/grogo- </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9omtg/flame_link_mercenary_calculator_excel_sheet_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9omtg/flame_link_mercenary_calculator_excel_sheet_to/\">[comments]</a></span>",
-    "published": "2026-07-29T07:06:17+00:00",
-    "author": "/u/grogo-",
-    "images": [],
-    "video": null,
-    "score": 53,
-    "comments": [
-      {
-        "author": "hafi002",
-        "score": 6,
-        "body": "That really helps a lot for gear decissions, had to do the Math myself to check if +2 Duration Corrupted Pragmatism is worth it compared to Kaom, cuts quite a bit into my max life for a over 30% damage boost."
-      },
-      {
-        "author": "_Ogion_",
-        "score": 3,
-        "body": "Yep, same. Checked using this tool. Pragmatism: 12 flame link lvls + 15% inc Life (Life mastery works because pragmatism doesn't have life mods) VS Kaom: 1200 Life. Pragmatism 'relative gain' 23.5%"
-      },
-      {
-        "author": "BulbaThore",
-        "score": 1,
-        "body": "Would be 10 levels no? Unless you got some godly corruption"
-      },
-      {
-        "author": "_Ogion_",
-        "score": 1,
-        "body": "I bought +2 duration for 1 divine. And 1150 life Kaom costs 25 divines."
-      },
-      {
-        "author": "hafi002",
-        "score": 1,
-        "body": "A simple +2 to level of Duration Gems Corrupted Implicit, puts you at +12, got mine for 50c The theoretical maximum you could get out of the chest would be a +15 by having double corrupted implicits with +2 Duration, +1 to level of all socketed gems with a corrupted +4 Empower, but those extra 3 levels are a huge order of magnitude more expensive to get."
-      },
-      {
-        "author": "klistier",
-        "score": 1,
-        "body": "Do you think this is worth it over Kaom's? You lose a ton of EHP, no?"
-      },
-      {
-        "author": "hafi002",
-        "score": 1,
-        "body": "I switched to Kaoms once my damage felt good enough for T16 bosses, it is a big EHP loss, but the build is still tanky as hell without Kaoms. 8.5k HP with this Chest, 12k with Kaoms in my case. Its more of a question if you struggle with DPS or with Survivability more and for Mercs its often the Damage, so its a very valid choice."
-      },
-      {
-        "author": "grogo-",
-        "score": 1,
-        "body": "Well I would Go for empower (3+4) Socketed in shield with +2 Support and kaoms Heart. Sadly I am Play in GroupSF :D"
-      },
-      {
-        "author": "grogo-",
-        "score": 1,
-        "body": "Update1: Added Dissolution calc"
-      },
-      {
-        "author": "FuckItSir",
-        "score": 1,
-        "body": "What is buff effect ? Where do I see it ?"
-      }
-    ]
-  },
-  {
-    "id": "1v9rta1",
-    "title": "PSA for the 18 Standard players at the moment - Awakened Trade defaults to \"not split\" for searches now.",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9rta1/psa_for_the_18_standard_players_at_the_moment/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Please, if you&#39;re not interested in Standard at all don&#39;t be all Reddit and comment &quot;dur hur standard who cares&quot;. There are dozens of us who play both league and standard. DOZENS.</p> <p>To be clear this does NOT affect people in Allflame league at all.</p> <p>Someone pinged me a lower offer for some 30% warlock boots I had in Standard, I switched across to check and run a PC for comparison, and got confused that my pair didn&#39;t show at all. I clicked the trade link button and saw the split = &quot;no&quot; selected. I had previously triple split the base when they dropped so the search never found the items.</p> <p>Why this matters: If you&#39;re using Awakened Trade for any searches for price comparisons then you&#39;ll be missing a number of similar items that have the split tag. This means a high number of over-quality (eg 30%) items won&#39;t show on your search by default - pretty much anyone who hit high enough quality instantly split those bases like I did hence the PSA.</p> <p>Good luck with whatever (and wherever) you farm exiles.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anne_dobalina\"> /u/anne_dobalina </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9rta1/psa_for_the_18_standard_players_at_the_moment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9rta1/psa_for_the_18_standard_players_at_the_moment/\">[comments]</a></span>",
-    "published": "2026-07-29T10:05:55+00:00",
-    "author": "/u/anne_dobalina",
-    "images": [],
-    "video": null,
-    "score": 62,
-    "comments": [
-      {
-        "author": "StacksOfMana",
-        "score": 5,
-        "body": "Strange that it default to “No” instead of “Any”. Since you can’t get Split items in league, it would make more sense not to apply an irrelevant filter for that tag. It’s analogous to having a filter hiding crucible trees in league (when they don’t even exist). And like you’re saying, odd that Split is hidden by default in standard too."
-      },
-      {
-        "author": "anne_dobalina",
-        "score": 2,
-        "body": "From memory previously there was a toggle-like button at the top of the awakened trade UI that let you select which option (split or not) and I think it's just a small oversight from the dev who removed that button/feature but left the coding behind. I'm making massive assumptions but I think by not selecting \"split\" on the UI (because it's not there) it defaults to not-split. I mean you also can't search for legacy items (Screams of the Dessicated) but this one seems more oversight than removing bloat."
-      },
-      {
-        "author": "Rainboltpoe",
-        "score": 1,
-        "body": "It should default to “any” for main search, and “no” for base search. This makes everyone happy."
-      },
-      {
-        "author": "Saulofein",
-        "score": 3,
-        "body": "Thanks for the tips!"
-      }
-    ]
-  },
-  {
-    "id": "1v9sfc7",
-    "title": "PSA Brinehooks Ducat works on flasks",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9sfc7/psa_brinehooks_ducat_works_on_flasks/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Add one of these Ducats to a utility flask and it gives you the aura. It stays on too. Could be useful. Havent seen this tip on here yet but I dont live here so sorry if this has been posted. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/I-tell-horrible-joke\"> /u/I-tell-horrible-joke </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9sfc7/psa_brinehooks_ducat_works_on_flasks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9sfc7/psa_brinehooks_ducat_works_on_flasks/\">[comments]</a></span>",
-    "published": "2026-07-29T10:37:57+00:00",
-    "author": "/u/I-tell-horrible-joke",
-    "images": [],
-    "video": null,
-    "score": 37,
-    "comments": [
-      {
-        "author": "spruceX",
-        "score": 33,
-        "body": "So i have aspect of the brine king on my quicksilver and it reserves 25% life due to blood magic"
-      },
-      {
-        "author": "Anxo_Esc",
-        "score": 2,
-        "body": "That's still worth it"
-      },
-      {
-        "author": "Mooseandchicken",
-        "score": 5,
-        "body": "How do I get the boss to unlock the ducat crafting?! Does it require a certain ilvl chart? Captainsbane is the name, but I can't find good info and haven't seen it on a chart or voyage border. I've only done up to lvl 72 charts cuz I rolled Luminary and rerolled to a dif build until they are buffed. I'd like to craft one of these flasks before its hotfixed/patched. I asked in global /5055 last night and no one would help me out 😔"
-      },
-      {
-        "author": "Seerix",
-        "score": -1,
-        "body": "Kishara's Rest. Captainsbane is *not* the boss for ducat crafting. You should run the chart white as well. Edit: good news! A patch changed/fixed it so it is captainsbane. MUCH easier/less tedious to fight."
-      },
-      {
-        "author": "LeastAwareFox",
-        "score": 5,
-        "body": "In my testing, the aspects turn off when the flask automatically gets used so it gets very annoying. Probably still good on flasks you dont use much maybe life or mana but certainly not utilities, a mageblood would be most useful but you would lose a suffix so maybe not good either"
-      },
-      {
-        "author": "spruceX",
-        "score": 4,
-        "body": "You still to reserve the aura though right?"
-      },
-      {
-        "author": "omdryn",
-        "score": 2,
-        "body": "Lol how did you even think about trying that? Sounds very useful, and it doesnt costs any reservation that way right, or is it the same as having it on gear and you reserved it no matter if the flask is active?"
-      },
-      {
-        "author": "Diligent_Carrot_8410",
-        "score": 0,
-        "body": "Is it prefix or suffix?"
-      },
-      {
-        "author": "Significant-Lunch800",
-        "score": -1,
-        "body": "So u can get all 4 with mageblood? Might be interesting"
-      },
-      {
-        "author": "spruceX",
-        "score": 1,
-        "body": "Testing now"
-      }
-    ]
-  },
-  {
-    "id": "1v9yveg",
-    "title": "Nvidia driver 610.88 includes the PoE 2 DX12 long-pause fix and seems to also help PoE 1",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9yveg/nvidia_driver_61088_includes_the_poe_2_dx12/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1v9yveg/nvidia_driver_61088_includes_the_poe_2_dx12/\"> <img src=\"https://external-preview.redd.it/IhDmMT-T7dJ2rIsv72RdSgUueqhznK3Ty8PCu4qN1UU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b651f617556881e3fde0cc3ece0d2ec7ddd6f6ee\" alt=\"Nvidia driver 610.88 includes the PoE 2 DX12 long-pause fix and seems to also help PoE 1\" title=\"Nvidia driver 610.88 includes the PoE 2 DX12 long-pause fix and seems to also help PoE 1\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Nvidia’s 610.88 Game Ready Driver now includes the DX12 fix that was previously available through the hotfix driver:</p> <blockquote> <p>1.Nvidia’s 610.88 Game Ready Driver now includes the DX12 fix that was previously available through the hotfix driver:Path of Exile 2: Fixed intermittent long pauses that could occur after extended gameplay sessions in DX12 mode [5090018]</p> </blockquote> <p>The release notes only mention Path of Exile 2, but the fix also appears to address similar DX12 pauses in Path of Exile 1.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/flyfishing_happiness\"> /u/flyfishing_happiness </a> <br/> <span><a href=\"https://www.nvidia.com/en-us/geforce/drivers/details/274384/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9yveg/nvidia_driver_61088_includes_the_poe_2_dx12/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-29T15:07:23+00:00",
-    "author": "/u/flyfishing_happiness",
-    "images": [],
-    "video": null,
-    "score": 39,
-    "comments": [
-      {
-        "author": "Kamelosk",
-        "score": 5,
-        "body": "its confirmed to work if anyone wondered, it was tested in the early access from the previous driver and reported in the poe2 subreddit"
-      },
-      {
-        "author": "DanielmanRO",
-        "score": 5,
-        "body": "For anyone who downloaded it. Does it really fix the problems?"
-      },
-      {
-        "author": "zakk002",
-        "score": 5,
-        "body": "Yes, for me it did."
-      },
-      {
-        "author": "Tilleroo",
-        "score": 1,
-        "body": "Yep."
-      },
-      {
-        "author": "Level_Acanthisitta21",
-        "score": 3,
-        "body": "Huge"
-      },
-      {
-        "author": "Arenyr",
-        "score": 2,
-        "body": "Was running into this last night- here's hoping!"
-      },
-      {
-        "author": "snailpaced",
-        "score": 2,
-        "body": "Hey for GPU users that are no longer supported by nvidia like 10 series cards. Are we out of luck?"
-      },
-      {
-        "author": "Broderpderp",
-        "score": 2,
-        "body": "Seems that way, I tried installing 610.88 and it shows I don't have a supported device. Anyone have a potential alternative solution perhaps?"
-      },
-      {
-        "author": "snailpaced",
-        "score": 1,
-        "body": "The only thing I can think of is reverting drivers to 551.86 or 555.xx as they said the problem was introduced in 566.36. Idk if it will work though."
-      },
-      {
-        "author": "AutoModerator",
-        "score": 1,
-        "body": "Please make sure you check the Known Issues List or the Bug Report Forums for any pre-existing bug reports related to your issue. If there isn't any, consider posting there in addition to posting on Reddit. At league start, there may also be a stickied post for bugs. Duplicate reports on Reddit may be removed. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns."
-      }
-    ]
-  },
-  {
-    "id": "1v9yxdk",
-    "title": "Abyssal Skitterlocks can only spawn from the final Pit in an Abyss Encounter",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1v9yxdk/abyssal_skitterlocks_can_only_spawn_from_the/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1v9yxdk/abyssal_skitterlocks_can_only_spawn_from_the/\"> <img src=\"https://external-preview.redd.it/ArTk8y34SYIDi_1NjB4jdM4YaHEvgbnRycvHse5Aqy8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=281aef6966b4c68ecd44fb78579307c3c1a919f8\" alt=\"Abyssal Skitterlocks can only spawn from the final Pit in an Abyss Encounter\" title=\"Abyssal Skitterlocks can only spawn from the final Pit in an Abyss Encounter\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/wrightosaur\"> /u/wrightosaur </a> <br/> <span><a href=\"https://www.pathofexile.com/forum/view-thread/3990684/page/1#p26809327\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1v9yxdk/abyssal_skitterlocks_can_only_spawn_from_the/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-29T15:09:18+00:00",
-    "author": "/u/wrightosaur",
-    "images": [],
-    "video": null,
-    "score": 101,
-    "comments": [
-      {
-        "author": "Bigboysama",
-        "score": 204,
-        "body": "Does it matter? You'll get your orb of binding anyway"
-      },
-      {
-        "author": "Acemont",
-        "score": 58,
-        "body": "I've made a post on forum about it not dropping any scarabs TWO DAYS ago and zero reaction. WHATDOYOUMEANDUDE...."
-      },
-      {
-        "author": "Popular_Moose_6845",
-        "score": 46,
-        "body": "Did you click the button on the atlas that makes it so you dont drop scarabs lol"
-      },
-      {
-        "author": "North-Government-645",
-        "score": 18,
-        "body": "BRO I AM SO DUMB. I THOUGHT IT WAS BUGGED THE WHOLE TIME."
-      },
-      {
-        "author": "IFinallyDidItMom",
-        "score": 4,
-        "body": "Reminds me of the time I ran through act 1 on league start with void manipulation linked to my stormblast mines because the build transitioned to hexblast mines later. Thought I was clever getting a head start leveling my gems id be using in maps without reading them. Went through most of the act thinking people were crazy for running mines with how little damage they did. Honestly not sure how I was even doing damage."
-      },
-      {
-        "author": "sly_fox716",
-        "score": 24,
-        "body": "Make sure you dont have the keystone that stops scarabs from dropping. - From someone who had the keystone that stops scarabs from dropping"
-      },
-      {
-        "author": "Acemont",
-        "score": 10,
-        "body": "I wasn't running it and dropped scarabs from other mobs, but not from the abyss chest."
-      },
-      {
-        "author": "Devych",
-        "score": 2,
-        "body": "Ive opened 150-200 skittering troves and got scarabs every single time. One time it was 1 scarab from a Greater trove which kinda pissed me off, but they've been great for me overall"
-      },
-      {
-        "author": "GGGGobbler",
-        "score": 41,
-        "body": "BEEP BOOP BEEP. Grinding Gears have been detected in the linked thread: Posted by Jatin_GGG on Jul 29, 2026, 04:02:50 AM UTC Thanks for your report, this is intended. Abyssal Depths and Abyssal Troves can only spawn from the final Pit in an Abyss Encounter. By forcing the final Pit to always be an Abyss Depth using Abyssal Scarab of Descending you're unable to spawn any Abyssal Troves which could be an Abyssal Skitterlock instead."
-      },
-      {
-        "author": "Coolingmoon",
-        "score": 31,
-        "body": "Even if all abyss boxes are converted to skitterlocks, it'd still trash LOL"
-      }
-    ]
-  },
-  {
     "id": "1vafv79",
     "title": "PSA : PLAYER altars dont work on MERCS",
     "link": "https://www.reddit.com/r/pathofexile/comments/1vafv79/psa_player_altars_dont_work_on_mercs/",
@@ -421,11 +8,11 @@
     "author": "/u/amcn242",
     "images": [],
     "video": null,
-    "score": 68,
+    "score": 70,
     "comments": [
       {
         "author": "Polyneus",
-        "score": 60,
+        "score": 59,
         "body": "Yep was already the case in 3.26 : https://www.pathofexile.com/forum/view-thread/3814989 https://www.pathofexile.com/forum/view-thread/3813386 It feels like Mercenaries were rushed into the core game without enough development time. They're still plagued by the exact same glitches and balance issues."
       },
       {
@@ -435,12 +22,12 @@
       },
       {
         "author": "ur-average-geek",
-        "score": 13,
+        "score": 11,
         "body": "Hallowed monarch + gravebind on AG is a very common merc setup, so at least a lot of luminaries arent getting fucked over."
       },
       {
         "author": "Etrensce",
-        "score": 14,
+        "score": 16,
         "body": "Still problematic since the good mercs clear way outside the gravebind range."
       },
       {
@@ -460,7 +47,7 @@
       },
       {
         "author": "smilesmay",
-        "score": 4,
+        "score": 6,
         "body": "Minion kills always apply the player's IIQ/IIR and never use any of the minion's IIQ/IIR (AG with increases)."
       },
       {
@@ -486,11 +73,11 @@
       "https://i.redd.it/f00wvw6k1bgh1.png"
     ],
     "video": null,
-    "score": 268,
+    "score": 270,
     "comments": [
       {
         "author": "Entire_Possible_9976",
-        "score": 80,
+        "score": 81,
         "body": "I'm loving the League, but this was an example of GGG being too clever for their own good. The \"Shape Management\" part of Voyages is unnecessary."
       },
       {
@@ -500,32 +87,32 @@
       },
       {
         "author": "allanbc",
-        "score": 9,
+        "score": 8,
         "body": "I think this is definitely the way. Check for divine mod, nope, ok just put random stuff and go. A bit more thoughtful than that, but not too much. And when clearing inside the voyage, it's rush møde 100%."
       },
       {
         "author": "KrAizYArt",
-        "score": 8,
+        "score": 7,
         "body": "They occasionally get complexity confused with fun, or at least try to use it in place of it. An example of that would have been actual synthesis league (you'd think they'd have learned as they ditched the board game style mechanic only to let something similar resurface here) and bestiary (no need for nets, but yet they were there)."
       },
       {
         "author": "psychomap",
-        "score": 4,
+        "score": 3,
         "body": "I liked building lakes in Kalandra, it's a shame that they were so unrewarding outside of the occasional reflecting mist and untainted paradise tiles."
       },
       {
         "author": "Visible_Resource_409",
-        "score": 55,
+        "score": 54,
         "body": "And rerolling their shapes also rerolls any golden line like Kishara or anchorfield."
       },
       {
         "author": "Mahakali923",
-        "score": 8,
+        "score": 7,
         "body": "How do you reroll the shapes?"
       },
       {
         "author": "15buckslilman",
-        "score": 6,
+        "score": 7,
         "body": "With ducat."
       },
       {
@@ -535,7 +122,7 @@
       },
       {
         "author": "DrawGamesPlayFurries",
-        "score": 3,
+        "score": 4,
         "body": "You reroll the destination, and it has the same 3% chance to hit a yellow destination as the natural drop of the chart (but Venser creates four clones with the ducat, so it's like an 11% chance to get a yellow destination)"
       }
     ]
@@ -549,11 +136,11 @@
     "author": "/u/vdarklord467",
     "images": [],
     "video": null,
-    "score": 16,
+    "score": 14,
     "comments": [
       {
         "author": "PsionicKitten",
-        "score": 27,
+        "score": 26,
         "body": "That was added last league. You can view any others that you're not aware of yet here: https://www.poewiki.net/wiki/Guide:Campaign_landmarks"
       },
       {
@@ -576,17 +163,17 @@
     "comments": [
       {
         "author": "Swordsman_4",
-        "score": 14,
+        "score": 15,
         "body": "Isn't it actually 10 lab trial area?"
       },
       {
         "author": "xPinkOmega",
-        "score": 3,
+        "score": 4,
         "body": "Yes it is act 10 trial"
       },
       {
         "author": "Weo_",
-        "score": 7,
+        "score": 10,
         "body": "You can find this, and the other secrets, in the wiki: https://www.poewiki.net/wiki/Guide:Campaign_landmarks"
       },
       {
@@ -616,7 +203,7 @@
       },
       {
         "author": "Oen44",
-        "score": 11,
+        "score": 12,
         "body": "10m is nothing."
       },
       {
@@ -639,7 +226,7 @@
     "comments": [
       {
         "author": "Frequent_Release_866",
-        "score": 4,
+        "score": 5,
         "body": "Sirus first."
       },
       {
@@ -669,7 +256,7 @@
       },
       {
         "author": "Own_Economy_2878",
-        "score": -5,
+        "score": -4,
         "body": "did around 200 times this league and it only happens one time."
       },
       {
@@ -690,36 +277,36 @@
       "https://i.redd.it/2e3u3ervgggh1.jpeg"
     ],
     "video": null,
-    "score": 50,
+    "score": 52,
     "comments": [
       {
         "author": "HiDarkSoul",
-        "score": 26,
+        "score": 25,
         "body": "What's in the box? What's in the box?!"
       },
       {
         "author": "astral23",
-        "score": 37,
+        "score": 41,
         "body": "i got a single wisdom scroll, a t16 map, a small amount of gold, a maloneys quiver, and 1 divine from the 5 openings, cost roughly 500k gold total but that might be off because i did not pay attention"
       },
       {
         "author": "khnhIX",
-        "score": 12,
+        "score": 13,
         "body": "ventor's strongbox but there's no ventor's gamble. Literally unplayable."
       },
       {
         "author": "BurnerAccount209",
-        "score": 9,
+        "score": 11,
         "body": "I just got this. Cospris Malice, T16 map, 18 stacked decks, a Ventors gamble ring. Total Cost for me was <100k because I got crazy lucky on every roll. For the last roll I clicked on the lockpicking option and paid no gold."
       },
       {
         "author": "convolutionsimp",
-        "score": 5,
+        "score": 7,
         "body": "It's a big chest, so must be amazing loot."
       },
       {
         "author": "fl4nnel",
-        "score": 4,
+        "score": 3,
         "body": "There could be anything in it… even a boat!"
       },
       {
@@ -738,9 +325,9 @@
         "body": "I spent about 1.2m gold. Got empower, 1 div, 20 stacked decks, 3 divs"
       },
       {
-        "author": "Select_Angle516",
+        "author": "Shaftovitch",
         "score": 1,
-        "body": "...whats the item it shows to use below it? that looks like a heist lockpicking tool?"
+        "body": "Where is the loot ?"
       }
     ]
   },
@@ -755,36 +342,41 @@
       "https://i.redd.it/o4spnzqmiggh1.jpeg"
     ],
     "video": null,
-    "score": 215,
+    "score": 221,
     "comments": [
       {
         "author": "DoomBoat",
-        "score": 147,
+        "score": 156,
         "body": "Yeah... This is getting patched."
       },
       {
         "author": "wdmshmo",
-        "score": 35,
+        "score": 42,
         "body": "Probably before they address loot, too"
       },
       {
         "author": "DoomBoat",
-        "score": 17,
+        "score": 19,
         "body": "100%. But tbf, this is for sure unintended."
       },
       {
+        "author": "StiffishYelfa",
+        "score": 5,
+        "body": "Yes loot is a lot more complex issue, makes sense."
+      },
+      {
         "author": "maelstrom51",
-        "score": 20,
+        "score": 22,
         "body": "Maybe not. Its the weekend in NZ."
       },
       {
         "author": "ulughen",
-        "score": 83,
+        "score": 87,
         "body": "I smell fix incoming."
       },
       {
         "author": "Ynead",
-        "score": 22,
+        "score": 26,
         "body": "That...does not seem intended haha"
       },
       {
@@ -799,13 +391,8 @@
       },
       {
         "author": "SatireV",
-        "score": 16,
+        "score": 15,
         "body": "What happens if you use another gilded fossil on it?"
-      },
-      {
-        "author": "No_Helicopter8694",
-        "score": 27,
-        "body": "It gets another gilded implicit, but this one can't be rolled with the ducat"
       }
     ]
   },
@@ -818,21 +405,21 @@
     "author": "/u/Andromanner",
     "images": [],
     "video": null,
-    "score": 194,
+    "score": 193,
     "comments": [
       {
         "author": "impohito",
-        "score": 800,
+        "score": 803,
         "body": "emergency nerf (someone dropped 2 chaos orbs)"
       },
       {
         "author": "averagentrenjoyerr",
-        "score": 95,
+        "score": 99,
         "body": "Economy will never recover from this"
       },
       {
         "author": "SoulofArtoria",
-        "score": 41,
+        "score": 42,
         "body": "Every time a chromatic orb drops, lunk alarm goes off at GGG."
       },
       {
@@ -842,32 +429,32 @@
       },
       {
         "author": "Havkarru",
-        "score": 40,
+        "score": 42,
         "body": "<image>"
       },
       {
         "author": "Randummonkey",
-        "score": 246,
+        "score": 247,
         "body": "GGG be like: Juiced strats dropping no loot? I sleep. Someone dropped loot in ruthless? REAL SHIT"
       },
       {
         "author": "momonami5",
-        "score": 232,
+        "score": 234,
         "body": "ruthless gamers in mass demanded the extra loot be removed by ggg right away, to punish themselves for partaking in getting loot they shattered both of there own legs for the weekend farm."
       },
       {
         "author": "PrezziObizzi",
-        "score": 203,
+        "score": 204,
         "body": "couldn't let the ruthless players get loot for a few hours but could let non-ruthless players not get loot for 6 days edit: literally 942 registered characters in ruthless on ninja, compared to 125k in regular allflame lmao"
       },
       {
         "author": "xPinkOmega",
-        "score": 38,
+        "score": 40,
         "body": "hey I mean that's priority right there"
       },
       {
         "author": "underlurker1337",
-        "score": 174,
+        "score": 178,
         "body": "Can we fix ruthless loot drops in non-ruthless as well please?"
       }
     ]
@@ -881,22 +468,32 @@
     "author": "/u/No-Train-7575",
     "images": [],
     "video": "https://v.redd.it/hakekrt9qjgh1",
-    "score": 21,
+    "score": 22,
     "comments": [
       {
         "author": "Eymou",
-        "score": 15,
+        "score": 19,
         "body": "Might be viable for racers trying to beat campaign as fast as possible Afaik the only real racing category in poe is ssf speedruns. There's plenty of tech/gear that make the campaign beyond trivial anyway, especially at that level, but it could still be fun to incorporate! something like a level 20 \"added x\" gem would absolutely shred at that level, maybe combined with a corrupted +2 honourhome?"
       },
       {
         "author": "ReipTaim",
-        "score": 3,
+        "score": 4,
         "body": "Yo.. foulborn doedres shit + this ring with 2x extra supports? 1 shot everything?"
       },
       {
         "author": "TysonTK",
         "score": 4,
         "body": "Doesn’t work - the ring supports socketed skill gems only I believe."
+      },
+      {
+        "author": "badvibes____",
+        "score": 1,
+        "body": "not true it does work i tested myself"
+      },
+      {
+        "author": "wolfreaks",
+        "score": 1,
+        "body": "You don't need more than foulborn doedre to one shot everything."
       }
     ]
   },
@@ -909,87 +506,256 @@
     "author": "/u/gdubrocks",
     "images": [],
     "video": null,
-    "score": 18,
+    "score": 17,
     "comments": [
       {
         "author": "Rock7dmc",
-        "score": 16,
+        "score": 22,
         "body": "Raises my DPS by 2.5% over my annoint but then absolutely screws over my attributes because you also lose attributes you get from the amulet implicit. Doesnt seem worth to me. But maybe its because im a pathfinder and am already get 50% increased effect of withered from ascendency"
       },
       {
         "author": "Mooseandchicken",
-        "score": 5,
+        "score": 7,
         "body": "You can use gilded fossil and ducat crafting to add an implicit to any talisman. There was a post about it recently, may help offset the lost attributes implicit further Edit: You can add an eldritch implicit, so pretty decent: https://www.reddit.com/r/pathofexile/s/N2ufO3IAdj"
       },
       {
         "author": "Bastil123",
-        "score": 17,
+        "score": 22,
         "body": "running Poison AW and I still have to run a non talisman amulet because Death Attunement is way too good for +1 spectre imo"
       },
       {
         "author": "FantaSeahorse",
-        "score": 6,
+        "score": 11,
         "body": "Why not run the +1 specters talisman and path to death attunement?"
       },
       {
         "author": "Sudden_Camel",
-        "score": 6,
-        "body": "If he's also playing ranged AW like me, Ashes is hard to beat as far as I know. 30% quality is 3 extra weapons summoned putting me at 23 total atm."
+        "score": 9,
+        "body": "If they're also playing ranged AW like me, Ashes is hard to beat as far as I know. 30% quality is 3 extra weapons summoned putting me at 23 total atm."
       },
       {
         "author": "shy_bi_ready_to_die",
-        "score": 6,
+        "score": 7,
         "body": "If you swap to the +spectre talisman you can use a gilded fossil+one of the ducats for a free extra implicit"
+      },
+      {
+        "author": "Bastil123",
+        "score": 2,
+        "body": "Sorry I wasn't familiar with the \"implicit ducat\", could you tell me what it does pls?"
+      },
+      {
+        "author": "shy_bi_ready_to_die",
+        "score": 2,
+        "body": "It replaces the implicit of your amulet with a random eldritch implicit. Normally pretty mid but because the only implicit a talisman can have is the gilded fossil one it’s just free character power. You can even re add the gilded fossil implicit after using the ducat for corruption fodder"
+      },
+      {
+        "author": "lillarty",
+        "score": 4,
+        "body": "Bonus PSA: that talisman, and all sources of increased wither effect, only apply to wither you apply. Minions and totems are not you, and do not inherit your wither effectiveness. PoB doesn't track this, because when you set it to full wither stacks it just assumes you're applying it."
       },
       {
         "author": "Key-Department-2874",
         "score": 1,
         "body": "Would this work for minion builds as you're not the one applying Wither? Outside of HROC that applies Player Wither with Lancing Steel."
-      },
-      {
-        "author": "drimvo",
-        "score": 12,
-        "body": "it is really not"
-      },
-      {
-        "author": "Kuroi-Tenshi",
-        "score": 3,
-        "body": "Someone selling those huh"
-      },
-      {
-        "author": "PoE_Acronym_Bot",
-        "score": 1,
-        "body": "I noticed some Path of Exile keywords in this post: BiS - Best in slot I am a bot. | All acronyms | Suggest"
       }
     ]
   },
   {
-    "id": "1vc5g5c",
-    "title": "Did they mention adding this with this patch? I know they said they wanted to add it but I don't recall seeing it in the notes.",
-    "link": "https://www.reddit.com/r/pathofexile/comments/1vc5g5c/did_they_mention_adding_this_with_this_patch_i/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1vc5g5c/did_they_mention_adding_this_with_this_patch_i/\"> <img src=\"https://preview.redd.it/n3s5pbs66ngh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=dca4758448ea3547379f9a364af0bef8d3572f43\" alt=\"Did they mention adding this with this patch? I know they said they wanted to add it but I don't recall seeing it in the notes.\" title=\"Did they mention adding this with this patch? I know they said they wanted to add it but I don't recall seeing it in the notes.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DesMephisto\"> /u/DesMephisto </a> <br/> <span><a href=\"https://i.redd.it/n3s5pbs66ngh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vc5g5c/did_they_mention_adding_this_with_this_patch_i/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-07-31T22:30:15+00:00",
-    "author": "/u/DesMephisto",
-    "images": [
-      "https://i.redd.it/n3s5pbs66ngh1.png"
-    ],
+    "id": "1vcbq2e",
+    "title": "Uber Lab has no Golden Door today",
+    "link": "https://www.reddit.com/r/pathofexile/comments/1vcbq2e/uber_lab_has_no_golden_door_today/",
+    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Map is here : <a href=\"https://www.poelab.com/7kuhd/\">https://www.poelab.com/7kuhd/</a></p> <p>The reset was just a few hours ago, so there are about 21 hours from now remaining before reset.</p> <p>Good for people who like doing this for 40/40 challenges or farming transfigured gems.</p> <p>Adding extra useless text here so the automod doesn&#39;t block my post for not being long enough to be deemed &quot;useful&quot;.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ww_crimson\"> /u/ww_crimson </a> <br/> <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vcbq2e/uber_lab_has_no_golden_door_today/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vcbq2e/uber_lab_has_no_golden_door_today/\">[comments]</a></span>",
+    "published": "2026-08-01T03:10:56+00:00",
+    "author": "/u/ww_crimson",
+    "images": [],
     "video": null,
-    "score": 18,
+    "score": 225,
     "comments": [
       {
-        "author": "FantaSeahorse",
+        "author": "Ajhale",
+        "score": 205,
+        "body": "when theres not a golden key, there musn't be a golden door."
+      },
+      {
+        "author": "titiop870",
+        "score": 30,
+        "body": "Gold isnt the liberating of metals, let the day dawn golden with possibility."
+      },
+      {
+        "author": "peawolffan",
+        "score": 29,
+        "body": "Merc lab is also really good for the ssf players, 4 dark shrines on the main path, no gold door, 6 rooms."
+      },
+      {
+        "author": "Rubik842",
+        "score": 9,
+        "body": "Thanks for the heads up. I need to farm a few transfigured to double corrupt."
+      },
+      {
+        "author": "MinMorts",
+        "score": 9,
+        "body": "But where there's a golden key, there must be a golden door"
+      },
+      {
+        "author": "Schattenmensch",
+        "score": 8,
+        "body": "Also reminder that Uber Lab doesn't actually require you to do every map challenge. ...mostly posting this because at this point it is a league tradition for me to forget about that little fact, try to find all of them, curse the game and finally remember about it around level 95."
+      },
+      {
+        "author": "Kumigarr",
+        "score": 1,
+        "body": "Uber lab doesn't require map challenge ? What does that mean?"
+      },
+      {
+        "author": "thekmanpwnudwn",
+        "score": 3,
+        "body": "Like 5+ years ago you would need to find the Trials that appears in your maps and do (I forget exactly how many) 3-6 unique ones in order to do Uber lab"
+      },
+      {
+        "author": "UrEx",
+        "score": 6,
+        "body": "Used to be all 6"
+      },
+      {
+        "author": "SoulofArtoria",
+        "score": 3,
+        "body": "Time to put quality on those golem bois"
+      }
+    ]
+  },
+  {
+    "id": "1vcgaeg",
+    "title": "[Bug] Reclaimed Malevolency isn't actually overwriting ascendancy nodes",
+    "link": "https://www.reddit.com/r/pathofexile/comments/1vcgaeg/bug_reclaimed_malevolency_isnt_actually/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1vcgaeg/bug_reclaimed_malevolency_isnt_actually/\"> <img src=\"https://external-preview.redd.it/UlrQkDjsw4h-kvz16vA4tclI_A5Mw8GGit769bW5RaE.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=e46852b16c2450868d2136e63ad4130cfeacd55a\" alt=\"[Bug] Reclaimed Malevolency isn't actually overwriting ascendancy nodes\" title=\"[Bug] Reclaimed Malevolency isn't actually overwriting ascendancy nodes\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ww_crimson\"> /u/ww_crimson </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=ZAmHAGlaXWg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vcgaeg/bug_reclaimed_malevolency_isnt_actually/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-01T07:06:47+00:00",
+    "author": "/u/ww_crimson",
+    "images": [],
+    "video": null,
+    "score": 13,
+    "comments": [
+      {
+        "author": "ww_crimson",
+        "score": 7,
+        "body": "See video here where my jewel has conquered the Ngamahu node but I am still getting +4 strength in a radius around all of my jewels, regardless of whether or not Reclaimed Malevolency is socketed. I tried testing with a second jewel but it didn't conquer one of the nodes I thought would be easy to test. I don't have the $ to keep buying/waiting to resell other jewels to test more nodes. Maybe someone else can confirm? https://www.youtube.com/watch?v=ZAmHAGlaXWg"
+      }
+    ]
+  },
+  {
+    "id": "1vciv7o",
+    "title": "How to target farm Rotmother's Mutiny - new unique clam amulet",
+    "link": "https://www.reddit.com/r/pathofexile/comments/1vciv7o/how_to_target_farm_rotmothers_mutiny_new_unique/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1vciv7o/how_to_target_farm_rotmothers_mutiny_new_unique/\"> <img src=\"https://external-preview.redd.it/jE-UHgKsR7Wt3cI2P9iY1jN9ov1hD0ZhNQxjBuwnos0.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=03c34858367472e5a2ff4098aa6b2a4183359922\" alt=\"How to target farm Rotmother's Mutiny - new unique clam amulet\" title=\"How to target farm Rotmother's Mutiny - new unique clam amulet\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Couldn&#39;t really find a comprehensive guide on how to target farm this new unique amulet. Found one myself in my SSF run. Just wanna share the info.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bungtotronvo\"> /u/bungtotronvo </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=AuZv-iVVnCE&amp;list=PLZKlWcQPj3Yc&amp;index=9\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vciv7o/how_to_target_farm_rotmothers_mutiny_new_unique/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-01T09:36:09+00:00",
+    "author": "/u/bungtotronvo",
+    "images": [],
+    "video": null,
+    "score": 101,
+    "comments": [
+      {
+        "author": "noriginal_username",
+        "score": 50,
+        "body": "heh, clamulet. But seriously, good info. I figured the clam shelf was probably the best way to get it but didn't even think of combining it with the unique amulet mod."
+      },
+      {
+        "author": "vieoree",
+        "score": 9,
+        "body": "Oh my god I'm in SSF and did a run with 6 clam shelfs and completely forgot about the unique amulet mod. Back to City Square."
+      },
+      {
+        "author": "SulfurInfect",
+        "score": 9,
+        "body": "First thing I thought of too. Some words just work well together."
+      },
+      {
+        "author": "Camellia_fanboi",
+        "score": 10,
+        "body": "Great video and straight up to the point."
+      },
+      {
+        "author": "radulfcs",
+        "score": 6,
+        "body": "Short and to the point. Solid mate, props!"
+      },
+      {
+        "author": "dogfartnetwork",
+        "score": 4,
+        "body": "Been a big fan of your videos this league. First time I’ve seen your channel and have been using them for progression tips."
+      },
+      {
+        "author": "lowteq",
         "score": 2,
-        "body": "Unfortunately it doesn’t show the border modifiers lol"
+        "body": "Thanks, friend! Exiles helping Exiles ftw!"
       },
       {
-        "author": "AltruisticHopes",
+        "author": "PoE_Acronym_Bot",
         "score": 1,
-        "body": "The plural of octopus is octopuses or octopodes, it’s a greek word and they have latinised the ending. I need to get out more……."
+        "body": "I noticed some Path of Exile keywords in this post: SSF - Solo Self-Found ( Wiki ) I am a bot. | All acronyms | Suggest"
+      }
+    ]
+  },
+  {
+    "id": "1vcmu7l",
+    "title": "Project Wings, part 1 (not sure of how many)",
+    "link": "https://www.reddit.com/r/pathofexile/comments/1vcmu7l/project_wings_part_1_not_sure_of_how_many/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/pathofexile/comments/1vcmu7l/project_wings_part_1_not_sure_of_how_many/\"> <img src=\"https://preview.redd.it/f1fydsmmgrgh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1c65600fc93f50d7f0ad584a352824dbb82e5e31\" alt=\"Project Wings, part 1 (not sure of how many)\" title=\"Project Wings, part 1 (not sure of how many)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I realise it the moist league but somehow I still prefer the OG heist. </p> <p>Hence Project Wings.</p> <p> Project rules:</p> <ol> <li>Run a hundred Heist wings. Single-wing blueprints, no enchants.</li> <li>Skip all side rooms, go directly to the curio room.</li> <li>If there&#39;s anything worth 10c or more - pick it up. If not, log off and open another one.</li> </ol> <p>Costs: about 3c per blueprint, some more chaos for Rogue&#39;s Markers, some sanity lost (especially on assigning rogues to jobs).</p> <p>Lucky drops:</p> <ul> <li>Perf replica reckless defence (4 div)</li> <li>Void Axe with 15% increased Phys explicits and -3 max sockets (2-3 div)</li> </ul> <p> Unlucky: no experimented jewelry (belts don&#39;t count).</p> <p> </p> <p>Total income: about 20 div in currencies and another 8 div in items.</p> <p> See you after another hunded. Stay sane, exiles.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/koboldium\"> /u/koboldium </a> <br/> <span><a href=\"https://i.redd.it/f1fydsmmgrgh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/pathofexile/comments/1vcmu7l/project_wings_part_1_not_sure_of_how_many/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-01T13:01:27+00:00",
+    "author": "/u/koboldium",
+    "images": [
+      "https://i.redd.it/f1fydsmmgrgh1.png"
+    ],
+    "video": null,
+    "score": 33,
+    "comments": [
+      {
+        "author": "koboldium",
+        "score": 8,
+        "body": "Forgot to add - all blueprints were white. Rarity doesn’t impact curio rewards and rare heist mobs can be rippy."
       },
       {
-        "author": "SomeNotNormalGuy",
+        "author": "Demimaelstrom",
+        "score": 4,
+        "body": "I hear controller is good for assigning rogues."
+      },
+      {
+        "author": "koboldium",
         "score": 1,
-        "body": "Yes they did"
+        "body": "That’s good to know, I may give it a try. Thanks!"
+      },
+      {
+        "author": "PoE_Acronym_Bot",
+        "score": 1,
+        "body": "I noticed some Path of Exile keywords in this post: Phys - Physical damage ( Wiki ) div - Divine Orb (Currency) ( Wiki ) I am a bot. | All acronyms | Suggest"
+      },
+      {
+        "author": "dwdie",
+        "score": 1,
+        "body": "10 20 100 ?"
+      },
+      {
+        "author": "NoInsurance1026",
+        "score": 3,
+        "body": "(Not sure of how many)"
+      },
+      {
+        "author": "Shedix",
+        "score": 1,
+        "body": "he mans part 1 of ?? since unsure how many rounds he will do but this is the outcome of 100 wings."
+      },
+      {
+        "author": "koboldium",
+        "score": 1,
+        "body": "Hundred wings that was (see point 1) :)"
+      },
+      {
+        "author": "mane1234",
+        "score": 1,
+        "body": "How long would you say you ran these 100 wings for? 2 hours?"
+      },
+      {
+        "author": "koboldium",
+        "score": 1,
+        "body": "More like 3h for me but I'm not running a dedicated zdps cocaine runner, just my normal build."
       }
     ]
   }
