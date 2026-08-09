@@ -8,7 +8,7 @@
     "author": "/u/phylaris",
     "images": [],
     "video": null,
-    "score": 140,
+    "score": 137,
     "comments": [
       {
         "author": "RWDYMUSIC",
@@ -17,7 +17,7 @@
       },
       {
         "author": "phylaris",
-        "score": 1,
+        "score": 2,
         "body": "Apparently it's the only modifier that really has an effect on Grand Expedition loot, alongside +2 mods (because that scales waystone drop chance% on the waystone). I've not confirmed this with my own independent testing, but you can check out the attached video from CraftyXII - https://www.youtube.com/watch?v=RM4517m8Kr0 He tracked the per-run information quite fastidiously."
       },
       {
@@ -71,41 +71,41 @@
     "author": "/u/Shadilinn",
     "images": [],
     "video": null,
-    "score": 38,
+    "score": 33,
     "comments": [
       {
         "author": "lIlIIIIlllIIlIIIllll",
-        "score": 19,
+        "score": 21,
         "body": "Can you explain this like I’m 5"
       },
       {
         "author": "smartnotvirologist",
-        "score": -119,
+        "score": -118,
         "body": "You bind refutation to weapon set 2. You put the dunkelhalt in weapon set 2. The when you cast refutation you automatically instantly swap weapon sets, get the dunkelhalt benefit applied to your parry buff thing, then instantly switch back when you attack (but the parry bonuses still apply). Apparently you also can change your passive tree allocation for weapon set ii (there are 24 weapon set specific passive points) to eg favour skills that boost parry. This is all according to Gemini which I had explain how all this works. So, grain of salt..."
       },
       {
         "author": "anon1515151515",
-        "score": 84,
+        "score": 80,
         "body": "Next time you’re thinking of using AI to write 3-4 sentences that you don’t actually know the right answer to, just don’t bother and keep scrolling."
       },
       {
         "author": "smartnotvirologist",
-        "score": -30,
+        "score": -28,
         "body": "I'm flattered you think ai wrote that. I read a bunch of stuff from an AI search, then my human Brian's and fingers wrote the text above."
       },
       {
         "author": "sychs",
-        "score": 13,
+        "score": 11,
         "body": "Human brian's? As in, more than one brian?"
       },
       {
         "author": "monster1558",
-        "score": 3,
+        "score": 2,
         "body": "This guy's being down voted so I'm not sure if this is right. Kinda makes sense to me but I'm hoping someone can confirm"
       },
       {
         "author": "MarleyThePotatoe",
-        "score": 18,
+        "score": 19,
         "body": "Dunkelhalt is just a unique that increases the magnitude of the parry debuf, aka makes the enemy take even more damage. Basically just put refutation on weapon set II, you can equip the unique in weapon set II to make it more potent, and if your tree let's you, use weapon set II tree to put as many points into parry debuff magnitude as possible. I reccomend putting your main skill on weapon set I so that you can swap back easily after pressing refutation and don't lose out on whatever your main tree uses those points for."
       },
       {
@@ -115,12 +115,12 @@
       },
       {
         "author": "Voyagevoyage11",
-        "score": 12,
+        "score": 13,
         "body": "I hate AI as much as anyone but the answer was otherwise correct (though vague)."
       },
       {
         "author": "lIlIIIIlllIIlIIIllll",
-        "score": 17,
+        "score": 16,
         "body": "It was not at all “explain like I’m 5” cause it’s not at all clear what he’s trying to say, and then he says take this confusing explanation with a grain of salt to boot, lol"
       }
     ]
@@ -136,11 +136,11 @@
       "https://i.redd.it/ty7dnbi0iygh1.png"
     ],
     "video": null,
-    "score": 77,
+    "score": 73,
     "comments": [
       {
         "author": "Jimisdegimis89",
-        "score": 54,
+        "score": 53,
         "body": "Still sane Exile?"
       },
       {
@@ -150,7 +150,7 @@
       },
       {
         "author": "KingFIippyNipz",
-        "score": 31,
+        "score": 33,
         "body": "Jesus fucking Christ, someone get this man a beer or a joint Edit: And some standard league divs"
       },
       {
@@ -160,7 +160,7 @@
       },
       {
         "author": "Exaveus",
-        "score": 8,
+        "score": 9,
         "body": "No they are not tied to account. The seed will remain the same for your account and for who ever else uses the jewel. Its just that the seeds and how they are generated are kept server side so the only way to figure out what each one gives is what OP is doing. Also because its server side GGG can easily change the key seed if someone manages to crack the algorithm. Meaning we will likely never reliably know what each one does."
       },
       {
@@ -170,7 +170,7 @@
       },
       {
         "author": "Civil-Judge5049",
-        "score": 5,
+        "score": 4,
         "body": "Wish i could see that guys garden again 🐼"
       },
       {
@@ -180,12 +180,12 @@
       },
       {
         "author": "Few_Implement_7871",
-        "score": 11,
+        "score": 12,
         "body": "There is 7900 seeds for each socket. Only way to know is place jewel and check each node in range what notables changes to what stats. There is 36 stats possible. 12 int, dex and str based. You can either go buy 7900 jewels or divine them thousands of times untill you rolled all possible seeds."
       },
       {
         "author": "redrider578",
-        "score": 7,
+        "score": 8,
         "body": "There is unique jewel that gives different stats based on its \"seed number\". So each jewel is different from another jewel unless they have the same \"seed number\" So Unique Jewel Seed 69420 might give crit chance where as Unique Jewel 78967 gives Energy Shield instead. The only way to know is to put it in the jewel socket and see what it gives!"
       }
     ]
@@ -199,7 +199,7 @@
     "author": "/u/CraftyXII",
     "images": [],
     "video": null,
-    "score": 27,
+    "score": 26,
     "comments": [
       {
         "author": "Less_Somewhere_8201",
@@ -213,7 +213,7 @@
       },
       {
         "author": "c_phoenix0",
-        "score": 6,
+        "score": 8,
         "body": "This is great data! Just to confirm, your conclusion is that: Waystone % is the only map mod that matters . And the reason that is the case is because Effectiveness, Monster Rarity, etc don't affect any of the drops from Grand Expedition monsters. The only thing you can do to juice expeditions is to get more remnant sockets. And your research also showed that Waystone% increases the chances of more remnant sockets. Thus, for your waystone, you only care about waystone % drop chance. And for your tablets, you also want waystone % drop chance , as well as +2 mods because those can sometimes give"
       },
       {
@@ -238,12 +238,12 @@
       },
       {
         "author": "xJVIayhem",
-        "score": 3,
+        "score": 2,
         "body": "Not going to say this information is incorrect, but there's far from enough data here to say definitively either way. Also Area Level (or at the very least map tier) does in fact make a difference, which they stated when they updated it a while ago. Patch 0.5.2 Significantly improved the rewards from Remnant Encounters Tier 14 Maps and above. Many of the 3 slot runic inscriptions no longer appear at these levels, or have a reduced chance to appear from Tier 10 Maps onwards. It could also be referring to single remants in maps, but it really doesn't feel like it makes any sense to do that for t"
       },
       {
         "author": "CraftyXII",
-        "score": 6,
+        "score": 5,
         "body": "The socket test is easy to do it just basically burning divs i could get thay to 1k data points on both ends but it likely will be the same result the tier 16 setup is 80 div per 10 maps just for the waystone. As for the other tests getting them to 100 data points would be ideal but unless someone wants to donate a mirror to testing likely wont happen for a while. As i am already over a mirror into this. Isolative testing on every affix is actually possible granted very expensive I am also working on lineage gem testing We know waystone% is supposed to scale but I want to know if jado and fore"
       },
       {
@@ -264,7 +264,7 @@
       "https://i.redd.it/79y4m4i09lhh1.png"
     ],
     "video": null,
-    "score": 32,
+    "score": 30,
     "comments": [
       {
         "author": "Representative_Owl89",
@@ -278,12 +278,12 @@
       },
       {
         "author": "Less-Technician5212",
-        "score": 6,
+        "score": 8,
         "body": "How to do it: Go to the PoE website and head to your account (can be found at top left and click your username): https://www.pathofexile.com Under the \"Basic Information\", click on your guild name Under your guild name, find the \" View guild-giftable transactions \" There, you can see a list of any eligible hideout MTX you've bought from the packs and the option below to gift them to your guild Warning : You can only do this once, so it will not work with any other guild you created after. So be extra careful and shii Side note: If you're wondering if this will remove the hideout from your pers"
       },
       {
         "author": "McHearty",
-        "score": 2,
+        "score": 4,
         "body": "Anyone in the guild can donate, not just guild leaders. Donations are restricted to either poe1 or 2, if you've already donated it 1 you can no longer donate in 2"
       },
       {
@@ -323,7 +323,7 @@
     "comments": [
       {
         "author": "Lonely_Part_8228",
-        "score": 9,
+        "score": 10,
         "body": "drop the mushrooms"
       },
       {
@@ -362,7 +362,7 @@
     "author": "/u/MouthfulofDiamonds",
     "images": [],
     "video": null,
-    "score": 73,
+    "score": 70,
     "comments": [
       {
         "author": "The-Root-Word",
@@ -387,7 +387,7 @@
       "https://i.redd.it/eqorqpl0dshh1.jpeg"
     ],
     "video": null,
-    "score": 150,
+    "score": 147,
     "comments": [
       {
         "author": "InfinityPlayer",
@@ -396,17 +396,17 @@
       },
       {
         "author": "Glittering_Leader689",
-        "score": 10,
+        "score": 9,
         "body": "You accidentally posted this 3 times. Probably reddits fault for being weird and slow, but just in case you wanted to delete the other two."
       },
       {
         "author": "muckowt",
-        "score": 5,
+        "score": 4,
         "body": "I actually might have around 6 mirrors invested in this build: https://poe.ninja/poe2/profile/Harmonia-2958/runesofaldur/character/Pandaralho Thing is, Rampage has its issues when it comes to leg breaking floor explosions from 20 mods maps, so I have to wait for them to explode vefore going in again, and guess what? They’re back in the next pack XD"
       },
       {
         "author": "Mirosworld",
-        "score": 13,
+        "score": 15,
         "body": "t16s for GE. if your main goal is boons, do aldur's saga on everything...pathing a non-GE-logbook is wasted time. From someone who has farmed 12 boons and 6 extra aldur's legacies."
       },
       {
@@ -421,7 +421,7 @@
       },
       {
         "author": "Fine_Fishing7506",
-        "score": 3,
+        "score": 2,
         "body": "yea im just saying if 2 40%s seem to spawn more remnants cant hurt to add a 3rd and you get even more +% tablet effect with more waystone mods + jado corrupted proc unless im misunderstanding your theory"
       },
       {
@@ -431,7 +431,7 @@
       },
       {
         "author": "NitrogenMustard",
-        "score": 7,
+        "score": 6,
         "body": "Sounds like you are burning through a lot of Aldur’s Sagas? I’ve mainly focused on GE all league and have only found one boon rune which was at the beginning. Nothing since then. However I make about 200d on average per Aldur’s Saga given I use the juiced tablets and running t16."
       },
       {
@@ -450,16 +450,16 @@
     "author": "/u/frothingnome",
     "images": [],
     "video": null,
-    "score": 102,
+    "score": 105,
     "comments": [
       {
         "author": "frothingnome",
-        "score": 54,
+        "score": 51,
         "body": "As is clear by my thumbnail and the video itself, I'm not a \"content creator\" and I'm not trying to be. I love Amazon and wanted to figure out if I could get more benefits from accuracy stacking, so I tried to learn everything I could about accuracy. This is an information-dense, 22-minute video. AI did not help me write the script nor generate any visuals. I learned a couple new things about accuracy making it. People always say that GGG intends for accuracy to be like mana for martials, and my proudest bit of this video is that I actually found and quoted GGG saying that back in 2019."
       },
       {
         "author": "ssttaaavvii",
-        "score": 12,
+        "score": 13,
         "body": "I’m going to watch this to understand as my sword starter was going to be swords/amazon accuracy stack when they finally arrive lol"
       },
       {
@@ -474,12 +474,12 @@
       },
       {
         "author": "The-Root-Word",
-        "score": 4,
+        "score": 5,
         "body": "I've never seen it as a sacrifice lol. Accuracy overall is the red-headed stepchild of weapon stats, so it means gearing your Amazon is cheaper. That's really it. There are a few options like this across both games. For example, Daughter of Oshabi's defensive points come from having suboptimal gear. Even if you have to craft around it, getting to the deeper part of endgame is much easier when you don't need to stress about getting the 6 perfect mods. Accuracy crafting is cheaper, too. Pretty much every other build suffers when a weapon rolls Accuracy, but Amazon can pick it up and go. Is it th"
       },
       {
         "author": "cadetheguru",
-        "score": 9,
+        "score": 10,
         "body": "hopefully ggg sees this"
       },
       {
@@ -489,7 +489,7 @@
       },
       {
         "author": "Streetbeef",
-        "score": 8,
+        "score": 4,
         "body": "Throwing this on my watch later, I always appreciate a good mechanics research! Props for doing the work"
       },
       {
@@ -519,17 +519,17 @@
     "comments": [
       {
         "author": "bigclipslildiks",
-        "score": 29,
+        "score": 31,
         "body": "Thank you for your time and also I hate the tablet system"
       },
       {
         "author": "Coolingmoon",
-        "score": 6,
+        "score": 5,
         "body": "Scarab is the better tablet system that GGG learned from the past"
       },
       {
         "author": "Crye09",
-        "score": 5,
+        "score": 4,
         "body": "Idol system is better for poe2 but it will upset a lot redditors lol"
       },
       {
@@ -544,7 +544,7 @@
       },
       {
         "author": "senor_gusto",
-        "score": 7,
+        "score": 5,
         "body": "Couple of hours at least. Wasted a lot of time getting set up, making sure I had the right quantities of everything, documenting everything. Rough breakdown of time: Purchasing Tablets: 20min Aug, Trans and Alch: 5 Minutes (I had to buy new tabs a couple of times whenever I'd hit omen or reroll) Chaos Spamming: Little over 1hr Documenting everything: 30min Price checking and organizing: 20min Rechecking prices when listing... Still ongoing If I didn't document everything and went fast, I think I could do it in under 2 hours. roughly 80D/hr. I find Ritual Tablets are very much so feast or famin"
       },
       {
@@ -559,12 +559,12 @@
       },
       {
         "author": "VindicoAtrum",
-        "score": 3,
+        "score": 4,
         "body": "I keep seeing this and the monkeys paw is so close to curling. What do you think will happen if the consumable and current sink system of tablets is replaced by something that is less consumable and with reduced sink effects? I'll give you a clue, it involves adding zeroes to your currency often, and we put the prefix \"hyper\" in front of it when it gets really bad. The endgame must have a highly consumable feature or we're all going to regret this constant crying for redesigns."
       },
       {
         "author": "ConcreteOffDuty",
-        "score": 4,
+        "score": 3,
         "body": "Thanks for the data! In 0.4 I did my own small batch data recording and came up with roughly 400c to get extra rerolls. Given the rarity of the mod, that’s at least roughly in line with your numbers. Might be profitable, but I absolutely hate rolling over the target during chaos spam so I shy away from this sort of tablet crafting. Thanks for the data!"
       }
     ]
@@ -578,7 +578,7 @@
     "author": "/u/PandaEvery4971",
     "images": [],
     "video": null,
-    "score": 11,
+    "score": 12,
     "comments": [
       {
         "author": "stuwieggbestyasuo",
@@ -587,7 +587,7 @@
       },
       {
         "author": "Elegant_Chocolate546",
-        "score": 7,
+        "score": 5,
         "body": "Someone made a similar post a few days to a week ago and audiences were only going for something like 42 exalts, damage already done 😂"
       },
       {
@@ -607,7 +607,7 @@
       },
       {
         "author": "dutchMasta4",
-        "score": 10,
+        "score": 9,
         "body": "You need to have an audience with the king in your inventory to see them on the map"
       },
       {
@@ -652,12 +652,12 @@
       },
       {
         "author": "senor_gusto",
-        "score": 49,
+        "score": 53,
         "body": "I thought about it, and decided it was more fun being \"chaotic\""
       },
       {
         "author": "Custom_sKing_SKARNER",
-        "score": 34,
+        "score": 31,
         "body": "vaaling the google sheet"
       },
       {
@@ -667,12 +667,12 @@
       },
       {
         "author": "popnitro86",
-        "score": 12,
+        "score": 13,
         "body": "The data nerd in me is baring teeth."
       },
       {
         "author": "Santuro117",
-        "score": 112,
+        "score": 109,
         "body": "Wow, i planned rerolling a tablet 1000 times this weekend, and no i dont have to? what do i do now? thanks for ruining my weekend"
       },
       {
@@ -687,12 +687,12 @@
       },
       {
         "author": "Balja1989",
-        "score": 26,
+        "score": 25,
         "body": "This is what players do when they have done 750+ simus, and still no voices have dropped."
       },
       {
         "author": "senor_gusto",
-        "score": 7,
+        "score": 8,
         "body": "For real tho. I've basically given up hope at getting a voice to drop this league."
       }
     ]
@@ -706,26 +706,26 @@
     "author": "/u/FattestRabbit",
     "images": [],
     "video": null,
-    "score": 29,
+    "score": 46,
     "comments": [
       {
         "author": "Quick_Broccoli_7541",
-        "score": 15,
+        "score": 20,
         "body": "Nice discovery… 2 months after league start"
       },
       {
         "author": "FattestRabbit",
-        "score": 7,
+        "score": 8,
         "body": "Yeah, very frustrating (for me)"
       },
       {
         "author": "nassit",
-        "score": 3,
+        "score": 5,
         "body": "I had a sacred reservoir I thought was glitched because of this. Was tied to a crux and I couldn't see it. Luckily someone commented on my post and informed me to try."
       },
       {
         "author": "WickerMan22",
-        "score": 0,
+        "score": 2,
         "body": "Doesn't it literally say this on the item? Edit: it doesn't"
       },
       {
@@ -735,7 +735,7 @@
       },
       {
         "author": "WickerMan22",
-        "score": 3,
+        "score": 6,
         "body": "Sorry, you're right. I stand corrected."
       },
       {
@@ -744,44 +744,64 @@
         "body": "Good job"
       },
       {
+        "author": "hardFraughtBattle",
+        "score": 0,
+        "body": "Not only that, it won't let you move the item to your stash."
+      },
+      {
+        "author": "buttflakes27",
+        "score": 2,
+        "body": "Was wondering why ive not found any... cheers"
+      },
+      {
         "author": "BioMasterZap",
         "score": 1,
         "body": "I also don't think you can search for them, even with the item showing them on the atlas. Makes it a real pain to try to find em. Also, instead of showing when in your stash, I'd say it should always show on the atlas once you completed the relevant quest with a toggle so you can turn it off if it feels like too much clutter. Similar could be done for Expedition and Breach."
-      },
-      {
-        "author": "StayPuftMcFly",
-        "score": 0,
-        "body": "I would actually prefer they don’t change that"
-      },
-      {
-        "author": "FattestRabbit",
-        "score": 3,
-        "body": "...why?"
       }
     ]
   },
   {
-    "id": "1vj95oo",
-    "title": "Tablets can have more than 10 uses 🫢",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1vj95oo/tablets_can_have_more_than_10_uses/",
-    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vj95oo/tablets_can_have_more_than_10_uses/\"> <img src=\"https://preview.redd.it/32hljmgwa8ih1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9248b308c4f33d6fa73174c5b48ff96886fcc5f7\" alt=\"Tablets can have more than 10 uses 🫢\" title=\"Tablets can have more than 10 uses 🫢\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Just realized it</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yoxthen\"> /u/yoxthen </a> <br/> <span><a href=\"https://i.redd.it/32hljmgwa8ih1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vj95oo/tablets_can_have_more_than_10_uses/\">[comments]</a></span> </td></tr></table>",
-    "published": "2026-08-08T22:37:48+00:00",
-    "author": "/u/yoxthen",
+    "id": "1vju85h",
+    "title": "Captain's Wheel back attachment from Poe1 challenges.",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1vju85h/captains_wheel_back_attachment_from_poe1/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vju85h/captains_wheel_back_attachment_from_poe1/\"> <img src=\"https://preview.redd.it/7vr8p57hldih1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=a55b489cd0b73234f3c4d54a8443deffb3d5a7bb\" alt=\"Captain's Wheel back attachment from Poe1 challenges.\" title=\"Captain's Wheel back attachment from Poe1 challenges.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Takes a bit of grinding to complete this, but it&#39;s a cool cosmetic - wanted to show how it looks in Poe2. It&#39;s just a bit blurry due to the animation. Arrrrrr&#39; mateys!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/12demons\"> /u/12demons </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1vju85h\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vju85h/captains_wheel_back_attachment_from_poe1/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-09T16:26:44+00:00",
+    "author": "/u/12demons",
     "images": [
-      "https://i.redd.it/32hljmgwa8ih1.jpeg"
+      "https://i.redd.it/7vr8p57hldih1.png"
     ],
     "video": null,
-    "score": 29,
+    "score": 31,
     "comments": [
       {
-        "author": "Demjan90",
-        "score": null,
-        "body": "Yes, you can corrupt unique tablets to have more uses too."
+        "author": "arghtype",
+        "score": 8,
+        "body": "don't do this to me, I'm touching grass, I don't need more MTXs"
       },
       {
-        "author": "ClapTheTrap1",
+        "author": "EarthBounder",
+        "score": 4,
+        "body": "Ah nice, thanks for sharing! Was debating whether I wanted to finish this or not, but I think I do! Presently at 23/40 in the PoE 1 league and not really feeling it, but I think I can crank out another 9 no problem.."
+      },
+      {
+        "author": "didorins",
+        "score": 1,
+        "body": "Some of the challenges are not super fun to do, but they do give you a goal to push for."
+      },
+      {
+        "author": "cu_in_the_nt",
         "score": null,
-        "body": "vaal temple, i got one with 17 uses.. also not a big deal."
+        "body": "Now play a melee class and role play the chaotic good barbarian. <image>"
+      },
+      {
+        "author": "Projectgrace",
+        "score": 1,
+        "body": "Mr wheel Will"
+      },
+      {
+        "author": "moal09",
+        "score": 1,
+        "body": "It's legit one of the coolest MTX they've ever made"
       }
     ]
   }
