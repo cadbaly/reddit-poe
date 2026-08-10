@@ -1,68 +1,5 @@
 [
   {
-    "id": "1vc4ouv",
-    "title": "Some endgame Atlas tips and tricks to maximize your currency gains",
-    "link": "https://www.reddit.com/r/PathOfExile2/comments/1vc4ouv/some_endgame_atlas_tips_and_tricks_to_maximize/",
-    "body_html": "<!-- SC_OFF --><div class=\"md\"><p>Hey all. Just wanted to share some general tips to max your currency gains and efficiency in the endgame, outside of just the usual juiced tablets on 200% deli cities. Some of these are pretty common tips, and others are very uncommon - hopefully you can learn at least one thing you didn&#39;t know.</p> <p>Long-form video guide with more explanation - <a href=\"https://www.youtube.com/watch?v=PG90HeJtJ28\">https://www.youtube.com/watch?v=PG90HeJtJ28</a></p> <ol> <li>Crux of Nothingness is one of the most profitable endgame farms in the game at the moment, netting over 4 divines per minute at a baseline with basically no character power requirements. It costs almost nothing to run (Audience with the King is ~45 exalts right now), and each King will drop 1-2 Head of the Kings, which sell for 4 divines each. Each run takes about a minute. There&#39;s also omen drops and the chance at From Nothing Diamonds, some of which sell for a LOT. Conduit From Nothing sells for nearly 1k divs. If you&#39;re poor, just sell unidentified for ~45 divines. If you&#39;ve not been interacting with King in the Mists this league, you likely have dozens and dozens of Cruxes available on your Atlas that you can open up with Audience of the King.</li> <li>Lavish Wombgift returns don&#39;t scale with the itemlevel of the Lavish Wombgift. There&#39;s no need to max your wombgift levels if you&#39;re just going for Lavish, as ilevel 65 and 82 Lavish Wombgifts output the same results. Higher level wombgifts will also consume more Hiveblood. Of course, itemlevels are very important for all the other wombgifts, so don&#39;t explicitly go farm low level wombgifts - it&#39;s not remotely worth it. You just don&#39;t need to go out of your way to boost your map levels either, if you&#39;re mostly after Lavishes. Link to data from <a href=\"/u/Halowaa\">u/Halowaa</a>, who tested this - <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1u6xqrc/lv_80_vs_lv_65_lavish_wombgifts_catalysts/\">https://www.reddit.com/r/PathOfExile2/comments/1u6xqrc/lv_80_vs_lv_65_lavish_wombgifts_catalysts/</a></li> <li>If you&#39;re creating Breachstones, doing it the normal way by unstacking and restacking your Breach Splinters results in itemlevel 80 Relevatory Wombgifts, which cost something like 3400 Hiveblood to convert into Breachstones at the Genesis Tree. If you instead sell a stack of 300 splinters at Ange for a price nobody will buy, then cancel the sale, the splinters will return to your inventory as a level 65 Relevatory Wombgift, which only takes around 400 Hiveblood to convert to a Breachstone - nearly 10x less than the normal rate. Learned this from my friend Jinsu just recently - no idea how he figured this out.</li> <li>If you bring the 3 Berek&#39;s rings - Berek&#39;s Respite, Berek&#39;s Grip, and Berek&#39;s Pass - into any Azmerian Ranges map, there&#39;s a little nook at the start of the map where you can transform them into the Taming, which sells for about 5 divines.</li> <li>When running Copper Citadels, which doesn&#39;t allow tablets, using a waystone with roughly 130%+ increased waystone drop chance alongside Doryani basically guarantees 2 Faded Crisis Fragments, which sell for 9 divs each. In general, waystone drop chance% improves tablet and fragment drops, as well as scaling the # of runes per remnant in Grand Expeditions. Link to data from CraftyXII, who tested this - <a href=\"https://www.youtube.com/watch?v=RM4517m8Kr0\">https://www.youtube.com/watch?v=RM4517m8Kr0</a></li> <li>When looking to set up Grand Mirrors for 200% deli regions, the shard that has a chance of spawning them is the Capricious mirror shard. Running deli tablets with increased mirror shard% increases your rate of Capricious shards, and correspondingly your rate of Grand Mirror spawns. Be careful - you have to clear every Mirror shard that lights up on your Delirium bar as you pass by it. Skipping any (they spawn slightly offscreen sometimes) messes up your Deli for the rest of the map, annihilating your Splinter drops and possibly even disabling your Grand Mirror spawns from working.</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/phylaris\"> /u/phylaris </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vc4ouv/some_endgame_atlas_tips_and_tricks_to_maximize/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vc4ouv/some_endgame_atlas_tips_and_tricks_to_maximize/\">[comments]</a></span>",
-    "published": "2026-07-31T21:59:49+00:00",
-    "author": "/u/phylaris",
-    "images": [],
-    "video": null,
-    "score": 137,
-    "comments": [
-      {
-        "author": "RWDYMUSIC",
-        "score": 16,
-        "body": "Waystone drop chance affects remnant rune counts? That's big news"
-      },
-      {
-        "author": "phylaris",
-        "score": 2,
-        "body": "Apparently it's the only modifier that really has an effect on Grand Expedition loot, alongside +2 mods (because that scales waystone drop chance% on the waystone). I've not confirmed this with my own independent testing, but you can check out the attached video from CraftyXII - https://www.youtube.com/watch?v=RM4517m8Kr0 He tracked the per-run information quite fastidiously."
-      },
-      {
-        "author": "RWDYMUSIC",
-        "score": 3,
-        "body": "I'm just going to try it myself. Been doing a lot of expeditions lately and noticed some maps loaded with remnants but they are all only 3-4 runes whiles other maps seem to spawn 4-7 rune remnants in greater density. I'm just going to try running a crap load of 115-130% waystone drop chance waystones to see if I notice an increase in those maps with higher rune counts."
-      },
-      {
-        "author": "phylaris",
-        "score": 2,
-        "body": "Supposedly the ideal is increased waystone quant + 2 mod tablets, with really high waystone% waystones yeah."
-      },
-      {
-        "author": "WalauShark",
-        "score": 6,
-        "body": "The breach stone tech is cool !"
-      },
-      {
-        "author": "danorc",
-        "score": 2,
-        "body": "And also so, so janky lol The waystone / remnant trying is super weird also"
-      },
-      {
-        "author": "hbksm1",
-        "score": 5,
-        "body": "This is some good knowledge. Thank you!"
-      },
-      {
-        "author": "Primary_Impact_2130",
-        "score": 4,
-        "body": "Thanks, did about a dozen Crux, made a few hundred Div, easiest day's work ever!"
-      },
-      {
-        "author": "mightykev",
-        "score": 3,
-        "body": "Thanks, I’m just getting into the end game this is helpful."
-      },
-      {
-        "author": "Cankles_of_Fury",
-        "score": 2,
-        "body": "Bro just found your channel and have been running your whirl assault frost bolt gemling and it's been amazing. You're putting out great content, keep it up!"
-      }
-    ]
-  },
-  {
     "id": "1vcx6tl",
     "title": "Refutation can double your damage.",
     "link": "https://www.reddit.com/r/PathOfExile2/comments/1vcx6tl/refutation_can_double_your_damage/",
@@ -71,26 +8,26 @@
     "author": "/u/Shadilinn",
     "images": [],
     "video": null,
-    "score": 33,
+    "score": 36,
     "comments": [
       {
         "author": "lIlIIIIlllIIlIIIllll",
-        "score": 21,
+        "score": 20,
         "body": "Can you explain this like I’m 5"
       },
       {
         "author": "smartnotvirologist",
-        "score": -118,
+        "score": -119,
         "body": "You bind refutation to weapon set 2. You put the dunkelhalt in weapon set 2. The when you cast refutation you automatically instantly swap weapon sets, get the dunkelhalt benefit applied to your parry buff thing, then instantly switch back when you attack (but the parry bonuses still apply). Apparently you also can change your passive tree allocation for weapon set ii (there are 24 weapon set specific passive points) to eg favour skills that boost parry. This is all according to Gemini which I had explain how all this works. So, grain of salt..."
       },
       {
         "author": "anon1515151515",
-        "score": 80,
+        "score": 82,
         "body": "Next time you’re thinking of using AI to write 3-4 sentences that you don’t actually know the right answer to, just don’t bother and keep scrolling."
       },
       {
         "author": "smartnotvirologist",
-        "score": -28,
+        "score": -31,
         "body": "I'm flattered you think ai wrote that. I read a bunch of stuff from an AI search, then my human Brian's and fingers wrote the text above."
       },
       {
@@ -100,17 +37,17 @@
       },
       {
         "author": "monster1558",
-        "score": 2,
+        "score": 4,
         "body": "This guy's being down voted so I'm not sure if this is right. Kinda makes sense to me but I'm hoping someone can confirm"
       },
       {
         "author": "MarleyThePotatoe",
-        "score": 19,
+        "score": 18,
         "body": "Dunkelhalt is just a unique that increases the magnitude of the parry debuf, aka makes the enemy take even more damage. Basically just put refutation on weapon set II, you can equip the unique in weapon set II to make it more potent, and if your tree let's you, use weapon set II tree to put as many points into parry debuff magnitude as possible. I reccomend putting your main skill on weapon set I so that you can swap back easily after pressing refutation and don't lose out on whatever your main tree uses those points for."
       },
       {
         "author": "SoSaltySalt",
-        "score": 3,
+        "score": 5,
         "body": "Did a similar thing for my Monkey Zoo by speccing set II for parry magnitude & duration, 115% increased damage taken applied with my parry is awesome"
       },
       {
@@ -136,26 +73,26 @@
       "https://i.redd.it/ty7dnbi0iygh1.png"
     ],
     "video": null,
-    "score": 73,
+    "score": 76,
     "comments": [
       {
         "author": "Jimisdegimis89",
-        "score": 53,
+        "score": 54,
         "body": "Still sane Exile?"
       },
       {
         "author": "Few_Implement_7871",
-        "score": 26,
+        "score": 28,
         "body": "I had fun the first 500 checked. Making table with all stats in excel was not fun because there was no gamble factor to it. Also kind people donated 21k divs so now I am going to spend rest of league divining heroic. Atfer this I might be not so sane."
       },
       {
         "author": "KingFIippyNipz",
-        "score": 33,
+        "score": 32,
         "body": "Jesus fucking Christ, someone get this man a beer or a joint Edit: And some standard league divs"
       },
       {
         "author": "Curalcion",
-        "score": 9,
+        "score": 7,
         "body": "Isnt the seed results tied to your account and therefore different for everybody? I remember reading that the heroic jewels in poe2 work differently than in poe to prevent people using tables like the one you put together. Still, I admire the tenacity."
       },
       {
@@ -170,17 +107,17 @@
       },
       {
         "author": "Civil-Judge5049",
-        "score": 4,
+        "score": 5,
         "body": "Wish i could see that guys garden again 🐼"
       },
       {
         "author": "scud_runner",
-        "score": 5,
+        "score": 4,
         "body": "Can someone ELI5 what all this means?"
       },
       {
         "author": "Few_Implement_7871",
-        "score": 12,
+        "score": 11,
         "body": "There is 7900 seeds for each socket. Only way to know is place jewel and check each node in range what notables changes to what stats. There is 36 stats possible. 12 int, dex and str based. You can either go buy 7900 jewels or divine them thousands of times untill you rolled all possible seeds."
       },
       {
@@ -203,17 +140,17 @@
     "comments": [
       {
         "author": "Less_Somewhere_8201",
-        "score": 10,
+        "score": 8,
         "body": "Very cool to see these kinds of datasets. Nice work"
       },
       {
         "author": "CraftyXII",
-        "score": 5,
+        "score": 4,
         "body": "I keep seeing people questioning it or not knowing about it so I figured Id share it again"
       },
       {
         "author": "c_phoenix0",
-        "score": 8,
+        "score": 7,
         "body": "This is great data! Just to confirm, your conclusion is that: Waystone % is the only map mod that matters . And the reason that is the case is because Effectiveness, Monster Rarity, etc don't affect any of the drops from Grand Expedition monsters. The only thing you can do to juice expeditions is to get more remnant sockets. And your research also showed that Waystone% increases the chances of more remnant sockets. Thus, for your waystone, you only care about waystone % drop chance. And for your tablets, you also want waystone % drop chance , as well as +2 mods because those can sometimes give"
       },
       {
@@ -228,22 +165,22 @@
       },
       {
         "author": "69EntropyEarl420",
-        "score": 4,
+        "score": 5,
         "body": "I dont think tablets waystone drop chance actually do shit loll. Rarity on tablets do stuff that’s pretty clear. I’ve seen better results in both number of remnant sockets and drops themselves with higher rarity tablets. I’ve been running 8 mod jado t15’s with 110-120 waystone chance not really looking at other mods. Got absolute shit. Then did the same with different tablets with monster rarity and item rarity and saw a significant increase in drops and remnants. Item rarity matters i’m pretty sure. I think number of rare monsters, monster rarity, effectiveness, *waystone chance* on tablets d"
       },
       {
         "author": "CraftyXII",
-        "score": 10,
+        "score": 9,
         "body": "I really dont like terms like X thing feels better so it must work because it is entirerly subjective to sample size and rng. So what i can confirm based on the data available from significant testing is that monster rarity,more rare monters,item rarity,and effectivness do not function Rare monster especially can be easily tracked because i was tracking monster spawns as well I actually bought the map device just for this testing. If you look on the sheet and exclude all data points but all +5 the rare monster average spawn stays nearly identical across all data sets I intentionally set it up "
       },
       {
         "author": "xJVIayhem",
-        "score": 2,
+        "score": 3,
         "body": "Not going to say this information is incorrect, but there's far from enough data here to say definitively either way. Also Area Level (or at the very least map tier) does in fact make a difference, which they stated when they updated it a while ago. Patch 0.5.2 Significantly improved the rewards from Remnant Encounters Tier 14 Maps and above. Many of the 3 slot runic inscriptions no longer appear at these levels, or have a reduced chance to appear from Tier 10 Maps onwards. It could also be referring to single remants in maps, but it really doesn't feel like it makes any sense to do that for t"
       },
       {
         "author": "CraftyXII",
-        "score": 5,
+        "score": 4,
         "body": "The socket test is easy to do it just basically burning divs i could get thay to 1k data points on both ends but it likely will be the same result the tier 16 setup is 80 div per 10 maps just for the waystone. As for the other tests getting them to 100 data points would be ideal but unless someone wants to donate a mirror to testing likely wont happen for a while. As i am already over a mirror into this. Isolative testing on every affix is actually possible granted very expensive I am also working on lineage gem testing We know waystone% is supposed to scale but I want to know if jado and fore"
       },
       {
@@ -264,7 +201,7 @@
       "https://i.redd.it/79y4m4i09lhh1.png"
     ],
     "video": null,
-    "score": 30,
+    "score": 32,
     "comments": [
       {
         "author": "Representative_Owl89",
@@ -278,12 +215,12 @@
       },
       {
         "author": "Less-Technician5212",
-        "score": 8,
+        "score": 9,
         "body": "How to do it: Go to the PoE website and head to your account (can be found at top left and click your username): https://www.pathofexile.com Under the \"Basic Information\", click on your guild name Under your guild name, find the \" View guild-giftable transactions \" There, you can see a list of any eligible hideout MTX you've bought from the packs and the option below to gift them to your guild Warning : You can only do this once, so it will not work with any other guild you created after. So be extra careful and shii Side note: If you're wondering if this will remove the hideout from your pers"
       },
       {
         "author": "McHearty",
-        "score": 4,
+        "score": 3,
         "body": "Anyone in the guild can donate, not just guild leaders. Donations are restricted to either poe1 or 2, if you've already donated it 1 you can no longer donate in 2"
       },
       {
@@ -319,11 +256,11 @@
       "https://i.redd.it/hk9lbmyennhh1.jpg"
     ],
     "video": null,
-    "score": 37,
+    "score": 33,
     "comments": [
       {
         "author": "Lonely_Part_8228",
-        "score": 10,
+        "score": 9,
         "body": "drop the mushrooms"
       },
       {
@@ -362,7 +299,7 @@
     "author": "/u/MouthfulofDiamonds",
     "images": [],
     "video": null,
-    "score": 70,
+    "score": 72,
     "comments": [
       {
         "author": "The-Root-Word",
@@ -387,7 +324,7 @@
       "https://i.redd.it/eqorqpl0dshh1.jpeg"
     ],
     "video": null,
-    "score": 147,
+    "score": 148,
     "comments": [
       {
         "author": "InfinityPlayer",
@@ -396,22 +333,22 @@
       },
       {
         "author": "Glittering_Leader689",
-        "score": 9,
+        "score": 10,
         "body": "You accidentally posted this 3 times. Probably reddits fault for being weird and slow, but just in case you wanted to delete the other two."
       },
       {
         "author": "muckowt",
-        "score": 4,
+        "score": 5,
         "body": "I actually might have around 6 mirrors invested in this build: https://poe.ninja/poe2/profile/Harmonia-2958/runesofaldur/character/Pandaralho Thing is, Rampage has its issues when it comes to leg breaking floor explosions from 20 mods maps, so I have to wait for them to explode vefore going in again, and guess what? They’re back in the next pack XD"
       },
       {
         "author": "Mirosworld",
-        "score": 15,
+        "score": 13,
         "body": "t16s for GE. if your main goal is boons, do aldur's saga on everything...pathing a non-GE-logbook is wasted time. From someone who has farmed 12 boons and 6 extra aldur's legacies."
       },
       {
         "author": "Fine_Fishing7506",
-        "score": 7,
+        "score": 9,
         "body": "if youre not juicing em up with +2 mod / effectiveness tabs its probably fine to go 6-8 mod t15 and 3 40% tablets for most builds? only annoying thing is you potentially have a higher chance to roll the CDR mod that way if youre speed running them on a Tempo, for example"
       },
       {
@@ -421,7 +358,7 @@
       },
       {
         "author": "Fine_Fishing7506",
-        "score": 2,
+        "score": 4,
         "body": "yea im just saying if 2 40%s seem to spawn more remnants cant hurt to add a 3rd and you get even more +% tablet effect with more waystone mods + jado corrupted proc unless im misunderstanding your theory"
       },
       {
@@ -454,42 +391,42 @@
     "comments": [
       {
         "author": "frothingnome",
-        "score": 51,
+        "score": 52,
         "body": "As is clear by my thumbnail and the video itself, I'm not a \"content creator\" and I'm not trying to be. I love Amazon and wanted to figure out if I could get more benefits from accuracy stacking, so I tried to learn everything I could about accuracy. This is an information-dense, 22-minute video. AI did not help me write the script nor generate any visuals. I learned a couple new things about accuracy making it. People always say that GGG intends for accuracy to be like mana for martials, and my proudest bit of this video is that I actually found and quoted GGG saying that back in 2019."
       },
       {
         "author": "ssttaaavvii",
-        "score": 13,
+        "score": 12,
         "body": "I’m going to watch this to understand as my sword starter was going to be swords/amazon accuracy stack when they finally arrive lol"
       },
       {
         "author": "frothingnome",
-        "score": 9,
+        "score": 10,
         "body": "My ultimate cope is that Bringer of Rain with two 2H swords will eventually be good 😂"
       },
       {
         "author": "throwawaymycareer93",
-        "score": 15,
+        "score": 14,
         "body": "Yeah, even for Amazon stacking accuracy doesn't feel that great. You sacrificing ascendancy points and rolls on your weapon/gear. Agreed that they need to rework it for it to be more meaningful."
       },
       {
         "author": "The-Root-Word",
-        "score": 5,
+        "score": 4,
         "body": "I've never seen it as a sacrifice lol. Accuracy overall is the red-headed stepchild of weapon stats, so it means gearing your Amazon is cheaper. That's really it. There are a few options like this across both games. For example, Daughter of Oshabi's defensive points come from having suboptimal gear. Even if you have to craft around it, getting to the deeper part of endgame is much easier when you don't need to stress about getting the 6 perfect mods. Accuracy crafting is cheaper, too. Pretty much every other build suffers when a weapon rolls Accuracy, but Amazon can pick it up and go. Is it th"
       },
       {
         "author": "cadetheguru",
-        "score": 10,
+        "score": 8,
         "body": "hopefully ggg sees this"
       },
       {
         "author": "frothingnome",
-        "score": 7,
+        "score": 6,
         "body": "While that would make me happy, I'd be very surprised if they weren't aware how useless it is, lol."
       },
       {
         "author": "Streetbeef",
-        "score": 4,
+        "score": 6,
         "body": "Throwing this on my watch later, I always appreciate a good mechanics research! Props for doing the work"
       },
       {
@@ -515,16 +452,16 @@
       "https://i.redd.it/l593g1njuuhh1.jpeg"
     ],
     "video": null,
-    "score": 64,
+    "score": 65,
     "comments": [
       {
         "author": "bigclipslildiks",
-        "score": 31,
+        "score": 30,
         "body": "Thank you for your time and also I hate the tablet system"
       },
       {
         "author": "Coolingmoon",
-        "score": 5,
+        "score": 6,
         "body": "Scarab is the better tablet system that GGG learned from the past"
       },
       {
@@ -549,22 +486,22 @@
       },
       {
         "author": "MozM-",
-        "score": 4,
+        "score": 3,
         "body": "The tablet system can suck the juices out of my ass. I hope they rework it in 1.0 because its genuinely trash."
       },
       {
         "author": "weixyz2",
-        "score": 3,
+        "score": 4,
         "body": "Agreed. They should make a separate stash when you open the atlas so that its easier to navigate through the tablets. I hate storing them in inventory and rotate"
       },
       {
         "author": "VindicoAtrum",
-        "score": 4,
+        "score": 2,
         "body": "I keep seeing this and the monkeys paw is so close to curling. What do you think will happen if the consumable and current sink system of tablets is replaced by something that is less consumable and with reduced sink effects? I'll give you a clue, it involves adding zeroes to your currency often, and we put the prefix \"hyper\" in front of it when it gets really bad. The endgame must have a highly consumable feature or we're all going to regret this constant crying for redesigns."
       },
       {
         "author": "ConcreteOffDuty",
-        "score": 3,
+        "score": 4,
         "body": "Thanks for the data! In 0.4 I did my own small batch data recording and came up with roughly 400c to get extra rerolls. Given the rarity of the mod, that’s at least roughly in line with your numbers. Might be profitable, but I absolutely hate rolling over the target during chaos spam so I shy away from this sort of tablet crafting. Thanks for the data!"
       }
     ]
@@ -578,7 +515,7 @@
     "author": "/u/PandaEvery4971",
     "images": [],
     "video": null,
-    "score": 12,
+    "score": 11,
     "comments": [
       {
         "author": "stuwieggbestyasuo",
@@ -587,7 +524,7 @@
       },
       {
         "author": "Elegant_Chocolate546",
-        "score": 5,
+        "score": 7,
         "body": "Someone made a similar post a few days to a week ago and audiences were only going for something like 42 exalts, damage already done 😂"
       },
       {
@@ -607,7 +544,7 @@
       },
       {
         "author": "dutchMasta4",
-        "score": 9,
+        "score": 8,
         "body": "You need to have an audience with the king in your inventory to see them on the map"
       },
       {
@@ -643,26 +580,26 @@
       "https://i.redd.it/w8umofoibxhh1.jpeg"
     ],
     "video": null,
-    "score": 237,
+    "score": 242,
     "comments": [
       {
         "author": "No-Understanding5677",
-        "score": 200,
+        "score": 198,
         "body": "The Fact that you didn't sort this list by percent or chance is diabolical"
       },
       {
         "author": "senor_gusto",
-        "score": 53,
+        "score": 51,
         "body": "I thought about it, and decided it was more fun being \"chaotic\""
       },
       {
         "author": "Custom_sKing_SKARNER",
-        "score": 31,
+        "score": 33,
         "body": "vaaling the google sheet"
       },
       {
         "author": "TheyCallMeNoobxD",
-        "score": 26,
+        "score": 27,
         "body": "Still sane exile?"
       },
       {
@@ -672,7 +609,7 @@
       },
       {
         "author": "Santuro117",
-        "score": 109,
+        "score": 114,
         "body": "Wow, i planned rerolling a tablet 1000 times this weekend, and no i dont have to? what do i do now? thanks for ruining my weekend"
       },
       {
@@ -687,12 +624,12 @@
       },
       {
         "author": "Balja1989",
-        "score": 25,
+        "score": 27,
         "body": "This is what players do when they have done 750+ simus, and still no voices have dropped."
       },
       {
         "author": "senor_gusto",
-        "score": 8,
+        "score": 7,
         "body": "For real tho. I've basically given up hope at getting a voice to drop this league."
       }
     ]
@@ -706,11 +643,11 @@
     "author": "/u/FattestRabbit",
     "images": [],
     "video": null,
-    "score": 46,
+    "score": 48,
     "comments": [
       {
         "author": "Quick_Broccoli_7541",
-        "score": 20,
+        "score": 22,
         "body": "Nice discovery… 2 months after league start"
       },
       {
@@ -725,7 +662,7 @@
       },
       {
         "author": "WickerMan22",
-        "score": 2,
+        "score": 3,
         "body": "Doesn't it literally say this on the item? Edit: it doesn't"
       },
       {
@@ -735,7 +672,7 @@
       },
       {
         "author": "WickerMan22",
-        "score": 6,
+        "score": 4,
         "body": "Sorry, you're right. I stand corrected."
       },
       {
@@ -749,14 +686,14 @@
         "body": "Not only that, it won't let you move the item to your stash."
       },
       {
-        "author": "buttflakes27",
-        "score": 2,
-        "body": "Was wondering why ive not found any... cheers"
-      },
-      {
         "author": "BioMasterZap",
         "score": 1,
         "body": "I also don't think you can search for them, even with the item showing them on the atlas. Makes it a real pain to try to find em. Also, instead of showing when in your stash, I'd say it should always show on the atlas once you completed the relevant quest with a toggle so you can turn it off if it feels like too much clutter. Similar could be done for Expedition and Breach."
+      },
+      {
+        "author": "koticgood",
+        "score": 1,
+        "body": "Did they change this since I stopped playing this league? You needed to have a Breachstone in your inventory as well when I was playing this league."
       }
     ]
   },
@@ -771,37 +708,185 @@
       "https://i.redd.it/7vr8p57hldih1.png"
     ],
     "video": null,
-    "score": 31,
+    "score": 42,
     "comments": [
       {
         "author": "arghtype",
-        "score": 8,
+        "score": 11,
         "body": "don't do this to me, I'm touching grass, I don't need more MTXs"
       },
       {
+        "author": "cu_in_the_nt",
+        "score": 10,
+        "body": "Now play a melee class and role play the chaotic good barbarian. <image>"
+      },
+      {
         "author": "EarthBounder",
-        "score": 4,
+        "score": 5,
         "body": "Ah nice, thanks for sharing! Was debating whether I wanted to finish this or not, but I think I do! Presently at 23/40 in the PoE 1 league and not really feeling it, but I think I can crank out another 9 no problem.."
       },
       {
         "author": "didorins",
-        "score": 1,
+        "score": 2,
         "body": "Some of the challenges are not super fun to do, but they do give you a goal to push for."
       },
       {
-        "author": "cu_in_the_nt",
-        "score": null,
-        "body": "Now play a melee class and role play the chaotic good barbarian. <image>"
+        "author": "Key-Department-2874",
+        "score": 1,
+        "body": "The ghost turns the wheel with your character turning. It's a great back attachment. I noticed it doesn't seem to work as well with WASD but it's very evident when turning with mouse movement."
       },
       {
         "author": "Projectgrace",
-        "score": 1,
+        "score": 2,
         "body": "Mr wheel Will"
+      },
+      {
+        "author": "FattestRabbit",
+        "score": 2,
+        "body": "This is the first time POE1 got me to download the game. The challenge rewards and the Kirac pass both have MTX that look incredible in POE2. Now I just gotta learn how to play POE1..."
+      },
+      {
+        "author": "12demons",
+        "score": 2,
+        "body": "Enjoy. Its a phenomenal game. Funnily enough, I have more hours in PoE2 than Poe1, but on the whole I enjoy Poe1 more at the moment."
       },
       {
         "author": "moal09",
         "score": 1,
         "body": "It's legit one of the coolest MTX they've ever made"
+      },
+      {
+        "author": "Designer_Throat_8125",
+        "score": 1,
+        "body": "I really like the portal, I wonder if it looks substantially better in poe2"
+      }
+    ]
+  },
+  {
+    "id": "1vk8202",
+    "title": "TIL: Flesh Surgeon Templ Room Arm and Leg Modifications ACTUALLY Modify Your Limbs In Game",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1vk8202/til_flesh_surgeon_templ_room_arm_and_leg/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vk8202/til_flesh_surgeon_templ_room_arm_and_leg/\"> <img src=\"https://preview.redd.it/cskl948kggih1.png?width=140&amp;height=135&amp;auto=webp&amp;s=a2cb79314d78ff725b862c778feaeafe29fd4d26\" alt=\"TIL: Flesh Surgeon Templ Room Arm and Leg Modifications ACTUALLY Modify Your Limbs In Game\" title=\"TIL: Flesh Surgeon Templ Room Arm and Leg Modifications ACTUALLY Modify Your Limbs In Game\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/cskl948kggih1.png?width=505&amp;format=png&amp;auto=webp&amp;s=9a608adaddeceb1ca9825a1bcfc4173628b886d6\">https://preview.redd.it/cskl948kggih1.png?width=505&amp;format=png&amp;auto=webp&amp;s=9a608adaddeceb1ca9825a1bcfc4173628b886d6</a></p> <p>Besides giving you extra stats until you resurrect again, the mods actually modify your in game limbs :O Look at them red bones and jewels on my arms and legs</p> <p>Wow, the detail on this got me. I had to share what I found out XD.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Airy-Otter\"> /u/Airy-Otter </a> <br/> <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vk8202/til_flesh_surgeon_templ_room_arm_and_leg/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vk8202/til_flesh_surgeon_templ_room_arm_and_leg/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-10T02:07:16+00:00",
+    "author": "/u/Airy-Otter",
+    "images": [
+      "https://i.redd.it/cskl948kggih1.png"
+    ],
+    "video": null,
+    "score": 80,
+    "comments": [
+      {
+        "author": "danted002",
+        "score": 49,
+        "body": "Is this the new way to show we have a Mageblood"
+      },
+      {
+        "author": "Yuuyuuei",
+        "score": 11,
+        "body": "Nah that's his full build just Mageblood"
+      },
+      {
+        "author": "Airy-Otter",
+        "score": 2,
+        "body": "lol! No, I was taking off my equipments to show the arms and legs. My boots and gloves are the main thing I wanted to show, but the armour kept blocking the arms and legs too, so I just took that off. GGG apparently doesn't have belts shown in game, so I didn't think to remove it. But I get what you're saying XD IIRC, new kids called this \"humble brags\" which I was not aiming for."
+      },
+      {
+        "author": "pecheckler",
+        "score": -27,
+        "body": "Kinda overpowered in hardcore eh?"
+      },
+      {
+        "author": "First_Loquat_7685",
+        "score": 21,
+        "body": "Just don't die in softcore then"
+      },
+      {
+        "author": "Tornipete",
+        "score": 9,
+        "body": "How is it any more op in hardcore than in softcore?"
+      },
+      {
+        "author": "PISSED_ANT",
+        "score": -8,
+        "body": "because you lose the limbs on death, which hardcore characters don't care about 🙄"
+      },
+      {
+        "author": "BendicantMias",
+        "score": 9,
+        "body": "They do care about it, a lot. They literally make their whole build around that fact. They just stop caring if it ever actually happens."
+      },
+      {
+        "author": "PISSED_ANT",
+        "score": 5,
+        "body": "sorry, could have written that better: hardcore characters, who are lost permanently on death, don't care about the loss of the special stat granting limbs, 'cause they'd be dead edit: it'd be like getting annoyed that your favorite outfit got soaked, after you'd already drowned to death"
+      },
+      {
+        "author": "BendicantMias",
+        "score": -1,
+        "body": "Fair enough. But hey, if I'm gonna be stuck wearing the same outfit for the rest of my afterlife as a ghost, then I absolutely would be annoyed if it's permanently soaked. 😤 Come to think of it, are ghosts stuck wearing the same clothes they died in for the rest of time? Do ghosts get body odor?! 😱"
+      }
+    ]
+  },
+  {
+    "id": "1vk8jue",
+    "title": "How To Actually Scale GE Loot",
+    "link": "https://www.reddit.com/r/PathOfExile2/comments/1vk8jue/how_to_actually_scale_ge_loot/",
+    "body_html": "<table> <tr><td> <a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vk8jue/how_to_actually_scale_ge_loot/\"> <img src=\"https://external-preview.redd.it/FvLJ-_Go3XHAJ0iwy4WFrj2c0J4PW4WoKRYwmFdVNdk.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=0eb8d80914d3132242da62f6ea7f70d9d4d52d95\" alt=\"How To Actually Scale GE Loot\" title=\"How To Actually Scale GE Loot\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>TLDR: its all dependent on the runes and how you chain them together, and it is important not to just chase socket count.</p> <p>There is a lot of nuance to the rune chain setup, so its hard to cover it all.</p> <p>Socket chasing is actually detrimental to loot a lot of times if your runes are not setup in the proper chain, and this is heavily RNG, but a short order list is:</p> <p>Power----&gt;Opulent----&gt;Bond+Oath. Alone, both of these are just ok; together, they strong----&gt;Time, Death, Rebirth.</p> <p>Soul and Life runes do not carry a heavy impact and are very common in a lot of recipes.</p> <p>If you have the perfect optimal combo, it is the difference between having a 4 div all +7 map and a 40 div all +7 map.</p> <p>The locked in runes are often times more important than what is inside the remnants or the socket counts for determining loot.</p> <p>Opulent rune bug demonstration <a href=\"https://youtube.com/shorts/fGfoDUBXcRE?is=ZvRXdReIMGDQ2Zqy\">https://youtube.com/shorts/fGfoDUBXcRE?is=ZvRXdReIMGDQ2Zqy</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CraftyXII\"> /u/CraftyXII </a> <br/> <span><a href=\"https://youtu.be/TI0_C6X2vJ4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/PathOfExile2/comments/1vk8jue/how_to_actually_scale_ge_loot/\">[comments]</a></span> </td></tr></table>",
+    "published": "2026-08-10T02:31:03+00:00",
+    "author": "/u/CraftyXII",
+    "images": [],
+    "video": null,
+    "score": 68,
+    "comments": [
+      {
+        "author": "bruteforcealwayswins",
+        "score": 14,
+        "body": "Can you give us a tldr on why order matters? I've just been collecting purple propagations."
+      },
+      {
+        "author": "jossief1",
+        "score": 8,
+        "body": "The video says empowered and opulent are the best, so locking those in early will give a big impact, as well as locking in the combination of bond and oath so the immortal oath monster can take all mods of the other rares (assuming you can survive it), while bond and oath are each relatively bad by themselves. Locking in opulent before wisdom will also overwrite wisdom, whereas locking in wisdom before opulent will overwrite opulent. It also says soul and life aren't that meaningful for loot even though they're purple. (My personal note is life can save a lot of time.)"
+      },
+      {
+        "author": "CraftyXII",
+        "score": 5,
+        "body": "Power/Opulent are the only ones that really make a massive difference to have up front when possible because power increases the effect of all other runes so having power at the end basically does very little Opulent increases the rare monster spawns via monster rarity. Past that just shoot for the combos that scale each other as a priority Like Bond+Oath the faster you combo those the more impactful it will be on overall loot because oath allows bond to stack rare mods onto a single monster. If we assume atlas rarity works which I have no way of testing because of the scale of this combo whic"
+      },
+      {
+        "author": "Sugar-Roll",
+        "score": 9,
+        "body": "That's nice and all but the limit on explosives makes it difficult to chain runes effectively. It's cool if I can chain them but most the time, it's just a matter of just hitting as many as I can."
+      },
+      {
+        "author": "CraftyXII",
+        "score": 3,
+        "body": "Ya its highly rng I try and utilize my rerolls to chase runes when possible unless it is a 7 socket or even then sometimes ill reroll to rune chase. Yesterday I dropped like 600 raw divs from GE on stream though so the rune chase vs socket chase setup 100% works"
+      },
+      {
+        "author": "BRUISE_WILLIS",
+        "score": 9,
+        "body": "I wish shit was more straightforward"
+      },
+      {
+        "author": "CraftyXII",
+        "score": 3,
+        "body": "I 100% agree lol"
+      },
+      {
+        "author": "g_bleezy",
+        "score": 5,
+        "body": "Crafty, say more about waystones and tablets not having any effect please? I thought monster effectiveness and monster rarity made a difference but I thought I heard you say only way stone chance?"
+      },
+      {
+        "author": "CraftyXII",
+        "score": 5,
+        "body": "https://docs.google.com/spreadsheets/d/1QiDl0LyFoIjUG3wxS4kZVE3ELSVaXOvcCEc8aQyZlsQ/edit?gid=1769430659#gid=1769430659 So far in testing the only thing that has a impact is waystone % which makes sense because ill give you a hypothetical You have a Oath+Bond setup the mob has 20 monster mods you have a rarity cull bot. So what do we know well we have 3 atlas passives that give 100% item rarity per mod. 300%x20=6000% Item rarity now gear rarity is multiplicative to this so say ur cull bot has 500% rarity 6000x500%=30000 Item Rarity, Effectiveness, ETC those function on the monster markers but n"
+      },
+      {
+        "author": "UpbeatSomewhere1389",
+        "score": 3,
+        "body": "Thanks for the video - every video out there mentions the importance of opulent/bond but not power. What do you think about the tree node with increased quantity per rune vs 25% chance of power? Also - are you sure the wisdom rune overwrites the opulent rune? Do you have any data based on your rune setups?"
       }
     ]
   }
